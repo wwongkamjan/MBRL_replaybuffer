@@ -115,7 +115,7 @@ class ReplayMemory:
         # idxes = np.random.randint(0, len(self.buffer), batch_size)
         # weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
         KL_list = [t[-1] for t in self.buffer]
-        KL_list_file = os.path.join(args.exp_dir, 'KL_list_file.csv')
+        KL_list_file = os.path.join(self.args.exp_dir, 'KL_list_file.csv')
         with open(KL_list_file, 'w') as f2:
             write = csv.writer(f2)
             write.writerows(KL_list)
