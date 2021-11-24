@@ -125,7 +125,7 @@ class ReplayMemory:
         norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
         idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
         logger.info("finish idxes")
-        batch = list(itemgetter(*idxes)(batch))
+        batch = list(itemgetter(*idxes)(np.array(batch)))
         logger.info("batch shape {}, {}".format(len(batch), len(batch[0])))
         state, action, reward, next_state, done, _ = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
