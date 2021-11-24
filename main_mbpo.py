@@ -255,6 +255,7 @@ def resize_model_pool(args, rollout_length, model_pool):
 
 
 def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length):
+    # model_pool.KL = []
     if 'delta' in args.reweight_rollout:
         state, action, reward, next_state, done = env_pool.weightedsample_all_batch(args.rollout_batch_size)
     else:
