@@ -148,7 +148,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                 break
 
             if cur_step > 0 and cur_step % args.model_train_freq == 0 and args.real_ratio < 1.0:
-                print ("env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
+                print("env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
                 logger.info("env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
 
                 # update decay_weights and delta_score
@@ -254,6 +254,7 @@ def resize_model_pool(args, rollout_length, model_pool):
 
 
 def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length):
+    print("start rollout model")
     if 'delta' in args.reweight_rollout:
         state, action, reward, next_state, done = env_pool.weightedsample_all_batch(args.rollout_batch_size)
     else:
