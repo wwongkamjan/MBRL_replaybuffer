@@ -1,0 +1,30 @@
+2021-11-24 01:09:10,695 - exp name: KL_model_pool
+2021-11-24 01:10:15,374 - exp name: KL_model_pool
+2021-11-24 01:11:11,348 - env_pool: 5250, model_pool: 0
+2021-11-24 01:11:11,658 - model_epoch: 0, losses_avg: 0.224515, losses_std: 0.016263
+2021-11-24 01:11:32,723 - model_epoch: 100, losses_avg: 0.025605, losses_std: 0.001622
+2021-11-24 01:11:44,044 - model_epoch: 154, losses_avg: 0.023541, losses_std: 0.001194
+2021-11-24 01:25:32,371 - exp name: KL_model_pool
+2021-11-24 01:26:25,366 - env_pool: 5250, model_pool: 0
+2021-11-24 01:26:25,679 - model_epoch: 0, losses_avg: 0.216580, losses_std: 0.013800
+2021-11-24 01:26:46,747 - model_epoch: 100, losses_avg: 0.028914, losses_std: 0.001685
+2021-11-24 01:27:07,840 - model_epoch: 200, losses_avg: 0.024331, losses_std: 0.001105
+2021-11-24 01:27:16,892 - model_epoch: 243, losses_avg: 0.022878, losses_std: 0.000866
+2021-11-24 01:32:30,122 - exp name: KL_model_pool
+2021-11-24 01:33:23,143 - env_pool: 5250, model_pool: 0
+2021-11-24 01:33:23,454 - model_epoch: 0, losses_avg: 0.233226, losses_std: 0.019121
+2021-11-24 01:33:44,439 - model_epoch: 100, losses_avg: 0.026002, losses_std: 0.001135
+2021-11-24 01:34:05,449 - model_epoch: 200, losses_avg: 0.021633, losses_std: 0.000907
+2021-11-24 01:34:26,465 - model_epoch: 300, losses_avg: 0.019028, losses_std: 0.001179
+2021-11-24 01:34:32,555 - model_epoch: 329, losses_avg: 0.018537, losses_std: 0.001011
+2021-11-24 01:36:26,567 - exp name: KL_model_pool
+2021-11-24 01:37:19,060 - env_pool: 5250, model_pool: 0
+2021-11-24 01:37:19,388 - model_epoch: 0, losses_avg: 0.234630, losses_std: 0.018887
+2021-11-24 01:37:40,267 - model_epoch: 100, losses_avg: 0.025917, losses_std: 0.001159
+2021-11-24 01:38:01,164 - model_epoch: 200, losses_avg: 0.021749, losses_std: 0.000789
+2021-11-24 01:38:08,873 - model_epoch: 237, losses_avg: 0.021362, losses_std: 0.000704
+2021-11-24 01:43:20,454 - exp name: KL_model_pool
+2021-11-24 01:44:12,662 - env_pool: 5250, model_pool: 0
+2021-11-24 01:44:12,972 - model_epoch: 0, losses_avg: 0.251284, losses_std: 0.016842
+2021-11-24 01:44:33,744 - model_epoch: 100, losses_avg: 0.024839, losses_std: 0.001407
+2021-11-24 01:44:50,998 - model_epoch: 183, losses_avg: 0.021589, losses_std: 0.001346
