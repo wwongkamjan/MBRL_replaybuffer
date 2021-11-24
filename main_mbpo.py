@@ -158,16 +158,14 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                 # delta_score_list.append(env_pool.delta_score)
 
                 train_predict_model(args, env_pool, predict_env, logger)
-                
-                # update delta_score and/or delta_weights for every transition in model_pool
-                model_pool.update_delta_score(agent)
                 new_rollout_length = set_rollout_length(args, epoch_step)
                 if rollout_length != new_rollout_length:
                     rollout_length = new_rollout_length
                     model_pool = resize_model_pool(args, rollout_length, model_pool)
 
                 rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length)
-
+                # update delta_score and/or delta_weights for every transition in model_pool
+                model_pool.update_delta_score(agent)
                 #model_pool update delta_score
 
             cur_state, action, next_state, reward, done, info = env_sampler.sample(agent)
