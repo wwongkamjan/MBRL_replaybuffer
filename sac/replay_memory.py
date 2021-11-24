@@ -113,6 +113,7 @@ class ReplayMemory:
         return state, action, reward, next_state, done
     
     def sample_all_batch_KL(self, batch_size, logger):
+        logger.info("check buffer shape {}, {}".format(len(self.buffer), len(self.buffer[0])))
         idxes = np.random.randint(0, len(self.buffer), batch_size*10)
         batch = list(itemgetter(*idxes)(np.array(self.buffer, dtype=object)))
         logger.info("batch shape {}, {}".format(len(batch), len(batch[0])))
