@@ -112,24 +112,17 @@ class ReplayMemory:
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
     
-    def sample_all_batch_KL(self, batch_size):
-        # idxes = np.random.randint(0, len(self.buffer), batch_size)
-        # weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
+    def sample_all_batch_KL(self, batch_size, logger):
         KL_list = [abs(t[-1]) for t in self.buffer]
-        KL_list_file = os.path.join('reweight_policylearning/KL_model_pool', 'KL_list_file.csv')
-        with open(KL_list_file, 'w') as f2:
-            write = csv.writer(f2)
-            write.writerows(KL_list)
         #flip
         sum_w = sum(KL_list)
+        logger.info("finish KL list: {} and sumw: {}".format(KL_list.shape, sum_w))
         weight = [sum_w - kl for kl in KL_list]
-        # print(weight_list)
+        logger.info("finish weight with shape {}".format(weight.shape))
         norm_weight = [(float(w)/sum(weight)) for w in weight]
+        logger.info("norm weight and then running idxes")
         idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
-        idxes_file = os.path.join('reweight_policylearning/KL_model_pool', 'idxes.csv')
-        with open(idxes_file, 'w') as f2:
-            write = csv.writer(f2)
-            write.writerows("get idxes:" + str(idxes.shape)+ "and batch size:"+ str(batch_size))
+        logger.info("finish idxes")
         batch = list(itemgetter(*idxes)(np.array(self.buffer, dtype=object)))
         state, action, reward, next_state, done, _ = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done

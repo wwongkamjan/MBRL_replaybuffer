@@ -173,7 +173,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
             env_pool.push(cur_state, action, reward, next_state, done)
             
             if len(env_pool) > args.min_pool_size:
-                train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent)
+                train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent, logger)
 
             total_step += 1
 
@@ -263,10 +263,6 @@ def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length
         # TODO: Get a batch of actions
         action = agent.select_action(state)
         next_states, rewards, terminals, info, KL = predict_env.step(state, action)
-        KL_list_ex_file = os.path.join(args.exp_dir, 'KL_list_ex_file.csv')
-        with open(KL_list_ex_file, 'w') as f2:
-            write = csv.writer(f2)
-            write.writerows(KL)
         # TODO: Push a batch of samples
         model_pool.push_batch([(state[j], action[j], rewards[j], next_states[j], terminals[j], KL[j]) for j in range(state.shape[0])])
         nonterm_mask = ~terminals.squeeze(-1)
@@ -275,7 +271,7 @@ def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length
         state = next_states[nonterm_mask]
 
 
-def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model_pool, agent):
+def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model_pool, agent, logger):
     if total_step % args.train_every_n_steps > 0:
         return 0
 
@@ -292,7 +288,7 @@ def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model
             if 'delta' in args.reweight_policy:
                 model_state, model_action, model_reward, model_next_state, model_done = model_pool.weightedsample_all_batch(int(model_batch_size))
             elif 'acc' in args.reweight_policy:
-                model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size))
+                model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size, logger))
             else:
                 model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch(int(model_batch_size))
             batch_state, batch_action, batch_reward, batch_next_state, batch_done = np.concatenate((env_state, model_state), axis=0), \
