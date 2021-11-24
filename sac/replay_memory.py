@@ -114,6 +114,7 @@ class ReplayMemory:
     
     def sample_all_batch_KL(self, batch_size, logger):
         idxes = np.random.randint(0, len(self.buffer), batch_size*10)
+        logger.info("random idxes: {}".format(idxes))
         batch = list(itemgetter(*idxes)(self.buffer))
         logger.info("batch shape {}, {}".format(len(batch), len(batch[0])))
         KL_list = np.array([abs(t[-1]) for t in batch])
@@ -124,8 +125,8 @@ class ReplayMemory:
         logger.info("finish weight with shape {}".format(weight.shape))
         norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
         idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
-        logger.info("finish idxes")
-        batch = list(itemgetter(*idxes)(np.array(batch)))
+        logger.info("finish idxes: {}".format(idxes))
+        batch = list(itemgetter(*idxes)(batch))
         logger.info("batch shape {}, {}".format(len(batch), len(batch[0])))
         state, action, reward, next_state, done, _ = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
