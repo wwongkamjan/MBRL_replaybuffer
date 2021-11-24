@@ -119,7 +119,7 @@ class ReplayMemory:
         # print(weight_list)
         norm_weight = [(float(w)/sum(weight)) for w in weight]
         idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
-        batch = list(itemgetter(*idxes)(self.buffer))
+        batch = list(itemgetter(*idxes)(np.array(self.buffer)))
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
 

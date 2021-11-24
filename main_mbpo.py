@@ -170,7 +170,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
 
             cur_state, action, next_state, reward, done, info = env_sampler.sample(agent)
             env_pool.push(cur_state, action, reward, next_state, done)
-
+            logger.info("env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
             if len(env_pool) > args.min_pool_size:
                 train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent)
 
@@ -254,7 +254,6 @@ def resize_model_pool(args, rollout_length, model_pool):
 
 
 def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length):
-    print("start rollout model")
     if 'delta' in args.reweight_rollout:
         state, action, reward, next_state, done = env_pool.weightedsample_all_batch(args.rollout_batch_size)
     else:
@@ -263,6 +262,7 @@ def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length
         # TODO: Get a batch of actions
         action = agent.select_action(state)
         next_states, rewards, terminals, info, KL = predict_env.step(state, action)
+        logger.info("KL list: {}, batch_size: {}".format(KL.shape[0], state.shape[0]))
         # TODO: Push a batch of samples
         model_pool.push_batch([(state[j], action[j], rewards[j], next_states[j], terminals[j], KL[j]) for j in range(state.shape[0])])
         nonterm_mask = ~terminals.squeeze(-1)
