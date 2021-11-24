@@ -263,7 +263,10 @@ def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length
         # TODO: Get a batch of actions
         action = agent.select_action(state)
         next_states, rewards, terminals, info, KL = predict_env.step(state, action)
-
+        KL_list_ex_file = os.path.join(args.exp_dir, 'KL_list_ex_file.csv')
+        with open(KL_list_ex_file, 'w') as f2:
+            write = csv.writer(f2)
+            write.writerows(KL)
         # TODO: Push a batch of samples
         model_pool.push_batch([(state[j], action[j], rewards[j], next_states[j], terminals[j], KL[j]) for j in range(state.shape[0])])
         nonterm_mask = ~terminals.squeeze(-1)
