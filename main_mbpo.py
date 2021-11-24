@@ -165,7 +165,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
 
                 rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length)
                 # update delta_score and/or delta_weights for every transition in model_pool
-                model_pool.update_delta_score(agent)
+                # model_pool.update_delta_score(agent)
                 #model_pool update delta_score
 
             cur_state, action, next_state, reward, done, info = env_sampler.sample(agent)
