@@ -115,7 +115,7 @@ class ReplayMemory:
     def sample_all_batch_KL(self, batch_size):
         # idxes = np.random.randint(0, len(self.buffer), batch_size)
         # weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
-        KL_list = [t[-1] for t in self.buffer]
+        KL_list = [abs(t[-1]) for t in self.buffer]
         KL_list_file = os.path.join('reweight_policylearning/KL_model_pool', 'KL_list_file.csv')
         with open(KL_list_file, 'w') as f2:
             write = csv.writer(f2)
@@ -126,8 +126,8 @@ class ReplayMemory:
         # print(weight_list)
         norm_weight = [(float(w)/sum(weight)) for w in weight]
         idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
-        batch = list(itemgetter(*idxes)(np.array(self.buffer)))
-        state, action, reward, next_state, done = map(np.stack, zip(*batch))
+        batch = list(itemgetter(*idxes)(np.array(self.buffer, dtype=object)))
+        state, action, reward, next_state, done, _ = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
 
     def return_all(self):
