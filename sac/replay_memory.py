@@ -15,7 +15,6 @@ class ReplayMemory:
         # self.decay_weight = []
         self.delta_score = []
         self.delta_weight = []
-        self.KL = []
         self.device = torch.device("cuda")
 
     def push(self, state, action, reward, next_state, done):
