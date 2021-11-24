@@ -112,10 +112,13 @@ class ReplayMemory:
     def sample_all_batch_KL(self, batch_size):
         # idxes = np.random.randint(0, len(self.buffer), batch_size)
         # weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
-        weight_list = [t[-1] for t in self.buffer]
+        KL_list = [t[-1] for t in self.buffer]
+        #flip
+        sum_w = sum(KL_list)
+        weight = [sum_w - kl for kl in KL_list]
         # print(weight_list)
-        norm_weight_list = [1-(float(w)/sum(weight_list)) for w in weight_list]
-        idxes = np.array(list(WeightedRandomSampler(norm_weight_list, batch_size, replacement=True)))
+        norm_weight = [(float(w)/sum(weight)) for w in weight]
+        idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
         batch = list(itemgetter(*idxes)(self.buffer))
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
