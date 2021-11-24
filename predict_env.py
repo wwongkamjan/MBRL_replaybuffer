@@ -194,7 +194,7 @@ class PredictEnv:
         rewards, next_obs = samples[:, :1], samples[:, 1:]
         terminals = self._termination_fn(self.env_name, obs, act, next_obs)
 
-        if 'acc' in args.reweight_policy:
+        if 'acc' in self.args.reweight_policy:
             model_index = np.arange(0, num_models).tolist()
             model_idxes_rest = np.array([model_index[:i] + model_index[i + 1:] for i in model_idxes])
             model_vars = ensemble_model_vars[model_idxes, batch_idxes]
