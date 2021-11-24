@@ -129,7 +129,7 @@ class ReplayMemory:
         idxes_file = os.path.join('reweight_policylearning/KL_model_pool', 'idxes.csv')
         with open(idxes_file, 'w') as f2:
             write = csv.writer(f2)
-            write.writerows("get idxes:" + str(idxes.shape) "and batch size:"+str(batch_size))
+            write.writerows("get idxes:" + str(idxes.shape)+ "and batch size:"+ str(batch_size))
         batch = list(itemgetter(*idxes)(np.array(self.buffer, dtype=object)))
         state, action, reward, next_state, done, _ = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
