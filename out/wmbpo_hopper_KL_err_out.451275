@@ -1,0 +1,17 @@
+/nfshomes/wwongkam/.local/lib/python3.6/site-packages/torch/utils/data/sampler.py:183: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ../torch/csrc/utils/tensor_new.cpp:201.)
+  self.weights = torch.as_tensor(weights, dtype=torch.double)
+/nfshomes/wwongkam/MBRL_replaybuffer/sac/replay_memory.py:129: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  batch = list(itemgetter(*idxes)(np.array(self.buffer)))
+Traceback (most recent call last):
+  File "main_mbpo.py", line 405, in <module>
+    main()
+  File "main_mbpo.py", line 401, in main
+    train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, model_pool, logger)
+  File "main_mbpo.py", line 176, in train
+    train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent)
+  File "main_mbpo.py", line 295, in train_policy_repeats
+    model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size))
+  File "/nfshomes/wwongkam/MBRL_replaybuffer/sac/replay_memory.py", line 130, in sample_all_batch_KL
+    state, action, reward, next_state, done = map(np.stack, zip(*batch))
+ValueError: too many values to unpack (expected 5)
+srun: error: cml04: task 0: Exited with exit code 1

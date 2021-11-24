@@ -1,0 +1,15 @@
+/nfshomes/wwongkam/.local/lib/python3.6/site-packages/torch/utils/data/sampler.py:183: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ../torch/csrc/utils/tensor_new.cpp:201.)
+  self.weights = torch.as_tensor(weights, dtype=torch.double)
+Traceback (most recent call last):
+  File "main_mbpo.py", line 401, in <module>
+    main()
+  File "main_mbpo.py", line 397, in main
+    train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, model_pool, logger)
+  File "main_mbpo.py", line 175, in train
+    train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent)
+  File "main_mbpo.py", line 291, in train_policy_repeats
+    model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size))
+  File "/nfshomes/wwongkam/MBRL_replaybuffer/sac/replay_memory.py", line 122, in sample_all_batch_KL
+    batch = list(itemgetter(*idxes)(self.buffer))
+TypeError: only integer scalar arrays can be converted to a scalar index
+srun: error: cml04: task 0: Exited with exit code 1

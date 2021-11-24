@@ -1,0 +1,305 @@
+2021-11-24 02:27:34,406 - exp name: KL_model_pool
+2021-11-24 02:28:27,918 - env_pool: 5250, model_pool: 0
+2021-11-24 02:28:28,240 - model_epoch: 0, losses_avg: 0.234570, losses_std: 0.016263
+2021-11-24 02:28:49,192 - model_epoch: 100, losses_avg: 0.025135, losses_std: 0.001582
+2021-11-24 02:29:10,263 - model_epoch: 200, losses_avg: 0.020335, losses_std: 0.001451
+2021-11-24 02:29:31,289 - model_epoch: 300, losses_avg: 0.018175, losses_std: 0.001072
+2021-11-24 02:29:36,111 - model_epoch: 323, losses_avg: 0.017539, losses_std: 0.000904
+2021-11-24 04:35:25,959 - exp name: KL_model_pool
+2021-11-24 04:36:03,615 - exp name: KL_model_pool
+2021-11-24 04:36:33,604 - env_pool: 5001, model_pool: 0
+2021-11-24 04:36:33,971 - env_pool: 5002, model_pool: 0
+2021-11-24 04:36:33,976 - env_pool: 5003, model_pool: 0
+2021-11-24 04:36:33,980 - env_pool: 5004, model_pool: 0
+2021-11-24 04:36:33,985 - env_pool: 5005, model_pool: 0
+2021-11-24 04:36:34,338 - env_pool: 5006, model_pool: 0
+2021-11-24 04:36:34,343 - env_pool: 5007, model_pool: 0
+2021-11-24 04:36:34,348 - env_pool: 5008, model_pool: 0
+2021-11-24 04:36:34,352 - env_pool: 5009, model_pool: 0
+2021-11-24 04:36:34,707 - env_pool: 5010, model_pool: 0
+2021-11-24 04:36:34,711 - env_pool: 5011, model_pool: 0
+2021-11-24 04:36:34,716 - env_pool: 5012, model_pool: 0
+2021-11-24 04:36:34,721 - env_pool: 5013, model_pool: 0
+2021-11-24 04:36:35,075 - env_pool: 5014, model_pool: 0
+2021-11-24 04:36:35,079 - env_pool: 5015, model_pool: 0
+2021-11-24 04:36:35,084 - env_pool: 5016, model_pool: 0
+2021-11-24 04:36:35,089 - env_pool: 5017, model_pool: 0
+2021-11-24 04:36:35,442 - env_pool: 5018, model_pool: 0
+2021-11-24 04:36:35,446 - env_pool: 5019, model_pool: 0
+2021-11-24 04:36:35,451 - env_pool: 5020, model_pool: 0
+2021-11-24 04:36:35,456 - env_pool: 5021, model_pool: 0
+2021-11-24 04:36:35,809 - env_pool: 5022, model_pool: 0
+2021-11-24 04:36:35,813 - env_pool: 5023, model_pool: 0
+2021-11-24 04:36:35,818 - env_pool: 5024, model_pool: 0
+2021-11-24 04:36:35,823 - env_pool: 5025, model_pool: 0
+2021-11-24 04:36:36,176 - env_pool: 5026, model_pool: 0
+2021-11-24 04:36:36,181 - env_pool: 5027, model_pool: 0
+2021-11-24 04:36:36,185 - env_pool: 5028, model_pool: 0
+2021-11-24 04:36:36,190 - env_pool: 5029, model_pool: 0
+2021-11-24 04:36:36,542 - env_pool: 5030, model_pool: 0
+2021-11-24 04:36:36,547 - env_pool: 5031, model_pool: 0
+2021-11-24 04:36:36,552 - env_pool: 5032, model_pool: 0
+2021-11-24 04:36:36,556 - env_pool: 5033, model_pool: 0
+2021-11-24 04:36:36,910 - env_pool: 5034, model_pool: 0
+2021-11-24 04:36:36,914 - env_pool: 5035, model_pool: 0
+2021-11-24 04:36:36,919 - env_pool: 5036, model_pool: 0
+2021-11-24 04:36:36,924 - env_pool: 5037, model_pool: 0
+2021-11-24 04:36:37,279 - env_pool: 5038, model_pool: 0
+2021-11-24 04:36:37,284 - env_pool: 5039, model_pool: 0
+2021-11-24 04:36:37,288 - env_pool: 5040, model_pool: 0
+2021-11-24 04:36:37,293 - env_pool: 5041, model_pool: 0
+2021-11-24 04:36:37,647 - env_pool: 5042, model_pool: 0
+2021-11-24 04:36:37,651 - env_pool: 5043, model_pool: 0
+2021-11-24 04:36:37,656 - env_pool: 5044, model_pool: 0
+2021-11-24 04:36:37,660 - env_pool: 5045, model_pool: 0
+2021-11-24 04:36:38,014 - env_pool: 5046, model_pool: 0
+2021-11-24 04:36:38,018 - env_pool: 5047, model_pool: 0
+2021-11-24 04:36:38,023 - env_pool: 5048, model_pool: 0
+2021-11-24 04:36:38,028 - env_pool: 5049, model_pool: 0
+2021-11-24 04:36:38,381 - env_pool: 5050, model_pool: 0
+2021-11-24 04:36:38,386 - env_pool: 5051, model_pool: 0
+2021-11-24 04:36:38,390 - env_pool: 5052, model_pool: 0
+2021-11-24 04:36:38,395 - env_pool: 5053, model_pool: 0
+2021-11-24 04:36:38,749 - env_pool: 5054, model_pool: 0
+2021-11-24 04:36:38,754 - env_pool: 5055, model_pool: 0
+2021-11-24 04:36:38,758 - env_pool: 5056, model_pool: 0
+2021-11-24 04:36:38,763 - env_pool: 5057, model_pool: 0
+2021-11-24 04:36:39,117 - env_pool: 5058, model_pool: 0
+2021-11-24 04:36:39,121 - env_pool: 5059, model_pool: 0
+2021-11-24 04:36:39,126 - env_pool: 5060, model_pool: 0
+2021-11-24 04:36:39,131 - env_pool: 5061, model_pool: 0
+2021-11-24 04:36:39,484 - env_pool: 5062, model_pool: 0
+2021-11-24 04:36:39,488 - env_pool: 5063, model_pool: 0
+2021-11-24 04:36:39,493 - env_pool: 5064, model_pool: 0
+2021-11-24 04:36:39,498 - env_pool: 5065, model_pool: 0
+2021-11-24 04:36:39,851 - env_pool: 5066, model_pool: 0
+2021-11-24 04:36:39,855 - env_pool: 5067, model_pool: 0
+2021-11-24 04:36:39,860 - env_pool: 5068, model_pool: 0
+2021-11-24 04:36:39,865 - env_pool: 5069, model_pool: 0
+2021-11-24 04:36:40,218 - env_pool: 5070, model_pool: 0
+2021-11-24 04:36:40,224 - env_pool: 5071, model_pool: 0
+2021-11-24 04:36:40,228 - env_pool: 5072, model_pool: 0
+2021-11-24 04:36:40,233 - env_pool: 5073, model_pool: 0
+2021-11-24 04:36:40,586 - env_pool: 5074, model_pool: 0
+2021-11-24 04:36:40,590 - env_pool: 5075, model_pool: 0
+2021-11-24 04:36:40,595 - env_pool: 5076, model_pool: 0
+2021-11-24 04:36:40,600 - env_pool: 5077, model_pool: 0
+2021-11-24 04:36:40,955 - env_pool: 5078, model_pool: 0
+2021-11-24 04:36:40,960 - env_pool: 5079, model_pool: 0
+2021-11-24 04:36:40,965 - env_pool: 5080, model_pool: 0
+2021-11-24 04:36:40,969 - env_pool: 5081, model_pool: 0
+2021-11-24 04:36:41,323 - env_pool: 5082, model_pool: 0
+2021-11-24 04:36:41,327 - env_pool: 5083, model_pool: 0
+2021-11-24 04:36:41,332 - env_pool: 5084, model_pool: 0
+2021-11-24 04:36:41,337 - env_pool: 5085, model_pool: 0
+2021-11-24 04:36:41,690 - env_pool: 5086, model_pool: 0
+2021-11-24 04:36:41,695 - env_pool: 5087, model_pool: 0
+2021-11-24 04:36:41,700 - env_pool: 5088, model_pool: 0
+2021-11-24 04:36:41,706 - env_pool: 5089, model_pool: 0
+2021-11-24 04:36:42,090 - env_pool: 5090, model_pool: 0
+2021-11-24 04:36:42,096 - env_pool: 5091, model_pool: 0
+2021-11-24 04:36:42,101 - env_pool: 5092, model_pool: 0
+2021-11-24 04:36:42,106 - env_pool: 5093, model_pool: 0
+2021-11-24 04:36:42,490 - env_pool: 5094, model_pool: 0
+2021-11-24 04:36:42,495 - env_pool: 5095, model_pool: 0
+2021-11-24 04:36:42,500 - env_pool: 5096, model_pool: 0
+2021-11-24 04:36:42,505 - env_pool: 5097, model_pool: 0
+2021-11-24 04:36:42,870 - env_pool: 5098, model_pool: 0
+2021-11-24 04:36:42,874 - env_pool: 5099, model_pool: 0
+2021-11-24 04:36:42,879 - env_pool: 5100, model_pool: 0
+2021-11-24 04:36:42,884 - env_pool: 5101, model_pool: 0
+2021-11-24 04:36:43,237 - env_pool: 5102, model_pool: 0
+2021-11-24 04:36:43,242 - env_pool: 5103, model_pool: 0
+2021-11-24 04:36:43,246 - env_pool: 5104, model_pool: 0
+2021-11-24 04:36:43,251 - env_pool: 5105, model_pool: 0
+2021-11-24 04:36:43,605 - env_pool: 5106, model_pool: 0
+2021-11-24 04:36:43,610 - env_pool: 5107, model_pool: 0
+2021-11-24 04:36:43,615 - env_pool: 5108, model_pool: 0
+2021-11-24 04:36:43,619 - env_pool: 5109, model_pool: 0
+2021-11-24 04:36:43,974 - env_pool: 5110, model_pool: 0
+2021-11-24 04:36:43,979 - env_pool: 5111, model_pool: 0
+2021-11-24 04:36:43,983 - env_pool: 5112, model_pool: 0
+2021-11-24 04:36:43,988 - env_pool: 5113, model_pool: 0
+2021-11-24 04:36:44,341 - env_pool: 5114, model_pool: 0
+2021-11-24 04:36:44,346 - env_pool: 5115, model_pool: 0
+2021-11-24 04:36:44,350 - env_pool: 5116, model_pool: 0
+2021-11-24 04:36:44,355 - env_pool: 5117, model_pool: 0
+2021-11-24 04:36:44,708 - env_pool: 5118, model_pool: 0
+2021-11-24 04:36:44,713 - env_pool: 5119, model_pool: 0
+2021-11-24 04:36:44,718 - env_pool: 5120, model_pool: 0
+2021-11-24 04:36:44,722 - env_pool: 5121, model_pool: 0
+2021-11-24 04:36:45,075 - env_pool: 5122, model_pool: 0
+2021-11-24 04:36:45,080 - env_pool: 5123, model_pool: 0
+2021-11-24 04:36:45,085 - env_pool: 5124, model_pool: 0
+2021-11-24 04:36:45,089 - env_pool: 5125, model_pool: 0
+2021-11-24 04:36:45,445 - env_pool: 5126, model_pool: 0
+2021-11-24 04:36:45,449 - env_pool: 5127, model_pool: 0
+2021-11-24 04:36:45,454 - env_pool: 5128, model_pool: 0
+2021-11-24 04:36:45,459 - env_pool: 5129, model_pool: 0
+2021-11-24 04:36:45,812 - env_pool: 5130, model_pool: 0
+2021-11-24 04:36:45,817 - env_pool: 5131, model_pool: 0
+2021-11-24 04:36:45,821 - env_pool: 5132, model_pool: 0
+2021-11-24 04:36:45,826 - env_pool: 5133, model_pool: 0
+2021-11-24 04:36:46,180 - env_pool: 5134, model_pool: 0
+2021-11-24 04:36:46,184 - env_pool: 5135, model_pool: 0
+2021-11-24 04:36:46,190 - env_pool: 5136, model_pool: 0
+2021-11-24 04:36:46,194 - env_pool: 5137, model_pool: 0
+2021-11-24 04:36:46,548 - env_pool: 5138, model_pool: 0
+2021-11-24 04:36:46,553 - env_pool: 5139, model_pool: 0
+2021-11-24 04:36:46,557 - env_pool: 5140, model_pool: 0
+2021-11-24 04:36:46,562 - env_pool: 5141, model_pool: 0
+2021-11-24 04:36:46,916 - env_pool: 5142, model_pool: 0
+2021-11-24 04:36:46,921 - env_pool: 5143, model_pool: 0
+2021-11-24 04:36:46,925 - env_pool: 5144, model_pool: 0
+2021-11-24 04:36:46,930 - env_pool: 5145, model_pool: 0
+2021-11-24 04:36:47,283 - env_pool: 5146, model_pool: 0
+2021-11-24 04:36:47,287 - env_pool: 5147, model_pool: 0
+2021-11-24 04:36:47,292 - env_pool: 5148, model_pool: 0
+2021-11-24 04:36:47,297 - env_pool: 5149, model_pool: 0
+2021-11-24 04:36:47,650 - env_pool: 5150, model_pool: 0
+2021-11-24 04:36:47,654 - env_pool: 5151, model_pool: 0
+2021-11-24 04:36:47,659 - env_pool: 5152, model_pool: 0
+2021-11-24 04:36:47,664 - env_pool: 5153, model_pool: 0
+2021-11-24 04:36:48,017 - env_pool: 5154, model_pool: 0
+2021-11-24 04:36:48,022 - env_pool: 5155, model_pool: 0
+2021-11-24 04:36:48,026 - env_pool: 5156, model_pool: 0
+2021-11-24 04:36:48,031 - env_pool: 5157, model_pool: 0
+2021-11-24 04:36:48,384 - env_pool: 5158, model_pool: 0
+2021-11-24 04:36:48,389 - env_pool: 5159, model_pool: 0
+2021-11-24 04:36:48,394 - env_pool: 5160, model_pool: 0
+2021-11-24 04:36:48,398 - env_pool: 5161, model_pool: 0
+2021-11-24 04:36:48,751 - env_pool: 5162, model_pool: 0
+2021-11-24 04:36:48,756 - env_pool: 5163, model_pool: 0
+2021-11-24 04:36:48,760 - env_pool: 5164, model_pool: 0
+2021-11-24 04:36:48,765 - env_pool: 5165, model_pool: 0
+2021-11-24 04:36:49,118 - env_pool: 5166, model_pool: 0
+2021-11-24 04:36:49,123 - env_pool: 5167, model_pool: 0
+2021-11-24 04:36:49,128 - env_pool: 5168, model_pool: 0
+2021-11-24 04:36:49,133 - env_pool: 5169, model_pool: 0
+2021-11-24 04:36:49,486 - env_pool: 5170, model_pool: 0
+2021-11-24 04:36:49,491 - env_pool: 5171, model_pool: 0
+2021-11-24 04:36:49,496 - env_pool: 5172, model_pool: 0
+2021-11-24 04:36:49,500 - env_pool: 5173, model_pool: 0
+2021-11-24 04:36:49,854 - env_pool: 5174, model_pool: 0
+2021-11-24 04:36:49,859 - env_pool: 5175, model_pool: 0
+2021-11-24 04:36:49,863 - env_pool: 5176, model_pool: 0
+2021-11-24 04:36:49,868 - env_pool: 5177, model_pool: 0
+2021-11-24 04:36:50,223 - env_pool: 5178, model_pool: 0
+2021-11-24 04:36:50,227 - env_pool: 5179, model_pool: 0
+2021-11-24 04:36:50,232 - env_pool: 5180, model_pool: 0
+2021-11-24 04:36:50,237 - env_pool: 5181, model_pool: 0
+2021-11-24 04:36:50,591 - env_pool: 5182, model_pool: 0
+2021-11-24 04:36:50,596 - env_pool: 5183, model_pool: 0
+2021-11-24 04:36:50,600 - env_pool: 5184, model_pool: 0
+2021-11-24 04:36:50,605 - env_pool: 5185, model_pool: 0
+2021-11-24 04:36:50,967 - env_pool: 5186, model_pool: 0
+2021-11-24 04:36:50,972 - env_pool: 5187, model_pool: 0
+2021-11-24 04:36:50,976 - env_pool: 5188, model_pool: 0
+2021-11-24 04:36:50,981 - env_pool: 5189, model_pool: 0
+2021-11-24 04:36:51,345 - env_pool: 5190, model_pool: 0
+2021-11-24 04:36:51,349 - env_pool: 5191, model_pool: 0
+2021-11-24 04:36:51,354 - env_pool: 5192, model_pool: 0
+2021-11-24 04:36:51,359 - env_pool: 5193, model_pool: 0
+2021-11-24 04:36:51,712 - env_pool: 5194, model_pool: 0
+2021-11-24 04:36:51,717 - env_pool: 5195, model_pool: 0
+2021-11-24 04:36:51,721 - env_pool: 5196, model_pool: 0
+2021-11-24 04:36:51,726 - env_pool: 5197, model_pool: 0
+2021-11-24 04:36:52,079 - env_pool: 5198, model_pool: 0
+2021-11-24 04:36:52,084 - env_pool: 5199, model_pool: 0
+2021-11-24 04:36:52,089 - env_pool: 5200, model_pool: 0
+2021-11-24 04:36:52,094 - env_pool: 5201, model_pool: 0
+2021-11-24 04:36:52,447 - env_pool: 5202, model_pool: 0
+2021-11-24 04:36:52,451 - env_pool: 5203, model_pool: 0
+2021-11-24 04:36:52,456 - env_pool: 5204, model_pool: 0
+2021-11-24 04:36:52,461 - env_pool: 5205, model_pool: 0
+2021-11-24 04:36:52,814 - env_pool: 5206, model_pool: 0
+2021-11-24 04:36:52,818 - env_pool: 5207, model_pool: 0
+2021-11-24 04:36:52,823 - env_pool: 5208, model_pool: 0
+2021-11-24 04:36:52,828 - env_pool: 5209, model_pool: 0
+2021-11-24 04:36:53,182 - env_pool: 5210, model_pool: 0
+2021-11-24 04:36:53,186 - env_pool: 5211, model_pool: 0
+2021-11-24 04:36:53,191 - env_pool: 5212, model_pool: 0
+2021-11-24 04:36:53,196 - env_pool: 5213, model_pool: 0
+2021-11-24 04:36:53,548 - env_pool: 5214, model_pool: 0
+2021-11-24 04:36:53,553 - env_pool: 5215, model_pool: 0
+2021-11-24 04:36:53,558 - env_pool: 5216, model_pool: 0
+2021-11-24 04:36:53,562 - env_pool: 5217, model_pool: 0
+2021-11-24 04:36:53,916 - env_pool: 5218, model_pool: 0
+2021-11-24 04:36:53,920 - env_pool: 5219, model_pool: 0
+2021-11-24 04:36:53,925 - env_pool: 5220, model_pool: 0
+2021-11-24 04:36:53,930 - env_pool: 5221, model_pool: 0
+2021-11-24 04:36:54,283 - env_pool: 5222, model_pool: 0
+2021-11-24 04:36:54,287 - env_pool: 5223, model_pool: 0
+2021-11-24 04:36:54,292 - env_pool: 5224, model_pool: 0
+2021-11-24 04:36:54,297 - env_pool: 5225, model_pool: 0
+2021-11-24 04:36:54,650 - env_pool: 5226, model_pool: 0
+2021-11-24 04:36:54,655 - env_pool: 5227, model_pool: 0
+2021-11-24 04:36:54,659 - env_pool: 5228, model_pool: 0
+2021-11-24 04:36:54,664 - env_pool: 5229, model_pool: 0
+2021-11-24 04:36:55,017 - env_pool: 5230, model_pool: 0
+2021-11-24 04:36:55,022 - env_pool: 5231, model_pool: 0
+2021-11-24 04:36:55,027 - env_pool: 5232, model_pool: 0
+2021-11-24 04:36:55,031 - env_pool: 5233, model_pool: 0
+2021-11-24 04:36:55,385 - env_pool: 5234, model_pool: 0
+2021-11-24 04:36:55,390 - env_pool: 5235, model_pool: 0
+2021-11-24 04:36:55,394 - env_pool: 5236, model_pool: 0
+2021-11-24 04:36:55,399 - env_pool: 5237, model_pool: 0
+2021-11-24 04:36:55,754 - env_pool: 5238, model_pool: 0
+2021-11-24 04:36:55,759 - env_pool: 5239, model_pool: 0
+2021-11-24 04:36:55,763 - env_pool: 5240, model_pool: 0
+2021-11-24 04:36:55,768 - env_pool: 5241, model_pool: 0
+2021-11-24 04:36:56,121 - env_pool: 5242, model_pool: 0
+2021-11-24 04:36:56,126 - env_pool: 5243, model_pool: 0
+2021-11-24 04:36:56,131 - env_pool: 5244, model_pool: 0
+2021-11-24 04:36:56,135 - env_pool: 5245, model_pool: 0
+2021-11-24 04:36:56,489 - env_pool: 5246, model_pool: 0
+2021-11-24 04:36:56,494 - env_pool: 5247, model_pool: 0
+2021-11-24 04:36:56,498 - env_pool: 5248, model_pool: 0
+2021-11-24 04:36:56,503 - env_pool: 5249, model_pool: 0
+2021-11-24 04:36:56,857 - env_pool: 5250, model_pool: 0
+2021-11-24 04:36:56,857 - env_pool: 5250, model_pool: 0
+2021-11-24 04:36:57,168 - model_epoch: 0, losses_avg: 0.215591, losses_std: 0.016107
+2021-11-24 04:37:18,204 - model_epoch: 100, losses_avg: 0.024126, losses_std: 0.001662
+2021-11-24 04:37:39,189 - model_epoch: 200, losses_avg: 0.020482, losses_std: 0.001559
+2021-11-24 04:37:39,398 - model_epoch: 201, losses_avg: 0.020622, losses_std: 0.001382
+2021-11-24 04:40:09,167 - exp name: KL_model_pool
+2021-11-24 04:41:02,055 - env_pool: 5250, model_pool: 0
+2021-11-24 04:41:02,364 - model_epoch: 0, losses_avg: 0.249987, losses_std: 0.019645
+2021-11-24 04:41:23,484 - model_epoch: 100, losses_avg: 0.024532, losses_std: 0.001320
+2021-11-24 04:41:44,506 - model_epoch: 200, losses_avg: 0.020452, losses_std: 0.000810
+2021-11-24 04:41:55,445 - model_epoch: 252, losses_avg: 0.019261, losses_std: 0.000980
+2021-11-24 04:41:57,861 - finish rollout - env_pool: 5250, model_pool: 100000
+2021-11-24 04:59:26,544 - exp name: KL_model_pool
+2021-11-24 05:00:19,422 - env_pool: 5250, model_pool: 0
+2021-11-24 05:00:19,747 - model_epoch: 0, losses_avg: 0.224928, losses_std: 0.018400
+2021-11-24 05:00:40,847 - model_epoch: 100, losses_avg: 0.024579, losses_std: 0.001734
+2021-11-24 05:01:01,975 - model_epoch: 200, losses_avg: 0.019630, losses_std: 0.001766
+2021-11-24 05:01:23,104 - model_epoch: 300, losses_avg: 0.017009, losses_std: 0.001473
+2021-11-24 05:01:23,526 - model_epoch: 302, losses_avg: 0.016996, losses_std: 0.001411
+2021-11-24 05:01:26,101 - finish rollout - env_pool: 5250, model_pool: 100000
+2021-11-24 05:03:09,942 - exp name: KL_model_pool
+2021-11-24 05:04:02,872 - env_pool: 5250, model_pool: 0
+2021-11-24 05:04:03,185 - model_epoch: 0, losses_avg: 0.281316, losses_std: 0.034180
+2021-11-24 05:04:24,372 - model_epoch: 100, losses_avg: 0.032235, losses_std: 0.001381
+2021-11-24 05:04:34,485 - model_epoch: 148, losses_avg: 0.030957, losses_std: 0.001086
+2021-11-24 05:04:37,060 - finish rollout - env_pool: 5250, model_pool: 100000
+2021-11-24 05:09:51,685 - exp name: KL_model_pool
+2021-11-24 05:10:45,029 - env_pool: 5250, model_pool: 0
+2021-11-24 05:10:45,339 - model_epoch: 0, losses_avg: 0.243856, losses_std: 0.025002
+2021-11-24 05:11:06,420 - model_epoch: 100, losses_avg: 0.024027, losses_std: 0.001288
+2021-11-24 05:11:27,464 - model_epoch: 200, losses_avg: 0.018915, losses_std: 0.000923
+2021-11-24 05:11:33,346 - model_epoch: 228, losses_avg: 0.018078, losses_std: 0.000986
+2021-11-24 05:11:35,918 - finish rollout - env_pool: 5250, model_pool: 100000
+2021-11-24 05:15:06,518 - exp name: KL_model_pool
+2021-11-24 05:15:59,225 - env_pool: 5250, model_pool: 0
+2021-11-24 05:15:59,537 - model_epoch: 0, losses_avg: 0.235084, losses_std: 0.014717
+2021-11-24 05:16:20,620 - model_epoch: 100, losses_avg: 0.028882, losses_std: 0.001909
+2021-11-24 05:16:41,724 - model_epoch: 200, losses_avg: 0.023292, losses_std: 0.001943
+2021-11-24 05:16:54,394 - model_epoch: 260, losses_avg: 0.021717, losses_std: 0.001493
+2021-11-24 05:16:56,989 - finish rollout - env_pool: 5250, model_pool: 100000
+2021-11-24 05:18:42,871 - exp name: KL_model_pool
+2021-11-24 05:19:35,558 - env_pool: 5250, model_pool: 0
+2021-11-24 05:19:35,869 - model_epoch: 0, losses_avg: 0.202071, losses_std: 0.011733
+2021-11-24 05:19:56,993 - model_epoch: 100, losses_avg: 0.023780, losses_std: 0.001734
+2021-11-24 05:20:12,278 - model_epoch: 173, losses_avg: 0.020276, losses_std: 0.001666
+2021-11-24 05:20:14,865 - finish rollout - env_pool: 5250, model_pool: 100000
