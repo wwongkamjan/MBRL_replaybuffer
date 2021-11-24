@@ -202,7 +202,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                 #             'Critic': agent.critic.state_dict(),
                 #             }, model_file)
 
-                # save_weights = False
+                # save_weights = True
                 # if save_weights:
                 #     # decay_weight_file = os.path.join(args.exp_dir, 'decay_weight_list.csv')
                 #     # with open(decay_weight_file, 'w') as f1:
