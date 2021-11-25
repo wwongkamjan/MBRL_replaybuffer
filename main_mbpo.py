@@ -164,7 +164,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                     model_pool = resize_model_pool(args, rollout_length, model_pool)
 
                 rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length)
-                # logger.info("finish rollout - env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
+                logger.info("finish rollout - env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
                 # update delta_score and/or delta_weights for every transition in model_pool
                 # model_pool.update_delta_score(agent)
                 #model_pool update delta_score
@@ -174,6 +174,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
             
             if len(env_pool) > args.min_pool_size:
                 train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent, logger)
+                logger.info("finish train policy")
 
             total_step += 1
 

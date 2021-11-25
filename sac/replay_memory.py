@@ -14,7 +14,7 @@ class ReplayMemory:
         self.capacity = capacity
         self.buffer = []
         self.position = 0
-        # self.KL = []
+        self.KL = []
         # self.decay_weight = []
         self.delta_score = []
         self.delta_weight = []
