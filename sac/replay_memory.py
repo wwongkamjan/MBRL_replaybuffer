@@ -4,7 +4,7 @@ from operator import itemgetter
 import os
 import os.path as osp
 import csv
-
+import random
 import torch
 from torch.utils.data import WeightedRandomSampler
 
@@ -125,9 +125,10 @@ class ReplayMemory:
         logger.info("finish weight {}".format(weight))
         norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
         logger.info("finish norm weight {}".format(norm_weight))
-        idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
-        logger.info("finish idxes: {}".format(idxes))
-        new_batch = list(itemgetter(*idxes)(batch))
+        # idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
+        # logger.info("finish idxes: {}".format(idxes))
+        # new_batch = list(itemgetter(*idxes)(batch))
+        new_batch = random.choices(batch,weights=norm_weight,k=batch_size)
         logger.info("batch shape {}, {}".format(len(new_batch), len(new_batch[0])))
         state, action, reward, next_state, done, _ = map(np.stack, zip(*new_batch))
         return state, action, reward, next_state, done
