@@ -254,16 +254,16 @@ class EnsembleDynamicsModel():
                 self.elite_model_idxes = self.sorted_loss_idx[:self.elite_size].tolist()
                 break_train = self._save_best(epoch, self.holdout_mse_losses)
                 if break_train:
-                    print('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
-                          .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
-                    logger.info('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
-                                .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
+                    # print('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
+                    #       .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
+                    # logger.info('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
+                    #             .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
                     break
-            if epoch % 100 == 0:
-                print('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
-                      .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
-                logger.info('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
-                            .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
+            # if epoch % 100 == 0:
+            #     print('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
+            #           .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
+            #     logger.info('model_epoch: {}, losses_avg: {:.6f}, losses_std: {:.6f}'
+            #                 .format(epoch, np.mean(self.holdout_mse_losses), np.sqrt(np.var(self.holdout_mse_losses))))
 
     def _save_best(self, epoch, holdout_losses):
         updated = False
