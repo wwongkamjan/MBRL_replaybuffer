@@ -121,7 +121,7 @@ class ReplayMemory:
         #flip
         max_w = max(KL_list)
         logger.info("finish KL list: {} and max_w: {}".format(KL_list.shape, max_w))
-        weight = np.array([max_w - kl for kl in KL_list])
+        weight = np.array([max_w+1 - kl for kl in KL_list])
         logger.info("finish weight {}".format(weight))
         norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
         logger.info("finish norm weight {}".format(norm_weight))
