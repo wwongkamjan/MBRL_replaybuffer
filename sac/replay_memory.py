@@ -112,24 +112,14 @@ class ReplayMemory:
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
     
-    def sample_all_batch_KL(self, batch_size, logger):
-        idxes = np.random.randint(0, len(self.buffer), batch_size*10)
-        # logger.info("random idxes: {}".format(idxes))
+    def sample_all_batch_KL(self, batch_size, sample_size, logger):
+        idxes = np.random.randint(0, len(self.buffer), sample_size)
         batch = list(itemgetter(*idxes)(self.buffer))
-        # logger.info("batch shape {}, {}".format(len(batch), len(batch[0])))
         KL_list = np.array([abs(t[-1]) for t in batch])
-        #flip
-        max_w = max(KL_list)
-        # logger.info("finish KL list: {} and max_w: {}".format(KL_list.shape, max_w))
-        weight = np.array([max_w+1 - kl for kl in KL_list])
-        # logger.info("finish weight {}".format(weight))
-        norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
-        # logger.info("finish norm weight {}".format(norm_weight))
-        # idxes = np.array(list(WeightedRandomSampler(norm_weight, batch_size, replacement=True)))
-        # logger.info("finish idxes: {}".format(idxes))
-        # new_batch = list(itemgetter(*idxes)(batch))
-        new_batch = random.choices(batch,weights=norm_weight,k=batch_size)
-        # logger.info("batch shape {}, {}".format(len(new_batch), len(new_batch[0])))
+        max_w = [max(KL_list)]*len(batch)
+        weight = np.array(max_w - KL_list)
+        # norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
+        new_batch = random.choices(batch,weights=weight,k=batch_size)
         state, action, reward, next_state, done, _ = map(np.stack, zip(*new_batch))
         return state, action, reward, next_state, done
 
