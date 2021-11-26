@@ -174,7 +174,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
             
             if len(env_pool) > args.min_pool_size:
                 train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent, logger)
-                logger.info("finish train policy")
+                # logger.info("finish train policy")
 
             total_step += 1
 
