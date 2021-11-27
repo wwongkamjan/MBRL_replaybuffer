@@ -115,9 +115,9 @@ class ReplayMemory:
     def sample_all_batch_KL(self, batch_size, sample_size, train_done):
         #idxes = np.random.randint(0, len(self.buffer), sample_size)
         n = 100000
+        idxes = np.arange(n)
+        batch = list(itemgetter(*idxes)(self.buffer[-n:]))
         if len(self.KL) ==0:
-            idxes = np.arange(n)
-            batch = list(itemgetter(*idxes)(self.buffer[-n:]))
             KL_list = np.array([abs(t[-1]) for t in batch])
             max_w = [max(KL_list)]*len(batch)
             weight = np.array(max_w - KL_list)
