@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "main_mbpo.py", line 402, in <module>
+    main()
+  File "main_mbpo.py", line 398, in main
+    train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, model_pool, logger)
+  File "main_mbpo.py", line 176, in train
+    train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent, logger)
+  File "main_mbpo.py", line 292, in train_policy_repeats
+    model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size),logger)
+  File "/nfshomes/wwongkam/MBRL_replaybuffer/sac/replay_memory.py", line 129, in sample_all_batch_KL
+    batch = list(itemgetter(*idxes)(batch))
+TypeError: only integer scalar arrays can be converted to a scalar index
+srun: error: cml13: task 0: Exited with exit code 1

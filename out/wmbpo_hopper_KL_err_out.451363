@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "main_mbpo.py", line 401, in <module>
+    main()
+  File "main_mbpo.py", line 397, in main
+    train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, model_pool, logger)
+  File "main_mbpo.py", line 176, in train
+    train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent, logger)
+  File "main_mbpo.py", line 291, in train_policy_repeats
+    model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size, logger))
+TypeError: 'Logger' object cannot be interpreted as an integer
+srun: error: cml15: task 0: Exited with exit code 1

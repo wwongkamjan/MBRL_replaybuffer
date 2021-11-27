@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main_mbpo.py", line 14, in <module>
+    from sac.replay_memory import ReplayMemory
+  File "/nfshomes/wwongkam/MBRL_replaybuffer/sac/replay_memory.py", line 129
+    logger.info("finish idxes: {}".format(idxes))
+         ^
+SyntaxError: invalid syntax
+srun: error: cml13: task 0: Exited with exit code 1

@@ -1,0 +1,18 @@
+cml14.umiacs.umd.edu
+exp name: KL_model_pool
+exploration_before_start: step 0/5000
+exploration_before_start: step 1000/5000
+exploration_before_start: step 2000/5000
+exploration_before_start: step 3000/5000
+exploration_before_start: step 4000/5000
+env_pool: 5250, model_pool: 0
+model_epoch: 0, losses_avg: 0.215404, losses_std: 0.017383
+model_epoch: 100, losses_avg: 0.027223, losses_std: 0.001523
+model_epoch: 199, losses_avg: 0.022371, losses_std: 0.001645
+KL result after step in pred_env [[6.102108  ]
+ [2.3476763 ]
+ [2.2105913 ]
+ ...
+ [2.2738612 ]
+ [0.26548168]
+ [1.5227848 ]]

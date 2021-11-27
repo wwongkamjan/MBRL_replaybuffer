@@ -1,305 +1,906 @@
-2021-11-24 02:27:34,406 - exp name: KL_model_pool
-2021-11-24 02:28:27,918 - env_pool: 5250, model_pool: 0
-2021-11-24 02:28:28,240 - model_epoch: 0, losses_avg: 0.234570, losses_std: 0.016263
-2021-11-24 02:28:49,192 - model_epoch: 100, losses_avg: 0.025135, losses_std: 0.001582
-2021-11-24 02:29:10,263 - model_epoch: 200, losses_avg: 0.020335, losses_std: 0.001451
-2021-11-24 02:29:31,289 - model_epoch: 300, losses_avg: 0.018175, losses_std: 0.001072
-2021-11-24 02:29:36,111 - model_epoch: 323, losses_avg: 0.017539, losses_std: 0.000904
-2021-11-24 04:35:25,959 - exp name: KL_model_pool
-2021-11-24 04:36:03,615 - exp name: KL_model_pool
-2021-11-24 04:36:33,604 - env_pool: 5001, model_pool: 0
-2021-11-24 04:36:33,971 - env_pool: 5002, model_pool: 0
-2021-11-24 04:36:33,976 - env_pool: 5003, model_pool: 0
-2021-11-24 04:36:33,980 - env_pool: 5004, model_pool: 0
-2021-11-24 04:36:33,985 - env_pool: 5005, model_pool: 0
-2021-11-24 04:36:34,338 - env_pool: 5006, model_pool: 0
-2021-11-24 04:36:34,343 - env_pool: 5007, model_pool: 0
-2021-11-24 04:36:34,348 - env_pool: 5008, model_pool: 0
-2021-11-24 04:36:34,352 - env_pool: 5009, model_pool: 0
-2021-11-24 04:36:34,707 - env_pool: 5010, model_pool: 0
-2021-11-24 04:36:34,711 - env_pool: 5011, model_pool: 0
-2021-11-24 04:36:34,716 - env_pool: 5012, model_pool: 0
-2021-11-24 04:36:34,721 - env_pool: 5013, model_pool: 0
-2021-11-24 04:36:35,075 - env_pool: 5014, model_pool: 0
-2021-11-24 04:36:35,079 - env_pool: 5015, model_pool: 0
-2021-11-24 04:36:35,084 - env_pool: 5016, model_pool: 0
-2021-11-24 04:36:35,089 - env_pool: 5017, model_pool: 0
-2021-11-24 04:36:35,442 - env_pool: 5018, model_pool: 0
-2021-11-24 04:36:35,446 - env_pool: 5019, model_pool: 0
-2021-11-24 04:36:35,451 - env_pool: 5020, model_pool: 0
-2021-11-24 04:36:35,456 - env_pool: 5021, model_pool: 0
-2021-11-24 04:36:35,809 - env_pool: 5022, model_pool: 0
-2021-11-24 04:36:35,813 - env_pool: 5023, model_pool: 0
-2021-11-24 04:36:35,818 - env_pool: 5024, model_pool: 0
-2021-11-24 04:36:35,823 - env_pool: 5025, model_pool: 0
-2021-11-24 04:36:36,176 - env_pool: 5026, model_pool: 0
-2021-11-24 04:36:36,181 - env_pool: 5027, model_pool: 0
-2021-11-24 04:36:36,185 - env_pool: 5028, model_pool: 0
-2021-11-24 04:36:36,190 - env_pool: 5029, model_pool: 0
-2021-11-24 04:36:36,542 - env_pool: 5030, model_pool: 0
-2021-11-24 04:36:36,547 - env_pool: 5031, model_pool: 0
-2021-11-24 04:36:36,552 - env_pool: 5032, model_pool: 0
-2021-11-24 04:36:36,556 - env_pool: 5033, model_pool: 0
-2021-11-24 04:36:36,910 - env_pool: 5034, model_pool: 0
-2021-11-24 04:36:36,914 - env_pool: 5035, model_pool: 0
-2021-11-24 04:36:36,919 - env_pool: 5036, model_pool: 0
-2021-11-24 04:36:36,924 - env_pool: 5037, model_pool: 0
-2021-11-24 04:36:37,279 - env_pool: 5038, model_pool: 0
-2021-11-24 04:36:37,284 - env_pool: 5039, model_pool: 0
-2021-11-24 04:36:37,288 - env_pool: 5040, model_pool: 0
-2021-11-24 04:36:37,293 - env_pool: 5041, model_pool: 0
-2021-11-24 04:36:37,647 - env_pool: 5042, model_pool: 0
-2021-11-24 04:36:37,651 - env_pool: 5043, model_pool: 0
-2021-11-24 04:36:37,656 - env_pool: 5044, model_pool: 0
-2021-11-24 04:36:37,660 - env_pool: 5045, model_pool: 0
-2021-11-24 04:36:38,014 - env_pool: 5046, model_pool: 0
-2021-11-24 04:36:38,018 - env_pool: 5047, model_pool: 0
-2021-11-24 04:36:38,023 - env_pool: 5048, model_pool: 0
-2021-11-24 04:36:38,028 - env_pool: 5049, model_pool: 0
-2021-11-24 04:36:38,381 - env_pool: 5050, model_pool: 0
-2021-11-24 04:36:38,386 - env_pool: 5051, model_pool: 0
-2021-11-24 04:36:38,390 - env_pool: 5052, model_pool: 0
-2021-11-24 04:36:38,395 - env_pool: 5053, model_pool: 0
-2021-11-24 04:36:38,749 - env_pool: 5054, model_pool: 0
-2021-11-24 04:36:38,754 - env_pool: 5055, model_pool: 0
-2021-11-24 04:36:38,758 - env_pool: 5056, model_pool: 0
-2021-11-24 04:36:38,763 - env_pool: 5057, model_pool: 0
-2021-11-24 04:36:39,117 - env_pool: 5058, model_pool: 0
-2021-11-24 04:36:39,121 - env_pool: 5059, model_pool: 0
-2021-11-24 04:36:39,126 - env_pool: 5060, model_pool: 0
-2021-11-24 04:36:39,131 - env_pool: 5061, model_pool: 0
-2021-11-24 04:36:39,484 - env_pool: 5062, model_pool: 0
-2021-11-24 04:36:39,488 - env_pool: 5063, model_pool: 0
-2021-11-24 04:36:39,493 - env_pool: 5064, model_pool: 0
-2021-11-24 04:36:39,498 - env_pool: 5065, model_pool: 0
-2021-11-24 04:36:39,851 - env_pool: 5066, model_pool: 0
-2021-11-24 04:36:39,855 - env_pool: 5067, model_pool: 0
-2021-11-24 04:36:39,860 - env_pool: 5068, model_pool: 0
-2021-11-24 04:36:39,865 - env_pool: 5069, model_pool: 0
-2021-11-24 04:36:40,218 - env_pool: 5070, model_pool: 0
-2021-11-24 04:36:40,224 - env_pool: 5071, model_pool: 0
-2021-11-24 04:36:40,228 - env_pool: 5072, model_pool: 0
-2021-11-24 04:36:40,233 - env_pool: 5073, model_pool: 0
-2021-11-24 04:36:40,586 - env_pool: 5074, model_pool: 0
-2021-11-24 04:36:40,590 - env_pool: 5075, model_pool: 0
-2021-11-24 04:36:40,595 - env_pool: 5076, model_pool: 0
-2021-11-24 04:36:40,600 - env_pool: 5077, model_pool: 0
-2021-11-24 04:36:40,955 - env_pool: 5078, model_pool: 0
-2021-11-24 04:36:40,960 - env_pool: 5079, model_pool: 0
-2021-11-24 04:36:40,965 - env_pool: 5080, model_pool: 0
-2021-11-24 04:36:40,969 - env_pool: 5081, model_pool: 0
-2021-11-24 04:36:41,323 - env_pool: 5082, model_pool: 0
-2021-11-24 04:36:41,327 - env_pool: 5083, model_pool: 0
-2021-11-24 04:36:41,332 - env_pool: 5084, model_pool: 0
-2021-11-24 04:36:41,337 - env_pool: 5085, model_pool: 0
-2021-11-24 04:36:41,690 - env_pool: 5086, model_pool: 0
-2021-11-24 04:36:41,695 - env_pool: 5087, model_pool: 0
-2021-11-24 04:36:41,700 - env_pool: 5088, model_pool: 0
-2021-11-24 04:36:41,706 - env_pool: 5089, model_pool: 0
-2021-11-24 04:36:42,090 - env_pool: 5090, model_pool: 0
-2021-11-24 04:36:42,096 - env_pool: 5091, model_pool: 0
-2021-11-24 04:36:42,101 - env_pool: 5092, model_pool: 0
-2021-11-24 04:36:42,106 - env_pool: 5093, model_pool: 0
-2021-11-24 04:36:42,490 - env_pool: 5094, model_pool: 0
-2021-11-24 04:36:42,495 - env_pool: 5095, model_pool: 0
-2021-11-24 04:36:42,500 - env_pool: 5096, model_pool: 0
-2021-11-24 04:36:42,505 - env_pool: 5097, model_pool: 0
-2021-11-24 04:36:42,870 - env_pool: 5098, model_pool: 0
-2021-11-24 04:36:42,874 - env_pool: 5099, model_pool: 0
-2021-11-24 04:36:42,879 - env_pool: 5100, model_pool: 0
-2021-11-24 04:36:42,884 - env_pool: 5101, model_pool: 0
-2021-11-24 04:36:43,237 - env_pool: 5102, model_pool: 0
-2021-11-24 04:36:43,242 - env_pool: 5103, model_pool: 0
-2021-11-24 04:36:43,246 - env_pool: 5104, model_pool: 0
-2021-11-24 04:36:43,251 - env_pool: 5105, model_pool: 0
-2021-11-24 04:36:43,605 - env_pool: 5106, model_pool: 0
-2021-11-24 04:36:43,610 - env_pool: 5107, model_pool: 0
-2021-11-24 04:36:43,615 - env_pool: 5108, model_pool: 0
-2021-11-24 04:36:43,619 - env_pool: 5109, model_pool: 0
-2021-11-24 04:36:43,974 - env_pool: 5110, model_pool: 0
-2021-11-24 04:36:43,979 - env_pool: 5111, model_pool: 0
-2021-11-24 04:36:43,983 - env_pool: 5112, model_pool: 0
-2021-11-24 04:36:43,988 - env_pool: 5113, model_pool: 0
-2021-11-24 04:36:44,341 - env_pool: 5114, model_pool: 0
-2021-11-24 04:36:44,346 - env_pool: 5115, model_pool: 0
-2021-11-24 04:36:44,350 - env_pool: 5116, model_pool: 0
-2021-11-24 04:36:44,355 - env_pool: 5117, model_pool: 0
-2021-11-24 04:36:44,708 - env_pool: 5118, model_pool: 0
-2021-11-24 04:36:44,713 - env_pool: 5119, model_pool: 0
-2021-11-24 04:36:44,718 - env_pool: 5120, model_pool: 0
-2021-11-24 04:36:44,722 - env_pool: 5121, model_pool: 0
-2021-11-24 04:36:45,075 - env_pool: 5122, model_pool: 0
-2021-11-24 04:36:45,080 - env_pool: 5123, model_pool: 0
-2021-11-24 04:36:45,085 - env_pool: 5124, model_pool: 0
-2021-11-24 04:36:45,089 - env_pool: 5125, model_pool: 0
-2021-11-24 04:36:45,445 - env_pool: 5126, model_pool: 0
-2021-11-24 04:36:45,449 - env_pool: 5127, model_pool: 0
-2021-11-24 04:36:45,454 - env_pool: 5128, model_pool: 0
-2021-11-24 04:36:45,459 - env_pool: 5129, model_pool: 0
-2021-11-24 04:36:45,812 - env_pool: 5130, model_pool: 0
-2021-11-24 04:36:45,817 - env_pool: 5131, model_pool: 0
-2021-11-24 04:36:45,821 - env_pool: 5132, model_pool: 0
-2021-11-24 04:36:45,826 - env_pool: 5133, model_pool: 0
-2021-11-24 04:36:46,180 - env_pool: 5134, model_pool: 0
-2021-11-24 04:36:46,184 - env_pool: 5135, model_pool: 0
-2021-11-24 04:36:46,190 - env_pool: 5136, model_pool: 0
-2021-11-24 04:36:46,194 - env_pool: 5137, model_pool: 0
-2021-11-24 04:36:46,548 - env_pool: 5138, model_pool: 0
-2021-11-24 04:36:46,553 - env_pool: 5139, model_pool: 0
-2021-11-24 04:36:46,557 - env_pool: 5140, model_pool: 0
-2021-11-24 04:36:46,562 - env_pool: 5141, model_pool: 0
-2021-11-24 04:36:46,916 - env_pool: 5142, model_pool: 0
-2021-11-24 04:36:46,921 - env_pool: 5143, model_pool: 0
-2021-11-24 04:36:46,925 - env_pool: 5144, model_pool: 0
-2021-11-24 04:36:46,930 - env_pool: 5145, model_pool: 0
-2021-11-24 04:36:47,283 - env_pool: 5146, model_pool: 0
-2021-11-24 04:36:47,287 - env_pool: 5147, model_pool: 0
-2021-11-24 04:36:47,292 - env_pool: 5148, model_pool: 0
-2021-11-24 04:36:47,297 - env_pool: 5149, model_pool: 0
-2021-11-24 04:36:47,650 - env_pool: 5150, model_pool: 0
-2021-11-24 04:36:47,654 - env_pool: 5151, model_pool: 0
-2021-11-24 04:36:47,659 - env_pool: 5152, model_pool: 0
-2021-11-24 04:36:47,664 - env_pool: 5153, model_pool: 0
-2021-11-24 04:36:48,017 - env_pool: 5154, model_pool: 0
-2021-11-24 04:36:48,022 - env_pool: 5155, model_pool: 0
-2021-11-24 04:36:48,026 - env_pool: 5156, model_pool: 0
-2021-11-24 04:36:48,031 - env_pool: 5157, model_pool: 0
-2021-11-24 04:36:48,384 - env_pool: 5158, model_pool: 0
-2021-11-24 04:36:48,389 - env_pool: 5159, model_pool: 0
-2021-11-24 04:36:48,394 - env_pool: 5160, model_pool: 0
-2021-11-24 04:36:48,398 - env_pool: 5161, model_pool: 0
-2021-11-24 04:36:48,751 - env_pool: 5162, model_pool: 0
-2021-11-24 04:36:48,756 - env_pool: 5163, model_pool: 0
-2021-11-24 04:36:48,760 - env_pool: 5164, model_pool: 0
-2021-11-24 04:36:48,765 - env_pool: 5165, model_pool: 0
-2021-11-24 04:36:49,118 - env_pool: 5166, model_pool: 0
-2021-11-24 04:36:49,123 - env_pool: 5167, model_pool: 0
-2021-11-24 04:36:49,128 - env_pool: 5168, model_pool: 0
-2021-11-24 04:36:49,133 - env_pool: 5169, model_pool: 0
-2021-11-24 04:36:49,486 - env_pool: 5170, model_pool: 0
-2021-11-24 04:36:49,491 - env_pool: 5171, model_pool: 0
-2021-11-24 04:36:49,496 - env_pool: 5172, model_pool: 0
-2021-11-24 04:36:49,500 - env_pool: 5173, model_pool: 0
-2021-11-24 04:36:49,854 - env_pool: 5174, model_pool: 0
-2021-11-24 04:36:49,859 - env_pool: 5175, model_pool: 0
-2021-11-24 04:36:49,863 - env_pool: 5176, model_pool: 0
-2021-11-24 04:36:49,868 - env_pool: 5177, model_pool: 0
-2021-11-24 04:36:50,223 - env_pool: 5178, model_pool: 0
-2021-11-24 04:36:50,227 - env_pool: 5179, model_pool: 0
-2021-11-24 04:36:50,232 - env_pool: 5180, model_pool: 0
-2021-11-24 04:36:50,237 - env_pool: 5181, model_pool: 0
-2021-11-24 04:36:50,591 - env_pool: 5182, model_pool: 0
-2021-11-24 04:36:50,596 - env_pool: 5183, model_pool: 0
-2021-11-24 04:36:50,600 - env_pool: 5184, model_pool: 0
-2021-11-24 04:36:50,605 - env_pool: 5185, model_pool: 0
-2021-11-24 04:36:50,967 - env_pool: 5186, model_pool: 0
-2021-11-24 04:36:50,972 - env_pool: 5187, model_pool: 0
-2021-11-24 04:36:50,976 - env_pool: 5188, model_pool: 0
-2021-11-24 04:36:50,981 - env_pool: 5189, model_pool: 0
-2021-11-24 04:36:51,345 - env_pool: 5190, model_pool: 0
-2021-11-24 04:36:51,349 - env_pool: 5191, model_pool: 0
-2021-11-24 04:36:51,354 - env_pool: 5192, model_pool: 0
-2021-11-24 04:36:51,359 - env_pool: 5193, model_pool: 0
-2021-11-24 04:36:51,712 - env_pool: 5194, model_pool: 0
-2021-11-24 04:36:51,717 - env_pool: 5195, model_pool: 0
-2021-11-24 04:36:51,721 - env_pool: 5196, model_pool: 0
-2021-11-24 04:36:51,726 - env_pool: 5197, model_pool: 0
-2021-11-24 04:36:52,079 - env_pool: 5198, model_pool: 0
-2021-11-24 04:36:52,084 - env_pool: 5199, model_pool: 0
-2021-11-24 04:36:52,089 - env_pool: 5200, model_pool: 0
-2021-11-24 04:36:52,094 - env_pool: 5201, model_pool: 0
-2021-11-24 04:36:52,447 - env_pool: 5202, model_pool: 0
-2021-11-24 04:36:52,451 - env_pool: 5203, model_pool: 0
-2021-11-24 04:36:52,456 - env_pool: 5204, model_pool: 0
-2021-11-24 04:36:52,461 - env_pool: 5205, model_pool: 0
-2021-11-24 04:36:52,814 - env_pool: 5206, model_pool: 0
-2021-11-24 04:36:52,818 - env_pool: 5207, model_pool: 0
-2021-11-24 04:36:52,823 - env_pool: 5208, model_pool: 0
-2021-11-24 04:36:52,828 - env_pool: 5209, model_pool: 0
-2021-11-24 04:36:53,182 - env_pool: 5210, model_pool: 0
-2021-11-24 04:36:53,186 - env_pool: 5211, model_pool: 0
-2021-11-24 04:36:53,191 - env_pool: 5212, model_pool: 0
-2021-11-24 04:36:53,196 - env_pool: 5213, model_pool: 0
-2021-11-24 04:36:53,548 - env_pool: 5214, model_pool: 0
-2021-11-24 04:36:53,553 - env_pool: 5215, model_pool: 0
-2021-11-24 04:36:53,558 - env_pool: 5216, model_pool: 0
-2021-11-24 04:36:53,562 - env_pool: 5217, model_pool: 0
-2021-11-24 04:36:53,916 - env_pool: 5218, model_pool: 0
-2021-11-24 04:36:53,920 - env_pool: 5219, model_pool: 0
-2021-11-24 04:36:53,925 - env_pool: 5220, model_pool: 0
-2021-11-24 04:36:53,930 - env_pool: 5221, model_pool: 0
-2021-11-24 04:36:54,283 - env_pool: 5222, model_pool: 0
-2021-11-24 04:36:54,287 - env_pool: 5223, model_pool: 0
-2021-11-24 04:36:54,292 - env_pool: 5224, model_pool: 0
-2021-11-24 04:36:54,297 - env_pool: 5225, model_pool: 0
-2021-11-24 04:36:54,650 - env_pool: 5226, model_pool: 0
-2021-11-24 04:36:54,655 - env_pool: 5227, model_pool: 0
-2021-11-24 04:36:54,659 - env_pool: 5228, model_pool: 0
-2021-11-24 04:36:54,664 - env_pool: 5229, model_pool: 0
-2021-11-24 04:36:55,017 - env_pool: 5230, model_pool: 0
-2021-11-24 04:36:55,022 - env_pool: 5231, model_pool: 0
-2021-11-24 04:36:55,027 - env_pool: 5232, model_pool: 0
-2021-11-24 04:36:55,031 - env_pool: 5233, model_pool: 0
-2021-11-24 04:36:55,385 - env_pool: 5234, model_pool: 0
-2021-11-24 04:36:55,390 - env_pool: 5235, model_pool: 0
-2021-11-24 04:36:55,394 - env_pool: 5236, model_pool: 0
-2021-11-24 04:36:55,399 - env_pool: 5237, model_pool: 0
-2021-11-24 04:36:55,754 - env_pool: 5238, model_pool: 0
-2021-11-24 04:36:55,759 - env_pool: 5239, model_pool: 0
-2021-11-24 04:36:55,763 - env_pool: 5240, model_pool: 0
-2021-11-24 04:36:55,768 - env_pool: 5241, model_pool: 0
-2021-11-24 04:36:56,121 - env_pool: 5242, model_pool: 0
-2021-11-24 04:36:56,126 - env_pool: 5243, model_pool: 0
-2021-11-24 04:36:56,131 - env_pool: 5244, model_pool: 0
-2021-11-24 04:36:56,135 - env_pool: 5245, model_pool: 0
-2021-11-24 04:36:56,489 - env_pool: 5246, model_pool: 0
-2021-11-24 04:36:56,494 - env_pool: 5247, model_pool: 0
-2021-11-24 04:36:56,498 - env_pool: 5248, model_pool: 0
-2021-11-24 04:36:56,503 - env_pool: 5249, model_pool: 0
-2021-11-24 04:36:56,857 - env_pool: 5250, model_pool: 0
-2021-11-24 04:36:56,857 - env_pool: 5250, model_pool: 0
-2021-11-24 04:36:57,168 - model_epoch: 0, losses_avg: 0.215591, losses_std: 0.016107
-2021-11-24 04:37:18,204 - model_epoch: 100, losses_avg: 0.024126, losses_std: 0.001662
-2021-11-24 04:37:39,189 - model_epoch: 200, losses_avg: 0.020482, losses_std: 0.001559
-2021-11-24 04:37:39,398 - model_epoch: 201, losses_avg: 0.020622, losses_std: 0.001382
-2021-11-24 04:40:09,167 - exp name: KL_model_pool
-2021-11-24 04:41:02,055 - env_pool: 5250, model_pool: 0
-2021-11-24 04:41:02,364 - model_epoch: 0, losses_avg: 0.249987, losses_std: 0.019645
-2021-11-24 04:41:23,484 - model_epoch: 100, losses_avg: 0.024532, losses_std: 0.001320
-2021-11-24 04:41:44,506 - model_epoch: 200, losses_avg: 0.020452, losses_std: 0.000810
-2021-11-24 04:41:55,445 - model_epoch: 252, losses_avg: 0.019261, losses_std: 0.000980
-2021-11-24 04:41:57,861 - finish rollout - env_pool: 5250, model_pool: 100000
-2021-11-24 04:59:26,544 - exp name: KL_model_pool
-2021-11-24 05:00:19,422 - env_pool: 5250, model_pool: 0
-2021-11-24 05:00:19,747 - model_epoch: 0, losses_avg: 0.224928, losses_std: 0.018400
-2021-11-24 05:00:40,847 - model_epoch: 100, losses_avg: 0.024579, losses_std: 0.001734
-2021-11-24 05:01:01,975 - model_epoch: 200, losses_avg: 0.019630, losses_std: 0.001766
-2021-11-24 05:01:23,104 - model_epoch: 300, losses_avg: 0.017009, losses_std: 0.001473
-2021-11-24 05:01:23,526 - model_epoch: 302, losses_avg: 0.016996, losses_std: 0.001411
-2021-11-24 05:01:26,101 - finish rollout - env_pool: 5250, model_pool: 100000
-2021-11-24 05:03:09,942 - exp name: KL_model_pool
-2021-11-24 05:04:02,872 - env_pool: 5250, model_pool: 0
-2021-11-24 05:04:03,185 - model_epoch: 0, losses_avg: 0.281316, losses_std: 0.034180
-2021-11-24 05:04:24,372 - model_epoch: 100, losses_avg: 0.032235, losses_std: 0.001381
-2021-11-24 05:04:34,485 - model_epoch: 148, losses_avg: 0.030957, losses_std: 0.001086
-2021-11-24 05:04:37,060 - finish rollout - env_pool: 5250, model_pool: 100000
-2021-11-24 05:09:51,685 - exp name: KL_model_pool
-2021-11-24 05:10:45,029 - env_pool: 5250, model_pool: 0
-2021-11-24 05:10:45,339 - model_epoch: 0, losses_avg: 0.243856, losses_std: 0.025002
-2021-11-24 05:11:06,420 - model_epoch: 100, losses_avg: 0.024027, losses_std: 0.001288
-2021-11-24 05:11:27,464 - model_epoch: 200, losses_avg: 0.018915, losses_std: 0.000923
-2021-11-24 05:11:33,346 - model_epoch: 228, losses_avg: 0.018078, losses_std: 0.000986
-2021-11-24 05:11:35,918 - finish rollout - env_pool: 5250, model_pool: 100000
-2021-11-24 05:15:06,518 - exp name: KL_model_pool
-2021-11-24 05:15:59,225 - env_pool: 5250, model_pool: 0
-2021-11-24 05:15:59,537 - model_epoch: 0, losses_avg: 0.235084, losses_std: 0.014717
-2021-11-24 05:16:20,620 - model_epoch: 100, losses_avg: 0.028882, losses_std: 0.001909
-2021-11-24 05:16:41,724 - model_epoch: 200, losses_avg: 0.023292, losses_std: 0.001943
-2021-11-24 05:16:54,394 - model_epoch: 260, losses_avg: 0.021717, losses_std: 0.001493
-2021-11-24 05:16:56,989 - finish rollout - env_pool: 5250, model_pool: 100000
-2021-11-24 05:18:42,871 - exp name: KL_model_pool
-2021-11-24 05:19:35,558 - env_pool: 5250, model_pool: 0
-2021-11-24 05:19:35,869 - model_epoch: 0, losses_avg: 0.202071, losses_std: 0.011733
-2021-11-24 05:19:56,993 - model_epoch: 100, losses_avg: 0.023780, losses_std: 0.001734
-2021-11-24 05:20:12,278 - model_epoch: 173, losses_avg: 0.020276, losses_std: 0.001666
-2021-11-24 05:20:14,865 - finish rollout - env_pool: 5250, model_pool: 100000
+2021-11-25 19:26:07,641 - exp name: KL_model_pool
+2021-11-25 19:28:24,326 - finish rollout - env_pool: 5250, model_pool: 100000
+2021-11-25 19:29:39,998 - finish rollout - env_pool: 5500, model_pool: 200000
+2021-11-25 19:31:33,329 - finish rollout - env_pool: 5750, model_pool: 300000
+2021-11-25 19:32:10,408 - total_step: 1000, sum_reward: 201.17800265352798
+2021-11-25 19:35:31,561 - finish rollout - env_pool: 6250, model_pool: 400000
+2021-11-25 19:37:01,887 - finish rollout - env_pool: 6500, model_pool: 400000
+2021-11-25 19:37:52,090 - finish rollout - env_pool: 6750, model_pool: 400000
+2021-11-25 19:38:28,930 - total_step: 2000, sum_reward: 244.03409409075078
+2021-11-25 19:38:38,027 - finish rollout - env_pool: 7000, model_pool: 400000
+2021-11-25 19:39:35,485 - finish rollout - env_pool: 7250, model_pool: 400000
+2021-11-25 19:40:27,656 - finish rollout - env_pool: 7500, model_pool: 400000
+2021-11-25 19:41:19,560 - finish rollout - env_pool: 7750, model_pool: 400000
+2021-11-25 19:41:56,451 - total_step: 3000, sum_reward: 314.3995622865259
+2021-11-25 19:44:32,010 - finish rollout - env_pool: 8250, model_pool: 400000
+2021-11-25 19:47:06,090 - finish rollout - env_pool: 8500, model_pool: 400000
+2021-11-25 19:49:43,187 - finish rollout - env_pool: 8750, model_pool: 400000
+2021-11-25 19:52:08,293 - total_step: 4000, sum_reward: 246.47285524260886
+2021-11-25 19:52:20,365 - finish rollout - env_pool: 9000, model_pool: 400000
+2021-11-25 19:53:08,506 - finish rollout - env_pool: 9250, model_pool: 400000
+2021-11-25 19:53:53,183 - finish rollout - env_pool: 9500, model_pool: 400000
+2021-11-25 19:54:43,211 - finish rollout - env_pool: 9750, model_pool: 400000
+2021-11-25 19:55:20,539 - total_step: 5000, sum_reward: 268.4735700412174
+2021-11-25 19:55:28,581 - finish rollout - env_pool: 10000, model_pool: 400000
+2021-11-25 19:56:16,947 - finish rollout - env_pool: 10250, model_pool: 400000
+2021-11-25 19:57:01,685 - finish rollout - env_pool: 10500, model_pool: 400000
+2021-11-25 19:57:49,568 - finish rollout - env_pool: 10750, model_pool: 400000
+2021-11-25 19:58:26,970 - total_step: 6000, sum_reward: 249.6469504110088
+2021-11-25 19:58:39,034 - finish rollout - env_pool: 11000, model_pool: 400000
+2021-11-25 19:59:28,068 - finish rollout - env_pool: 11250, model_pool: 400000
+2021-11-25 20:00:11,571 - finish rollout - env_pool: 11500, model_pool: 400000
+2021-11-25 20:00:59,300 - finish rollout - env_pool: 11750, model_pool: 400000
+2021-11-25 20:01:36,172 - total_step: 7000, sum_reward: 304.1321624655696
+2021-11-25 20:04:06,557 - finish rollout - env_pool: 12250, model_pool: 400000
+2021-11-25 20:06:34,224 - finish rollout - env_pool: 12500, model_pool: 400000
+2021-11-25 20:09:14,089 - finish rollout - env_pool: 12750, model_pool: 400000
+2021-11-25 20:11:39,974 - total_step: 8000, sum_reward: 285.97111729289907
+2021-11-25 20:11:52,677 - finish rollout - env_pool: 13000, model_pool: 400000
+2021-11-25 20:14:24,926 - finish rollout - env_pool: 13250, model_pool: 400000
+2021-11-25 20:17:03,164 - finish rollout - env_pool: 13500, model_pool: 400000
+2021-11-25 20:19:38,923 - finish rollout - env_pool: 13750, model_pool: 400000
+2021-11-25 20:22:00,946 - total_step: 9000, sum_reward: 169.11759322413988
+2021-11-25 20:22:22,337 - finish rollout - env_pool: 14000, model_pool: 400000
+2021-11-25 20:25:01,816 - finish rollout - env_pool: 14250, model_pool: 400000
+2021-11-25 20:26:22,534 - finish rollout - env_pool: 14500, model_pool: 400000
+2021-11-25 20:27:10,335 - finish rollout - env_pool: 14750, model_pool: 400000
+2021-11-25 20:27:49,100 - total_step: 10000, sum_reward: 298.39595562876906
+2021-11-25 20:28:00,291 - finish rollout - env_pool: 15000, model_pool: 400000
+2021-11-25 20:28:53,033 - finish rollout - env_pool: 15250, model_pool: 400000
+2021-11-25 20:29:47,047 - finish rollout - env_pool: 15500, model_pool: 400000
+2021-11-25 20:30:42,797 - finish rollout - env_pool: 15750, model_pool: 400000
+2021-11-25 20:31:20,818 - total_step: 11000, sum_reward: 194.23260890091709
+2021-11-25 20:31:49,066 - finish rollout - env_pool: 16000, model_pool: 400000
+2021-11-25 20:32:40,056 - finish rollout - env_pool: 16250, model_pool: 400000
+2021-11-25 20:33:33,527 - finish rollout - env_pool: 16500, model_pool: 400000
+2021-11-25 20:34:25,577 - finish rollout - env_pool: 16750, model_pool: 400000
+2021-11-25 20:35:03,644 - total_step: 12000, sum_reward: 269.47321644925375
+2021-11-25 20:35:19,888 - finish rollout - env_pool: 17000, model_pool: 400000
+2021-11-25 20:36:16,041 - finish rollout - env_pool: 17250, model_pool: 400000
+2021-11-25 20:37:09,133 - finish rollout - env_pool: 17500, model_pool: 400000
+2021-11-25 20:37:58,842 - finish rollout - env_pool: 17750, model_pool: 400000
+2021-11-25 20:38:35,132 - total_step: 13000, sum_reward: 299.49220557779637
+2021-11-25 20:38:47,624 - finish rollout - env_pool: 18000, model_pool: 400000
+2021-11-25 20:39:39,380 - finish rollout - env_pool: 18250, model_pool: 400000
+2021-11-25 20:40:28,369 - finish rollout - env_pool: 18500, model_pool: 400000
+2021-11-25 20:41:19,306 - finish rollout - env_pool: 18750, model_pool: 400000
+2021-11-25 20:41:56,040 - total_step: 14000, sum_reward: 275.6622703801082
+2021-11-25 20:42:10,879 - finish rollout - env_pool: 19000, model_pool: 400000
+2021-11-25 20:43:00,181 - finish rollout - env_pool: 19250, model_pool: 400000
+2021-11-25 20:43:48,998 - finish rollout - env_pool: 19500, model_pool: 400000
+2021-11-25 20:44:37,296 - finish rollout - env_pool: 19750, model_pool: 400000
+2021-11-25 20:45:15,367 - total_step: 15000, sum_reward: 1238.757246815262
+2021-11-25 20:48:16,850 - finish rollout - env_pool: 20250, model_pool: 400000
+2021-11-25 20:51:03,207 - finish rollout - env_pool: 20500, model_pool: 400000
+2021-11-25 20:53:40,616 - finish rollout - env_pool: 20750, model_pool: 400000
+2021-11-25 20:56:02,931 - total_step: 16000, sum_reward: 315.32053443027803
+2021-11-25 20:56:17,105 - finish rollout - env_pool: 21000, model_pool: 400000
+2021-11-25 20:58:56,162 - finish rollout - env_pool: 21250, model_pool: 400000
+2021-11-25 21:01:33,211 - finish rollout - env_pool: 21500, model_pool: 400000
+2021-11-25 21:04:08,306 - finish rollout - env_pool: 21750, model_pool: 400000
+2021-11-25 21:06:33,186 - total_step: 17000, sum_reward: 478.676008574947
+2021-11-25 21:06:50,005 - finish rollout - env_pool: 22000, model_pool: 400000
+2021-11-25 21:09:38,171 - finish rollout - env_pool: 22250, model_pool: 400000
+2021-11-25 21:12:21,522 - finish rollout - env_pool: 22500, model_pool: 400000
+2021-11-25 21:15:14,419 - finish rollout - env_pool: 22750, model_pool: 400000
+2021-11-25 21:17:34,860 - total_step: 18000, sum_reward: 641.5365510645207
+2021-11-25 21:18:22,313 - finish rollout - env_pool: 23000, model_pool: 400000
+2021-11-25 21:20:59,119 - finish rollout - env_pool: 23250, model_pool: 400000
+2021-11-25 21:23:52,414 - finish rollout - env_pool: 23500, model_pool: 400000
+2021-11-25 21:26:43,611 - finish rollout - env_pool: 23750, model_pool: 400000
+2021-11-25 21:29:06,196 - total_step: 19000, sum_reward: 899.9306510715427
+2021-11-25 21:29:27,155 - finish rollout - env_pool: 24000, model_pool: 400000
+2021-11-25 21:32:12,949 - finish rollout - env_pool: 24250, model_pool: 400000
+2021-11-25 21:35:08,462 - finish rollout - env_pool: 24500, model_pool: 400000
+2021-11-25 21:37:49,836 - finish rollout - env_pool: 24750, model_pool: 400000
+2021-11-25 21:40:09,549 - total_step: 20000, sum_reward: 749.118755125529
+2021-11-25 21:40:29,070 - finish rollout - env_pool: 25000, model_pool: 400000
+2021-11-25 21:41:29,013 - finish rollout - env_pool: 25250, model_pool: 400000
+2021-11-25 21:42:41,136 - finish rollout - env_pool: 25500, model_pool: 400000
+2021-11-25 21:43:31,200 - finish rollout - env_pool: 25750, model_pool: 400000
+2021-11-25 21:44:09,102 - total_step: 21000, sum_reward: 584.8023062826697
+2021-11-25 21:44:49,102 - finish rollout - env_pool: 26000, model_pool: 400000
+2021-11-25 21:45:48,332 - finish rollout - env_pool: 26250, model_pool: 400000
+2021-11-25 21:46:51,743 - finish rollout - env_pool: 26500, model_pool: 400000
+2021-11-25 21:47:45,554 - finish rollout - env_pool: 26750, model_pool: 400000
+2021-11-25 21:48:24,048 - total_step: 22000, sum_reward: 973.7111192646108
+2021-11-25 21:48:45,195 - finish rollout - env_pool: 27000, model_pool: 400000
+2021-11-25 21:49:39,397 - finish rollout - env_pool: 27250, model_pool: 400000
+2021-11-25 21:50:36,876 - finish rollout - env_pool: 27500, model_pool: 400000
+2021-11-25 21:51:28,438 - finish rollout - env_pool: 27750, model_pool: 400000
+2021-11-25 21:52:07,231 - total_step: 23000, sum_reward: 1563.2629618934047
+2021-11-25 21:52:29,942 - finish rollout - env_pool: 28000, model_pool: 400000
+2021-11-25 21:53:28,239 - finish rollout - env_pool: 28250, model_pool: 400000
+2021-11-25 21:54:25,507 - finish rollout - env_pool: 28500, model_pool: 400000
+2021-11-25 21:55:24,207 - finish rollout - env_pool: 28750, model_pool: 400000
+2021-11-25 21:56:04,254 - total_step: 24000, sum_reward: 2391.9438716209206
+2021-11-25 21:56:48,192 - finish rollout - env_pool: 29000, model_pool: 400000
+2021-11-25 21:58:11,600 - finish rollout - env_pool: 29250, model_pool: 400000
+2021-11-25 21:59:10,239 - finish rollout - env_pool: 29500, model_pool: 400000
+2021-11-25 22:00:16,268 - finish rollout - env_pool: 29750, model_pool: 400000
+2021-11-25 22:00:56,588 - total_step: 25000, sum_reward: 2862.8606885872523
+2021-11-25 22:01:35,914 - finish rollout - env_pool: 30000, model_pool: 400000
+2021-11-25 22:02:54,123 - finish rollout - env_pool: 30250, model_pool: 400000
+2021-11-25 22:04:05,184 - finish rollout - env_pool: 30500, model_pool: 400000
+2021-11-25 22:05:17,229 - finish rollout - env_pool: 30750, model_pool: 400000
+2021-11-25 22:05:54,442 - total_step: 26000, sum_reward: 622.4979202187989
+2021-11-25 22:06:15,331 - finish rollout - env_pool: 31000, model_pool: 400000
+2021-11-25 22:07:18,277 - finish rollout - env_pool: 31250, model_pool: 400000
+2021-11-25 22:08:26,593 - finish rollout - env_pool: 31500, model_pool: 400000
+2021-11-25 22:09:25,837 - finish rollout - env_pool: 31750, model_pool: 400000
+2021-11-25 22:10:03,422 - total_step: 27000, sum_reward: 827.2723903530655
+2021-11-25 22:10:46,887 - finish rollout - env_pool: 32000, model_pool: 400000
+2021-11-25 22:11:57,315 - finish rollout - env_pool: 32250, model_pool: 400000
+2021-11-25 22:12:56,270 - finish rollout - env_pool: 32500, model_pool: 400000
+2021-11-25 22:14:08,222 - finish rollout - env_pool: 32750, model_pool: 400000
+2021-11-25 22:14:45,396 - total_step: 28000, sum_reward: 1194.234090252032
+2021-11-25 22:15:12,717 - finish rollout - env_pool: 33000, model_pool: 400000
+2021-11-25 22:16:14,453 - finish rollout - env_pool: 33250, model_pool: 400000
+2021-11-25 22:17:20,634 - finish rollout - env_pool: 33500, model_pool: 400000
+2021-11-25 22:18:27,173 - finish rollout - env_pool: 33750, model_pool: 400000
+2021-11-25 22:19:07,388 - total_step: 29000, sum_reward: 2577.7747032323723
+2021-11-25 22:19:28,342 - finish rollout - env_pool: 34000, model_pool: 400000
+2021-11-25 22:20:31,041 - finish rollout - env_pool: 34250, model_pool: 400000
+2021-11-25 22:21:40,968 - finish rollout - env_pool: 34500, model_pool: 400000
+2021-11-25 22:23:34,805 - finish rollout - env_pool: 34750, model_pool: 400000
+2021-11-25 22:24:16,795 - total_step: 30000, sum_reward: 2833.521465452953
+2021-11-25 22:24:43,195 - finish rollout - env_pool: 35000, model_pool: 400000
+2021-11-25 22:25:54,037 - finish rollout - env_pool: 35250, model_pool: 400000
+2021-11-25 22:27:04,389 - finish rollout - env_pool: 35500, model_pool: 400000
+2021-11-25 22:28:19,609 - finish rollout - env_pool: 35750, model_pool: 400000
+2021-11-25 22:29:00,072 - total_step: 31000, sum_reward: 2683.840547930997
+2021-11-25 22:32:56,216 - finish rollout - env_pool: 36250, model_pool: 400000
+2021-11-25 22:36:01,904 - finish rollout - env_pool: 36500, model_pool: 400000
+2021-11-25 22:38:46,547 - finish rollout - env_pool: 36750, model_pool: 400000
+2021-11-25 22:41:08,315 - total_step: 32000, sum_reward: 1437.8561470525221
+2021-11-25 22:41:45,201 - finish rollout - env_pool: 37000, model_pool: 400000
+2021-11-25 22:44:46,423 - finish rollout - env_pool: 37250, model_pool: 400000
+2021-11-25 22:47:42,179 - finish rollout - env_pool: 37500, model_pool: 400000
+2021-11-25 22:50:29,876 - finish rollout - env_pool: 37750, model_pool: 400000
+2021-11-25 22:52:53,399 - total_step: 33000, sum_reward: 920.2611002917731
+2021-11-25 22:54:15,491 - finish rollout - env_pool: 38000, model_pool: 400000
+2021-11-25 22:57:53,160 - finish rollout - env_pool: 38250, model_pool: 400000
+2021-11-25 23:01:05,204 - finish rollout - env_pool: 38500, model_pool: 400000
+2021-11-25 23:04:25,556 - finish rollout - env_pool: 38750, model_pool: 400000
+2021-11-25 23:06:52,091 - total_step: 34000, sum_reward: 3005.066795589313
+2021-11-25 23:07:29,758 - finish rollout - env_pool: 39000, model_pool: 400000
+2021-11-25 23:10:39,962 - finish rollout - env_pool: 39250, model_pool: 400000
+2021-11-25 23:13:48,344 - finish rollout - env_pool: 39500, model_pool: 400000
+2021-11-25 23:18:53,857 - finish rollout - env_pool: 39750, model_pool: 400000
+2021-11-25 23:21:18,799 - total_step: 35000, sum_reward: 3051.373968890371
+2021-11-25 23:22:24,499 - finish rollout - env_pool: 40000, model_pool: 400000
+2021-11-25 23:26:23,417 - finish rollout - env_pool: 40250, model_pool: 400000
+2021-11-25 23:29:31,422 - finish rollout - env_pool: 40500, model_pool: 400000
+2021-11-25 23:32:38,768 - finish rollout - env_pool: 40750, model_pool: 400000
+2021-11-25 23:34:59,162 - total_step: 36000, sum_reward: 755.7284731082419
+2021-11-25 23:36:15,054 - finish rollout - env_pool: 41000, model_pool: 400000
+2021-11-25 23:39:15,690 - finish rollout - env_pool: 41250, model_pool: 400000
+2021-11-25 23:42:43,777 - finish rollout - env_pool: 41500, model_pool: 400000
+2021-11-25 23:46:13,048 - finish rollout - env_pool: 41750, model_pool: 400000
+2021-11-25 23:48:35,800 - total_step: 37000, sum_reward: 1338.6681805773976
+2021-11-25 23:49:14,216 - finish rollout - env_pool: 42000, model_pool: 400000
+2021-11-25 23:52:07,297 - finish rollout - env_pool: 42250, model_pool: 400000
+2021-11-25 23:55:10,042 - finish rollout - env_pool: 42500, model_pool: 400000
+2021-11-25 23:58:13,367 - finish rollout - env_pool: 42750, model_pool: 400000
+2021-11-26 00:00:36,819 - total_step: 38000, sum_reward: 3092.028775690031
+2021-11-26 00:01:20,657 - finish rollout - env_pool: 43000, model_pool: 400000
+2021-11-26 00:04:05,335 - finish rollout - env_pool: 43250, model_pool: 400000
+2021-11-26 00:06:58,181 - finish rollout - env_pool: 43500, model_pool: 400000
+2021-11-26 00:10:11,215 - finish rollout - env_pool: 43750, model_pool: 400000
+2021-11-26 00:12:34,936 - total_step: 39000, sum_reward: 2965.3467291687343
+2021-11-26 00:13:22,082 - finish rollout - env_pool: 44000, model_pool: 400000
+2021-11-26 00:16:57,766 - finish rollout - env_pool: 44250, model_pool: 400000
+2021-11-26 00:20:11,389 - finish rollout - env_pool: 44500, model_pool: 400000
+2021-11-26 00:23:26,372 - finish rollout - env_pool: 44750, model_pool: 400000
+2021-11-26 00:25:50,030 - total_step: 40000, sum_reward: 887.2356217317289
+2021-11-26 00:26:52,767 - finish rollout - env_pool: 45000, model_pool: 400000
+2021-11-26 00:30:07,030 - finish rollout - env_pool: 45250, model_pool: 400000
+2021-11-26 00:33:15,137 - finish rollout - env_pool: 45500, model_pool: 400000
+2021-11-26 00:36:15,509 - finish rollout - env_pool: 45750, model_pool: 400000
+2021-11-26 00:38:41,329 - total_step: 41000, sum_reward: 2968.3847291133143
+2021-11-26 00:39:30,281 - finish rollout - env_pool: 46000, model_pool: 400000
+2021-11-26 00:42:16,969 - finish rollout - env_pool: 46250, model_pool: 400000
+2021-11-26 00:44:05,220 - finish rollout - env_pool: 46500, model_pool: 400000
+2021-11-26 00:46:06,174 - finish rollout - env_pool: 46750, model_pool: 400000
+2021-11-26 00:46:47,674 - total_step: 42000, sum_reward: 3096.5387078519893
+2021-11-26 00:47:28,599 - finish rollout - env_pool: 47000, model_pool: 400000
+2021-11-26 00:49:38,205 - finish rollout - env_pool: 47250, model_pool: 400000
+2021-11-26 00:50:54,877 - finish rollout - env_pool: 47500, model_pool: 400000
+2021-11-26 00:52:28,485 - finish rollout - env_pool: 47750, model_pool: 400000
+2021-11-26 00:53:09,054 - total_step: 43000, sum_reward: 3035.639062992489
+2021-11-26 00:53:52,063 - finish rollout - env_pool: 48000, model_pool: 400000
+2021-11-26 00:55:12,278 - finish rollout - env_pool: 48250, model_pool: 400000
+2021-11-26 00:56:20,500 - finish rollout - env_pool: 48500, model_pool: 400000
+2021-11-26 00:57:29,870 - finish rollout - env_pool: 48750, model_pool: 400000
+2021-11-26 00:58:12,652 - total_step: 44000, sum_reward: 2870.0760448082706
+2021-11-26 00:59:48,961 - finish rollout - env_pool: 49000, model_pool: 400000
+2021-11-26 01:00:57,798 - finish rollout - env_pool: 49250, model_pool: 400000
+2021-11-26 01:02:27,811 - finish rollout - env_pool: 49500, model_pool: 400000
+2021-11-26 01:03:53,766 - finish rollout - env_pool: 49750, model_pool: 400000
+2021-11-26 01:04:35,205 - total_step: 45000, sum_reward: 3069.320422118724
+2021-11-26 01:05:29,417 - finish rollout - env_pool: 50000, model_pool: 400000
+2021-11-26 01:06:47,445 - finish rollout - env_pool: 50250, model_pool: 400000
+2021-11-26 01:08:03,662 - finish rollout - env_pool: 50500, model_pool: 400000
+2021-11-26 01:09:18,616 - finish rollout - env_pool: 50750, model_pool: 400000
+2021-11-26 01:09:59,265 - total_step: 46000, sum_reward: 3103.679517260366
+2021-11-26 01:10:22,949 - finish rollout - env_pool: 51000, model_pool: 400000
+2021-11-26 01:11:45,185 - finish rollout - env_pool: 51250, model_pool: 400000
+2021-11-26 01:12:51,311 - finish rollout - env_pool: 51500, model_pool: 400000
+2021-11-26 01:14:12,140 - finish rollout - env_pool: 51750, model_pool: 400000
+2021-11-26 01:14:52,831 - total_step: 47000, sum_reward: 3112.1760024872324
+2021-11-26 01:15:34,628 - finish rollout - env_pool: 52000, model_pool: 400000
+2021-11-26 01:16:56,343 - finish rollout - env_pool: 52250, model_pool: 400000
+2021-11-26 01:18:16,434 - finish rollout - env_pool: 52500, model_pool: 400000
+2021-11-26 01:20:12,980 - finish rollout - env_pool: 52750, model_pool: 400000
+2021-11-26 01:20:54,573 - total_step: 48000, sum_reward: 3094.3348575196364
+2021-11-26 01:22:01,054 - finish rollout - env_pool: 53000, model_pool: 400000
+2021-11-26 01:23:39,911 - finish rollout - env_pool: 53250, model_pool: 400000
+2021-11-26 01:24:52,964 - finish rollout - env_pool: 53500, model_pool: 400000
+2021-11-26 01:26:16,105 - finish rollout - env_pool: 53750, model_pool: 400000
+2021-11-26 01:26:57,007 - total_step: 49000, sum_reward: 3132.1136342409072
+2021-11-26 01:28:15,234 - finish rollout - env_pool: 54000, model_pool: 400000
+2021-11-26 01:29:46,424 - finish rollout - env_pool: 54250, model_pool: 400000
+2021-11-26 01:31:19,902 - finish rollout - env_pool: 54500, model_pool: 400000
+2021-11-26 01:33:12,546 - finish rollout - env_pool: 54750, model_pool: 400000
+2021-11-26 01:33:53,142 - total_step: 50000, sum_reward: 3150.9905110295035
+2021-11-26 01:34:48,932 - finish rollout - env_pool: 55000, model_pool: 400000
+2021-11-26 01:36:42,241 - finish rollout - env_pool: 55250, model_pool: 400000
+2021-11-26 01:37:56,490 - finish rollout - env_pool: 55500, model_pool: 400000
+2021-11-26 01:39:38,335 - finish rollout - env_pool: 55750, model_pool: 400000
+2021-11-26 01:40:19,528 - total_step: 51000, sum_reward: 3180.5428929302557
+2021-11-26 01:41:12,623 - finish rollout - env_pool: 56000, model_pool: 400000
+2021-11-26 01:42:37,226 - finish rollout - env_pool: 56250, model_pool: 400000
+2021-11-26 01:44:26,122 - finish rollout - env_pool: 56500, model_pool: 400000
+2021-11-26 01:45:50,950 - finish rollout - env_pool: 56750, model_pool: 400000
+2021-11-26 01:46:31,533 - total_step: 52000, sum_reward: 3217.44102554084
+2021-11-26 01:47:29,087 - finish rollout - env_pool: 57000, model_pool: 400000
+2021-11-26 01:48:45,968 - finish rollout - env_pool: 57250, model_pool: 400000
+2021-11-26 01:49:59,921 - finish rollout - env_pool: 57500, model_pool: 400000
+2021-11-26 01:51:09,996 - finish rollout - env_pool: 57750, model_pool: 400000
+2021-11-26 01:51:50,151 - total_step: 53000, sum_reward: 3151.306610159442
+2021-11-26 01:53:13,495 - finish rollout - env_pool: 58000, model_pool: 400000
+2021-11-26 01:54:33,042 - finish rollout - env_pool: 58250, model_pool: 400000
+2021-11-26 01:56:17,185 - finish rollout - env_pool: 58500, model_pool: 400000
+2021-11-26 01:57:41,132 - finish rollout - env_pool: 58750, model_pool: 400000
+2021-11-26 01:58:22,242 - total_step: 54000, sum_reward: 3186.5753226184866
+2021-11-26 01:59:07,326 - finish rollout - env_pool: 59000, model_pool: 400000
+2021-11-26 02:00:57,293 - finish rollout - env_pool: 59250, model_pool: 400000
+2021-11-26 02:02:34,203 - finish rollout - env_pool: 59500, model_pool: 400000
+2021-11-26 02:03:45,908 - finish rollout - env_pool: 59750, model_pool: 400000
+2021-11-26 02:04:27,041 - total_step: 55000, sum_reward: 3133.2322001963744
+2021-11-26 02:05:18,017 - finish rollout - env_pool: 60000, model_pool: 400000
+2021-11-26 02:07:00,071 - finish rollout - env_pool: 60250, model_pool: 400000
+2021-11-26 02:08:44,811 - finish rollout - env_pool: 60500, model_pool: 400000
+2021-11-26 02:09:58,765 - finish rollout - env_pool: 60750, model_pool: 400000
+2021-11-26 02:10:39,181 - total_step: 56000, sum_reward: 3149.7575604198787
+2021-11-26 02:11:37,815 - finish rollout - env_pool: 61000, model_pool: 400000
+2021-11-26 02:13:02,174 - finish rollout - env_pool: 61250, model_pool: 400000
+2021-11-26 02:14:31,715 - finish rollout - env_pool: 61500, model_pool: 400000
+2021-11-26 02:16:22,543 - finish rollout - env_pool: 61750, model_pool: 400000
+2021-11-26 02:17:03,663 - total_step: 57000, sum_reward: 3128.491064255346
+2021-11-26 02:18:09,701 - finish rollout - env_pool: 62000, model_pool: 400000
+2021-11-26 02:19:20,448 - finish rollout - env_pool: 62250, model_pool: 400000
+2021-11-26 02:20:46,598 - finish rollout - env_pool: 62500, model_pool: 400000
+2021-11-26 02:22:08,509 - finish rollout - env_pool: 62750, model_pool: 400000
+2021-11-26 02:22:49,636 - total_step: 58000, sum_reward: 3199.75243705389
+2021-11-26 02:23:40,337 - finish rollout - env_pool: 63000, model_pool: 400000
+2021-11-26 02:25:21,324 - finish rollout - env_pool: 63250, model_pool: 400000
+2021-11-26 02:26:33,006 - finish rollout - env_pool: 63500, model_pool: 400000
+2021-11-26 02:27:46,268 - finish rollout - env_pool: 63750, model_pool: 400000
+2021-11-26 02:28:26,445 - total_step: 59000, sum_reward: 3103.1921756617235
+2021-11-26 02:29:14,350 - finish rollout - env_pool: 64000, model_pool: 400000
+2021-11-26 02:31:00,071 - finish rollout - env_pool: 64250, model_pool: 400000
+2021-11-26 02:32:31,823 - finish rollout - env_pool: 64500, model_pool: 400000
+2021-11-26 02:33:59,100 - finish rollout - env_pool: 64750, model_pool: 400000
+2021-11-26 02:34:38,954 - total_step: 60000, sum_reward: 3198.1499959237244
+2021-11-26 02:35:49,415 - finish rollout - env_pool: 65000, model_pool: 400000
+2021-11-26 02:37:03,901 - finish rollout - env_pool: 65250, model_pool: 400000
+2021-11-26 02:38:40,622 - finish rollout - env_pool: 65500, model_pool: 400000
+2021-11-26 02:39:52,836 - finish rollout - env_pool: 65750, model_pool: 400000
+2021-11-26 02:40:33,924 - total_step: 61000, sum_reward: 3176.4280710720136
+2021-11-26 02:41:09,703 - finish rollout - env_pool: 66000, model_pool: 400000
+2021-11-26 02:42:50,822 - finish rollout - env_pool: 66250, model_pool: 400000
+2021-11-26 02:44:11,388 - finish rollout - env_pool: 66500, model_pool: 400000
+2021-11-26 02:45:24,117 - finish rollout - env_pool: 66750, model_pool: 400000
+2021-11-26 02:46:04,742 - total_step: 62000, sum_reward: 3173.768120449139
+2021-11-26 02:47:03,560 - finish rollout - env_pool: 67000, model_pool: 400000
+2021-11-26 02:48:21,433 - finish rollout - env_pool: 67250, model_pool: 400000
+2021-11-26 02:49:55,774 - finish rollout - env_pool: 67500, model_pool: 400000
+2021-11-26 02:51:02,720 - finish rollout - env_pool: 67750, model_pool: 400000
+2021-11-26 02:51:42,825 - total_step: 63000, sum_reward: 3141.839811402848
+2021-11-26 02:54:30,653 - finish rollout - env_pool: 68250, model_pool: 400000
+2021-11-26 02:57:50,007 - finish rollout - env_pool: 68500, model_pool: 400000
+2021-11-26 03:01:02,691 - finish rollout - env_pool: 68750, model_pool: 400000
+2021-11-26 03:03:28,464 - total_step: 64000, sum_reward: 3162.2863219414353
+2021-11-26 03:04:14,623 - finish rollout - env_pool: 69000, model_pool: 400000
+2021-11-26 03:07:34,075 - finish rollout - env_pool: 69250, model_pool: 400000
+2021-11-26 03:10:38,179 - finish rollout - env_pool: 69500, model_pool: 400000
+2021-11-26 03:13:38,838 - finish rollout - env_pool: 69750, model_pool: 400000
+2021-11-26 03:16:04,492 - total_step: 65000, sum_reward: 3109.651982094779
+2021-11-26 03:17:00,342 - finish rollout - env_pool: 70000, model_pool: 400000
+2021-11-26 03:19:58,956 - finish rollout - env_pool: 70250, model_pool: 400000
+2021-11-26 03:23:31,613 - finish rollout - env_pool: 70500, model_pool: 400000
+2021-11-26 03:26:50,106 - finish rollout - env_pool: 70750, model_pool: 400000
+2021-11-26 03:29:14,375 - total_step: 66000, sum_reward: 3124.353903233782
+2021-11-26 03:30:46,878 - finish rollout - env_pool: 71000, model_pool: 400000
+2021-11-26 03:33:51,629 - finish rollout - env_pool: 71250, model_pool: 400000
+2021-11-26 03:37:23,751 - finish rollout - env_pool: 71500, model_pool: 400000
+2021-11-26 03:40:48,138 - finish rollout - env_pool: 71750, model_pool: 400000
+2021-11-26 03:43:14,033 - total_step: 67000, sum_reward: 3208.9489985992077
+2021-11-26 03:43:52,787 - finish rollout - env_pool: 72000, model_pool: 400000
+2021-11-26 03:47:09,416 - finish rollout - env_pool: 72250, model_pool: 400000
+2021-11-26 03:50:15,051 - finish rollout - env_pool: 72500, model_pool: 400000
+2021-11-26 03:53:46,543 - finish rollout - env_pool: 72750, model_pool: 400000
+2021-11-26 03:56:12,729 - total_step: 68000, sum_reward: 3165.1514156958006
+2021-11-26 03:56:51,931 - finish rollout - env_pool: 73000, model_pool: 400000
+2021-11-26 03:59:58,420 - finish rollout - env_pool: 73250, model_pool: 400000
+2021-11-26 04:03:04,420 - finish rollout - env_pool: 73500, model_pool: 400000
+2021-11-26 04:06:18,619 - finish rollout - env_pool: 73750, model_pool: 400000
+2021-11-26 04:08:41,855 - total_step: 69000, sum_reward: 3150.1220352016585
+2021-11-26 04:09:17,733 - finish rollout - env_pool: 74000, model_pool: 400000
+2021-11-26 04:12:18,133 - finish rollout - env_pool: 74250, model_pool: 400000
+2021-11-26 04:15:37,487 - finish rollout - env_pool: 74500, model_pool: 400000
+2021-11-26 04:18:51,483 - finish rollout - env_pool: 74750, model_pool: 400000
+2021-11-26 04:21:17,310 - total_step: 70000, sum_reward: 3162.953763971971
+2021-11-26 04:22:30,067 - finish rollout - env_pool: 75000, model_pool: 400000
+2021-11-26 04:25:33,364 - finish rollout - env_pool: 75250, model_pool: 400000
+2021-11-26 04:28:54,044 - finish rollout - env_pool: 75500, model_pool: 400000
+2021-11-26 04:31:49,699 - finish rollout - env_pool: 75750, model_pool: 400000
+2021-11-26 04:34:12,981 - total_step: 71000, sum_reward: 3135.0759888883335
+2021-11-26 04:35:21,485 - finish rollout - env_pool: 76000, model_pool: 400000
+2021-11-26 04:38:43,232 - finish rollout - env_pool: 76250, model_pool: 400000
+2021-11-26 04:42:05,187 - finish rollout - env_pool: 76500, model_pool: 400000
+2021-11-26 04:45:35,836 - finish rollout - env_pool: 76750, model_pool: 400000
+2021-11-26 04:47:59,397 - total_step: 72000, sum_reward: 3153.0909814301226
+2021-11-26 04:48:43,410 - finish rollout - env_pool: 77000, model_pool: 400000
+2021-11-26 04:51:36,071 - finish rollout - env_pool: 77250, model_pool: 400000
+2021-11-26 04:54:44,771 - finish rollout - env_pool: 77500, model_pool: 400000
+2021-11-26 04:57:46,752 - finish rollout - env_pool: 77750, model_pool: 400000
+2021-11-26 05:00:12,701 - total_step: 73000, sum_reward: 3169.8797612651165
+2021-11-26 05:00:54,816 - finish rollout - env_pool: 78000, model_pool: 400000
+2021-11-26 05:04:14,535 - finish rollout - env_pool: 78250, model_pool: 400000
+2021-11-26 05:07:37,164 - finish rollout - env_pool: 78500, model_pool: 400000
+2021-11-26 05:10:49,772 - finish rollout - env_pool: 78750, model_pool: 400000
+2021-11-26 05:13:12,043 - total_step: 74000, sum_reward: 3158.1666220652946
+2021-11-26 05:13:57,220 - finish rollout - env_pool: 79000, model_pool: 400000
+2021-11-26 05:17:21,629 - finish rollout - env_pool: 79250, model_pool: 400000
+2021-11-26 05:20:41,887 - finish rollout - env_pool: 79500, model_pool: 400000
+2021-11-26 05:23:42,521 - finish rollout - env_pool: 79750, model_pool: 400000
+2021-11-26 05:26:07,588 - total_step: 75000, sum_reward: 3158.0859185136123
+2021-11-26 05:26:59,890 - finish rollout - env_pool: 80000, model_pool: 400000
+2021-11-26 05:30:39,721 - finish rollout - env_pool: 80250, model_pool: 400000
+2021-11-26 05:33:51,819 - finish rollout - env_pool: 80500, model_pool: 400000
+2021-11-26 05:37:18,648 - finish rollout - env_pool: 80750, model_pool: 400000
+2021-11-26 05:39:44,751 - total_step: 76000, sum_reward: 3042.739327446726
+2021-11-26 05:40:31,703 - finish rollout - env_pool: 81000, model_pool: 400000
+2021-11-26 05:43:39,547 - finish rollout - env_pool: 81250, model_pool: 400000
+2021-11-26 05:47:19,520 - finish rollout - env_pool: 81500, model_pool: 400000
+2021-11-26 05:50:52,181 - finish rollout - env_pool: 81750, model_pool: 400000
+2021-11-26 05:53:15,503 - total_step: 77000, sum_reward: 3156.5683548684965
+2021-11-26 05:54:06,445 - finish rollout - env_pool: 82000, model_pool: 400000
+2021-11-26 05:57:19,582 - finish rollout - env_pool: 82250, model_pool: 400000
+2021-11-26 06:00:31,661 - finish rollout - env_pool: 82500, model_pool: 400000
+2021-11-26 06:03:54,790 - finish rollout - env_pool: 82750, model_pool: 400000
+2021-11-26 06:06:18,652 - total_step: 78000, sum_reward: 3108.1090154566546
+2021-11-26 06:07:09,697 - finish rollout - env_pool: 83000, model_pool: 400000
+2021-11-26 06:10:09,294 - finish rollout - env_pool: 83250, model_pool: 400000
+2021-11-26 06:13:14,557 - finish rollout - env_pool: 83500, model_pool: 400000
+2021-11-26 06:16:45,958 - finish rollout - env_pool: 83750, model_pool: 400000
+2021-11-26 06:19:11,208 - total_step: 79000, sum_reward: 3180.5909124859836
+2021-11-26 06:20:07,067 - finish rollout - env_pool: 84000, model_pool: 400000
+2021-11-26 06:23:23,391 - finish rollout - env_pool: 84250, model_pool: 400000
+2021-11-26 06:26:47,967 - finish rollout - env_pool: 84500, model_pool: 400000
+2021-11-26 06:29:55,066 - finish rollout - env_pool: 84750, model_pool: 400000
+2021-11-26 06:32:19,002 - total_step: 80000, sum_reward: 3162.380617683973
+2021-11-26 06:33:10,931 - finish rollout - env_pool: 85000, model_pool: 400000
+2021-11-26 06:36:29,321 - finish rollout - env_pool: 85250, model_pool: 400000
+2021-11-26 06:39:50,849 - finish rollout - env_pool: 85500, model_pool: 400000
+2021-11-26 06:43:08,249 - finish rollout - env_pool: 85750, model_pool: 400000
+2021-11-26 06:45:32,258 - total_step: 81000, sum_reward: 3135.3371310269204
+2021-11-26 06:46:38,845 - finish rollout - env_pool: 86000, model_pool: 400000
+2021-11-26 06:50:11,259 - finish rollout - env_pool: 86250, model_pool: 400000
+2021-11-26 06:53:41,834 - finish rollout - env_pool: 86500, model_pool: 400000
+2021-11-26 06:57:20,192 - finish rollout - env_pool: 86750, model_pool: 400000
+2021-11-26 06:59:46,489 - total_step: 82000, sum_reward: 3178.194955308386
+2021-11-26 07:00:48,008 - finish rollout - env_pool: 87000, model_pool: 400000
+2021-11-26 07:04:28,032 - finish rollout - env_pool: 87250, model_pool: 400000
+2021-11-26 07:08:08,926 - finish rollout - env_pool: 87500, model_pool: 400000
+2021-11-26 07:11:27,622 - finish rollout - env_pool: 87750, model_pool: 400000
+2021-11-26 07:13:51,964 - total_step: 83000, sum_reward: 3181.5693055779616
+2021-11-26 07:14:58,355 - finish rollout - env_pool: 88000, model_pool: 400000
+2021-11-26 07:18:21,207 - finish rollout - env_pool: 88250, model_pool: 400000
+2021-11-26 07:21:25,080 - finish rollout - env_pool: 88500, model_pool: 400000
+2021-11-26 07:24:54,767 - finish rollout - env_pool: 88750, model_pool: 400000
+2021-11-26 07:27:18,036 - total_step: 84000, sum_reward: 3161.6012856690413
+2021-11-26 07:28:12,552 - finish rollout - env_pool: 89000, model_pool: 400000
+2021-11-26 07:29:50,810 - finish rollout - env_pool: 89250, model_pool: 400000
+2021-11-26 07:31:31,782 - finish rollout - env_pool: 89500, model_pool: 400000
+2021-11-26 07:33:10,249 - finish rollout - env_pool: 89750, model_pool: 400000
+2021-11-26 07:33:51,972 - total_step: 85000, sum_reward: 3155.6030464086175
+2021-11-26 07:34:52,425 - finish rollout - env_pool: 90000, model_pool: 400000
+2021-11-26 07:36:37,094 - finish rollout - env_pool: 90250, model_pool: 400000
+2021-11-26 07:38:25,282 - finish rollout - env_pool: 90500, model_pool: 400000
+2021-11-26 07:40:02,046 - finish rollout - env_pool: 90750, model_pool: 400000
+2021-11-26 07:40:43,202 - total_step: 86000, sum_reward: 3165.428331158725
+2021-11-26 07:41:43,491 - finish rollout - env_pool: 91000, model_pool: 400000
+2021-11-26 07:44:00,099 - finish rollout - env_pool: 91250, model_pool: 400000
+2021-11-26 07:45:26,990 - finish rollout - env_pool: 91500, model_pool: 400000
+2021-11-26 07:46:58,822 - finish rollout - env_pool: 91750, model_pool: 400000
+2021-11-26 07:47:39,333 - total_step: 87000, sum_reward: 3200.0643550525397
+2021-11-26 07:48:47,107 - finish rollout - env_pool: 92000, model_pool: 400000
+2021-11-26 07:50:43,877 - finish rollout - env_pool: 92250, model_pool: 400000
+2021-11-26 07:52:12,958 - finish rollout - env_pool: 92500, model_pool: 400000
+2021-11-26 07:53:56,323 - finish rollout - env_pool: 92750, model_pool: 400000
+2021-11-26 07:54:37,017 - total_step: 88000, sum_reward: 3184.5947759430287
+2021-11-26 07:55:38,684 - finish rollout - env_pool: 93000, model_pool: 400000
+2021-11-26 07:57:12,989 - finish rollout - env_pool: 93250, model_pool: 400000
+2021-11-26 07:58:51,006 - finish rollout - env_pool: 93500, model_pool: 400000
+2021-11-26 08:00:37,801 - finish rollout - env_pool: 93750, model_pool: 400000
+2021-11-26 08:01:18,607 - total_step: 89000, sum_reward: 3162.906430927541
+2021-11-26 08:02:45,065 - finish rollout - env_pool: 94000, model_pool: 400000
+2021-11-26 08:04:43,005 - finish rollout - env_pool: 94250, model_pool: 400000
+2021-11-26 08:06:23,871 - finish rollout - env_pool: 94500, model_pool: 400000
+2021-11-26 08:08:01,373 - finish rollout - env_pool: 94750, model_pool: 400000
+2021-11-26 08:08:41,601 - total_step: 90000, sum_reward: 3170.385815918741
+2021-11-26 08:09:47,580 - finish rollout - env_pool: 95000, model_pool: 400000
+2021-11-26 08:11:45,744 - finish rollout - env_pool: 95250, model_pool: 400000
+2021-11-26 08:13:24,300 - finish rollout - env_pool: 95500, model_pool: 400000
+2021-11-26 08:14:57,106 - finish rollout - env_pool: 95750, model_pool: 400000
+2021-11-26 08:15:38,246 - total_step: 91000, sum_reward: 3183.852957502484
+2021-11-26 08:16:33,460 - finish rollout - env_pool: 96000, model_pool: 400000
+2021-11-26 08:18:22,241 - finish rollout - env_pool: 96250, model_pool: 400000
+2021-11-26 08:19:41,247 - finish rollout - env_pool: 96500, model_pool: 400000
+2021-11-26 08:21:50,676 - finish rollout - env_pool: 96750, model_pool: 400000
+2021-11-26 08:22:31,689 - total_step: 92000, sum_reward: 3170.0261057223524
+2021-11-26 08:23:35,275 - finish rollout - env_pool: 97000, model_pool: 400000
+2021-11-26 08:25:31,578 - finish rollout - env_pool: 97250, model_pool: 400000
+2021-11-26 08:27:14,189 - finish rollout - env_pool: 97500, model_pool: 400000
+2021-11-26 08:28:45,233 - finish rollout - env_pool: 97750, model_pool: 400000
+2021-11-26 08:29:25,590 - total_step: 93000, sum_reward: 3198.329341947212
+2021-11-26 08:30:20,852 - finish rollout - env_pool: 98000, model_pool: 400000
+2021-11-26 08:31:56,189 - finish rollout - env_pool: 98250, model_pool: 400000
+2021-11-26 08:33:54,549 - finish rollout - env_pool: 98500, model_pool: 400000
+2021-11-26 08:35:44,888 - finish rollout - env_pool: 98750, model_pool: 400000
+2021-11-26 08:36:26,068 - total_step: 94000, sum_reward: 3123.3954087914412
+2021-11-26 08:37:31,493 - finish rollout - env_pool: 99000, model_pool: 400000
+2021-11-26 08:39:25,927 - finish rollout - env_pool: 99250, model_pool: 400000
+2021-11-26 08:41:28,682 - finish rollout - env_pool: 99500, model_pool: 400000
+2021-11-26 08:43:19,601 - finish rollout - env_pool: 99750, model_pool: 400000
+2021-11-26 08:43:59,898 - total_step: 95000, sum_reward: 3203.044647829184
+2021-11-26 08:45:04,796 - finish rollout - env_pool: 100000, model_pool: 400000
+2021-11-26 08:46:37,238 - finish rollout - env_pool: 100250, model_pool: 400000
+2021-11-26 08:48:09,506 - finish rollout - env_pool: 100500, model_pool: 400000
+2021-11-26 08:50:11,988 - finish rollout - env_pool: 100750, model_pool: 400000
+2021-11-26 08:50:53,042 - total_step: 96000, sum_reward: 3091.9605077038386
+2021-11-26 08:51:58,560 - finish rollout - env_pool: 101000, model_pool: 400000
+2021-11-26 08:53:24,020 - finish rollout - env_pool: 101250, model_pool: 400000
+2021-11-26 08:54:59,306 - finish rollout - env_pool: 101500, model_pool: 400000
+2021-11-26 08:56:33,935 - finish rollout - env_pool: 101750, model_pool: 400000
+2021-11-26 08:57:15,040 - total_step: 97000, sum_reward: 3208.852551856583
+2021-11-26 08:58:26,526 - finish rollout - env_pool: 102000, model_pool: 400000
+2021-11-26 09:00:28,033 - finish rollout - env_pool: 102250, model_pool: 400000
+2021-11-26 09:02:28,949 - finish rollout - env_pool: 102500, model_pool: 400000
+2021-11-26 09:04:42,810 - finish rollout - env_pool: 102750, model_pool: 400000
+2021-11-26 09:05:23,235 - total_step: 98000, sum_reward: 3166.8314367780945
+2021-11-26 09:06:34,274 - finish rollout - env_pool: 103000, model_pool: 400000
+2021-11-26 09:08:25,626 - finish rollout - env_pool: 103250, model_pool: 400000
+2021-11-26 09:10:03,083 - finish rollout - env_pool: 103500, model_pool: 400000
+2021-11-26 09:11:32,534 - finish rollout - env_pool: 103750, model_pool: 400000
+2021-11-26 09:12:12,949 - total_step: 99000, sum_reward: 3162.8222330886388
+2021-11-26 09:13:08,244 - finish rollout - env_pool: 104000, model_pool: 400000
+2021-11-26 09:14:49,723 - finish rollout - env_pool: 104250, model_pool: 400000
+2021-11-26 09:16:34,232 - finish rollout - env_pool: 104500, model_pool: 400000
+2021-11-26 09:18:10,228 - finish rollout - env_pool: 104750, model_pool: 400000
+2021-11-26 09:18:51,247 - total_step: 100000, sum_reward: 3179.805103702335
+2021-11-26 09:19:51,420 - finish rollout - env_pool: 105000, model_pool: 400000
+2021-11-26 09:21:36,796 - finish rollout - env_pool: 105250, model_pool: 400000
+2021-11-26 09:23:21,729 - finish rollout - env_pool: 105500, model_pool: 400000
+2021-11-26 09:25:23,156 - finish rollout - env_pool: 105750, model_pool: 400000
+2021-11-26 09:26:03,379 - total_step: 101000, sum_reward: 3174.101852841781
+2021-11-26 09:26:58,439 - finish rollout - env_pool: 106000, model_pool: 400000
+2021-11-26 09:29:01,367 - finish rollout - env_pool: 106250, model_pool: 400000
+2021-11-26 09:30:41,005 - finish rollout - env_pool: 106500, model_pool: 400000
+2021-11-26 09:32:26,094 - finish rollout - env_pool: 106750, model_pool: 400000
+2021-11-26 09:33:07,368 - total_step: 102000, sum_reward: 3199.704163628128
+2021-11-26 09:34:13,657 - finish rollout - env_pool: 107000, model_pool: 400000
+2021-11-26 09:35:47,002 - finish rollout - env_pool: 107250, model_pool: 400000
+2021-11-26 09:38:01,402 - finish rollout - env_pool: 107500, model_pool: 400000
+2021-11-26 09:39:57,866 - finish rollout - env_pool: 107750, model_pool: 400000
+2021-11-26 09:40:38,932 - total_step: 103000, sum_reward: 3176.366661631819
+2021-11-26 09:41:54,490 - finish rollout - env_pool: 108000, model_pool: 400000
+2021-11-26 09:43:22,699 - finish rollout - env_pool: 108250, model_pool: 400000
+2021-11-26 09:45:29,135 - finish rollout - env_pool: 108500, model_pool: 400000
+2021-11-26 09:47:17,939 - finish rollout - env_pool: 108750, model_pool: 400000
+2021-11-26 09:47:59,951 - total_step: 104000, sum_reward: 3135.8641800119
+2021-11-26 09:48:49,019 - finish rollout - env_pool: 109000, model_pool: 400000
+2021-11-26 09:50:59,818 - finish rollout - env_pool: 109250, model_pool: 400000
+2021-11-26 09:53:00,555 - finish rollout - env_pool: 109500, model_pool: 400000
+2021-11-26 09:54:40,087 - finish rollout - env_pool: 109750, model_pool: 400000
+2021-11-26 09:55:21,114 - total_step: 105000, sum_reward: 3180.9504119605153
+2021-11-26 09:57:20,768 - finish rollout - env_pool: 110000, model_pool: 400000
+2021-11-26 09:59:18,982 - finish rollout - env_pool: 110250, model_pool: 400000
+2021-11-26 10:00:48,182 - finish rollout - env_pool: 110500, model_pool: 400000
+2021-11-26 10:02:46,099 - finish rollout - env_pool: 110750, model_pool: 400000
+2021-11-26 10:03:26,777 - total_step: 106000, sum_reward: 3172.666727786653
+2021-11-26 10:04:23,810 - finish rollout - env_pool: 111000, model_pool: 400000
+2021-11-26 10:05:47,839 - finish rollout - env_pool: 111250, model_pool: 400000
+2021-11-26 10:07:39,442 - finish rollout - env_pool: 111500, model_pool: 400000
+2021-11-26 10:09:36,825 - finish rollout - env_pool: 111750, model_pool: 400000
+2021-11-26 10:10:17,113 - total_step: 107000, sum_reward: 3165.6012586105057
+2021-11-26 10:11:39,438 - finish rollout - env_pool: 112000, model_pool: 400000
+2021-11-26 10:13:35,326 - finish rollout - env_pool: 112250, model_pool: 400000
+2021-11-26 10:15:30,011 - finish rollout - env_pool: 112500, model_pool: 400000
+2021-11-26 10:18:04,313 - finish rollout - env_pool: 112750, model_pool: 400000
+2021-11-26 10:18:45,142 - total_step: 108000, sum_reward: 3178.6679105089083
+2021-11-26 10:19:59,248 - finish rollout - env_pool: 113000, model_pool: 400000
+2021-11-26 10:21:54,781 - finish rollout - env_pool: 113250, model_pool: 400000
+2021-11-26 10:23:23,632 - finish rollout - env_pool: 113500, model_pool: 400000
+2021-11-26 10:25:16,879 - finish rollout - env_pool: 113750, model_pool: 400000
+2021-11-26 10:25:56,896 - total_step: 109000, sum_reward: 3151.630721869166
+2021-11-26 10:27:15,139 - finish rollout - env_pool: 114000, model_pool: 400000
+2021-11-26 10:29:09,586 - finish rollout - env_pool: 114250, model_pool: 400000
+2021-11-26 10:30:53,535 - finish rollout - env_pool: 114500, model_pool: 400000
+2021-11-26 10:32:52,227 - finish rollout - env_pool: 114750, model_pool: 400000
+2021-11-26 10:33:33,574 - total_step: 110000, sum_reward: 3190.3986167539388
+2021-11-26 10:35:23,748 - finish rollout - env_pool: 115000, model_pool: 400000
+2021-11-26 10:37:25,523 - finish rollout - env_pool: 115250, model_pool: 400000
+2021-11-26 10:39:06,795 - finish rollout - env_pool: 115500, model_pool: 400000
+2021-11-26 10:41:03,764 - finish rollout - env_pool: 115750, model_pool: 400000
+2021-11-26 10:41:44,698 - total_step: 111000, sum_reward: 3151.787940191047
+2021-11-26 10:42:48,784 - finish rollout - env_pool: 116000, model_pool: 400000
+2021-11-26 10:44:43,988 - finish rollout - env_pool: 116250, model_pool: 400000
+2021-11-26 10:46:19,483 - finish rollout - env_pool: 116500, model_pool: 400000
+2021-11-26 10:48:01,248 - finish rollout - env_pool: 116750, model_pool: 400000
+2021-11-26 10:48:41,850 - total_step: 112000, sum_reward: 3180.7477636276426
+2021-11-26 10:50:02,186 - finish rollout - env_pool: 117000, model_pool: 400000
+2021-11-26 10:52:26,699 - finish rollout - env_pool: 117250, model_pool: 400000
+2021-11-26 10:54:20,319 - finish rollout - env_pool: 117500, model_pool: 400000
+2021-11-26 10:56:59,778 - finish rollout - env_pool: 117750, model_pool: 400000
+2021-11-26 10:57:40,881 - total_step: 113000, sum_reward: 3215.954475810053
+2021-11-26 10:59:23,901 - finish rollout - env_pool: 118000, model_pool: 400000
+2021-11-26 11:01:43,377 - finish rollout - env_pool: 118250, model_pool: 400000
+2021-11-26 11:03:30,180 - finish rollout - env_pool: 118500, model_pool: 400000
+2021-11-26 11:05:38,052 - finish rollout - env_pool: 118750, model_pool: 400000
+2021-11-26 11:06:18,737 - total_step: 114000, sum_reward: 3160.4305837440866
+2021-11-26 11:07:30,973 - finish rollout - env_pool: 119000, model_pool: 400000
+2021-11-26 11:09:34,056 - finish rollout - env_pool: 119250, model_pool: 400000
+2021-11-26 11:11:06,080 - finish rollout - env_pool: 119500, model_pool: 400000
+2021-11-26 11:13:01,974 - finish rollout - env_pool: 119750, model_pool: 400000
+2021-11-26 11:13:42,940 - total_step: 115000, sum_reward: 3150.1048099027885
+2021-11-26 11:15:42,367 - finish rollout - env_pool: 120000, model_pool: 400000
+2021-11-26 11:17:52,501 - finish rollout - env_pool: 120250, model_pool: 400000
+2021-11-26 11:19:31,205 - finish rollout - env_pool: 120500, model_pool: 400000
+2021-11-26 11:21:52,448 - finish rollout - env_pool: 120750, model_pool: 400000
+2021-11-26 11:22:32,947 - total_step: 116000, sum_reward: 3135.808617312508
+2021-11-26 11:24:01,130 - finish rollout - env_pool: 121000, model_pool: 400000
+2021-11-26 11:26:10,297 - finish rollout - env_pool: 121250, model_pool: 400000
+2021-11-26 11:27:48,444 - finish rollout - env_pool: 121500, model_pool: 400000
+2021-11-26 11:29:37,460 - finish rollout - env_pool: 121750, model_pool: 400000
+2021-11-26 11:30:17,854 - total_step: 117000, sum_reward: 3194.3894348348504
+2021-11-26 11:31:58,863 - finish rollout - env_pool: 122000, model_pool: 400000
+2021-11-26 11:34:11,477 - finish rollout - env_pool: 122250, model_pool: 400000
+2021-11-26 11:36:18,011 - finish rollout - env_pool: 122500, model_pool: 400000
+2021-11-26 11:37:58,803 - finish rollout - env_pool: 122750, model_pool: 400000
+2021-11-26 11:38:40,174 - total_step: 118000, sum_reward: 3180.162712047758
+2021-11-26 11:39:55,210 - finish rollout - env_pool: 123000, model_pool: 400000
+2021-11-26 11:41:36,102 - finish rollout - env_pool: 123250, model_pool: 400000
+2021-11-26 11:43:37,858 - finish rollout - env_pool: 123500, model_pool: 400000
+2021-11-26 11:45:37,786 - finish rollout - env_pool: 123750, model_pool: 400000
+2021-11-26 11:46:20,404 - total_step: 119000, sum_reward: 3152.232198419445
+2021-11-26 11:47:32,362 - finish rollout - env_pool: 124000, model_pool: 400000
+2021-11-26 11:49:22,781 - finish rollout - env_pool: 124250, model_pool: 400000
+2021-11-26 11:51:39,190 - finish rollout - env_pool: 124500, model_pool: 400000
+2021-11-26 11:54:14,582 - finish rollout - env_pool: 124750, model_pool: 400000
+2021-11-26 11:54:55,328 - total_step: 120000, sum_reward: 3200.6134508002337
+2021-11-26 11:56:16,861 - finish rollout - env_pool: 125000, model_pool: 400000
+2021-11-26 11:58:20,650 - finish rollout - env_pool: 125250, model_pool: 400000
+2021-11-26 12:00:07,464 - finish rollout - env_pool: 125500, model_pool: 400000
+2021-11-26 12:01:58,919 - finish rollout - env_pool: 125750, model_pool: 400000
+2021-11-26 12:02:39,335 - total_step: 121000, sum_reward: 3188.674705080766
+2021-11-26 12:04:00,361 - finish rollout - env_pool: 126000, model_pool: 400000
+2021-11-26 12:05:41,503 - finish rollout - env_pool: 126250, model_pool: 400000
+2021-11-26 12:08:20,905 - finish rollout - env_pool: 126500, model_pool: 400000
+2021-11-26 12:10:29,575 - finish rollout - env_pool: 126750, model_pool: 400000
+2021-11-26 12:11:11,611 - total_step: 122000, sum_reward: 3209.277370472075
+2021-11-26 12:12:40,400 - finish rollout - env_pool: 127000, model_pool: 400000
+2021-11-26 12:14:51,363 - finish rollout - env_pool: 127250, model_pool: 400000
+2021-11-26 12:16:39,987 - finish rollout - env_pool: 127500, model_pool: 400000
+2021-11-26 12:18:45,792 - finish rollout - env_pool: 127750, model_pool: 400000
+2021-11-26 12:19:26,998 - total_step: 123000, sum_reward: 3144.963484290038
+2021-11-26 12:20:44,838 - finish rollout - env_pool: 128000, model_pool: 400000
+2021-11-26 12:22:38,395 - finish rollout - env_pool: 128250, model_pool: 400000
+2021-11-26 12:24:31,724 - finish rollout - env_pool: 128500, model_pool: 400000
+2021-11-26 12:26:47,903 - finish rollout - env_pool: 128750, model_pool: 400000
+2021-11-26 12:27:28,152 - total_step: 124000, sum_reward: 3200.1116396603334
+2021-11-26 12:29:02,591 - finish rollout - env_pool: 129000, model_pool: 400000
+2021-11-26 12:30:47,160 - finish rollout - env_pool: 129250, model_pool: 400000
+2021-11-26 12:32:58,107 - finish rollout - env_pool: 129500, model_pool: 400000
+2021-11-26 12:35:21,311 - finish rollout - env_pool: 129750, model_pool: 400000
+2021-11-26 12:36:02,258 - total_step: 125000, sum_reward: 3183.233147442787
+2021-11-26 12:37:21,628 - finish rollout - env_pool: 130000, model_pool: 400000
+2021-11-26 12:39:28,750 - finish rollout - env_pool: 130250, model_pool: 400000
+2021-11-26 12:41:00,457 - finish rollout - env_pool: 130500, model_pool: 400000
+2021-11-26 12:42:37,814 - finish rollout - env_pool: 130750, model_pool: 400000
+2021-11-26 12:43:17,769 - total_step: 126000, sum_reward: 3193.3399429653396
+2021-11-26 12:44:13,981 - finish rollout - env_pool: 131000, model_pool: 400000
+2021-11-26 12:46:26,701 - finish rollout - env_pool: 131250, model_pool: 400000
+2021-11-26 12:48:37,828 - finish rollout - env_pool: 131500, model_pool: 400000
+2021-11-26 12:51:11,912 - finish rollout - env_pool: 131750, model_pool: 400000
+2021-11-26 12:51:54,307 - total_step: 127000, sum_reward: 3158.7386439556294
+2021-11-26 12:55:51,540 - finish rollout - env_pool: 132250, model_pool: 400000
+2021-11-26 12:59:26,881 - finish rollout - env_pool: 132500, model_pool: 400000
+2021-11-26 13:02:58,720 - finish rollout - env_pool: 132750, model_pool: 400000
+2021-11-26 13:05:21,709 - total_step: 128000, sum_reward: 3175.2693748816964
+2021-11-26 13:07:03,957 - finish rollout - env_pool: 133000, model_pool: 400000
+2021-11-26 13:11:09,265 - finish rollout - env_pool: 133250, model_pool: 400000
+2021-11-26 13:15:20,142 - finish rollout - env_pool: 133500, model_pool: 400000
+2021-11-26 13:19:13,380 - finish rollout - env_pool: 133750, model_pool: 400000
+2021-11-26 13:21:36,476 - total_step: 129000, sum_reward: 3180.235160090131
+2021-11-26 13:22:45,563 - finish rollout - env_pool: 134000, model_pool: 400000
+2021-11-26 13:26:12,114 - finish rollout - env_pool: 134250, model_pool: 400000
+2021-11-26 13:30:15,643 - finish rollout - env_pool: 134500, model_pool: 400000
+2021-11-26 13:33:58,579 - finish rollout - env_pool: 134750, model_pool: 400000
+2021-11-26 13:36:23,756 - total_step: 130000, sum_reward: 3190.8789165803473
+2021-11-26 13:38:32,214 - finish rollout - env_pool: 135000, model_pool: 400000
+2021-11-26 13:42:18,619 - finish rollout - env_pool: 135250, model_pool: 400000
+2021-11-26 13:46:04,417 - finish rollout - env_pool: 135500, model_pool: 400000
+2021-11-26 13:49:43,829 - finish rollout - env_pool: 135750, model_pool: 400000
+2021-11-26 13:52:11,219 - total_step: 131000, sum_reward: 3161.852032677221
+2021-11-26 13:53:57,130 - finish rollout - env_pool: 136000, model_pool: 400000
+2021-11-26 13:57:58,277 - finish rollout - env_pool: 136250, model_pool: 400000
+2021-11-26 14:01:33,611 - finish rollout - env_pool: 136500, model_pool: 400000
+2021-11-26 14:04:44,421 - finish rollout - env_pool: 136750, model_pool: 400000
+2021-11-26 14:07:08,102 - total_step: 132000, sum_reward: 3177.45283794475
+2021-11-26 14:08:18,587 - finish rollout - env_pool: 137000, model_pool: 400000
+2021-11-26 14:11:46,343 - finish rollout - env_pool: 137250, model_pool: 400000
+2021-11-26 14:15:24,312 - finish rollout - env_pool: 137500, model_pool: 400000
+2021-11-26 14:19:26,777 - finish rollout - env_pool: 137750, model_pool: 400000
+2021-11-26 14:21:50,332 - total_step: 133000, sum_reward: 3185.1367169455616
+2021-11-26 14:23:36,618 - finish rollout - env_pool: 138000, model_pool: 400000
+2021-11-26 14:28:16,683 - finish rollout - env_pool: 138250, model_pool: 400000
+2021-11-26 14:31:56,781 - finish rollout - env_pool: 138500, model_pool: 400000
+2021-11-26 14:36:29,877 - finish rollout - env_pool: 138750, model_pool: 400000
+2021-11-26 14:38:55,986 - total_step: 134000, sum_reward: 3144.309303724126
+2021-11-26 14:40:37,243 - finish rollout - env_pool: 139000, model_pool: 400000
+2021-11-26 14:44:13,345 - finish rollout - env_pool: 139250, model_pool: 400000
+2021-11-26 14:48:07,217 - finish rollout - env_pool: 139500, model_pool: 400000
+2021-11-26 14:51:42,257 - finish rollout - env_pool: 139750, model_pool: 400000
+2021-11-26 14:54:07,825 - total_step: 135000, sum_reward: 3187.7284934447703
+2021-11-26 14:55:26,635 - finish rollout - env_pool: 140000, model_pool: 400000
+2021-11-26 14:59:06,641 - finish rollout - env_pool: 140250, model_pool: 400000
+2021-11-26 15:03:02,541 - finish rollout - env_pool: 140500, model_pool: 400000
+2021-11-26 15:06:28,880 - finish rollout - env_pool: 140750, model_pool: 400000
+2021-11-26 15:08:54,953 - total_step: 136000, sum_reward: 3188.204293999396
+2021-11-26 15:10:46,801 - finish rollout - env_pool: 141000, model_pool: 400000
+2021-11-26 15:14:48,403 - finish rollout - env_pool: 141250, model_pool: 400000
+2021-11-26 15:18:24,630 - finish rollout - env_pool: 141500, model_pool: 400000
+2021-11-26 15:22:09,272 - finish rollout - env_pool: 141750, model_pool: 400000
+2021-11-26 15:24:33,048 - total_step: 137000, sum_reward: 3177.5203225479663
+2021-11-26 15:25:46,347 - finish rollout - env_pool: 142000, model_pool: 400000
+2021-11-26 15:29:22,857 - finish rollout - env_pool: 142250, model_pool: 400000
+2021-11-26 15:33:31,043 - finish rollout - env_pool: 142500, model_pool: 400000
+2021-11-26 15:38:03,828 - finish rollout - env_pool: 142750, model_pool: 400000
+2021-11-26 15:40:28,200 - total_step: 138000, sum_reward: 3180.0094747651433
+2021-11-26 15:41:42,022 - finish rollout - env_pool: 143000, model_pool: 400000
+2021-11-26 15:45:15,258 - finish rollout - env_pool: 143250, model_pool: 400000
+2021-11-26 15:48:48,387 - finish rollout - env_pool: 143500, model_pool: 400000
+2021-11-26 15:52:45,805 - finish rollout - env_pool: 143750, model_pool: 400000
+2021-11-26 15:55:13,586 - total_step: 139000, sum_reward: 3202.8835211309533
+2021-11-26 15:56:35,295 - finish rollout - env_pool: 144000, model_pool: 400000
+2021-11-26 16:00:52,065 - finish rollout - env_pool: 144250, model_pool: 400000
+2021-11-26 16:04:19,720 - finish rollout - env_pool: 144500, model_pool: 400000
+2021-11-26 16:08:24,333 - finish rollout - env_pool: 144750, model_pool: 400000
+2021-11-26 16:10:52,012 - total_step: 140000, sum_reward: 3152.5505771856024
+2021-11-26 16:13:11,460 - finish rollout - env_pool: 145000, model_pool: 400000
+2021-11-26 16:16:47,820 - finish rollout - env_pool: 145250, model_pool: 400000
+2021-11-26 16:20:10,002 - finish rollout - env_pool: 145500, model_pool: 400000
+2021-11-26 16:23:50,569 - finish rollout - env_pool: 145750, model_pool: 400000
+2021-11-26 16:26:18,959 - total_step: 141000, sum_reward: 3188.420480762586
+2021-11-26 16:27:41,991 - finish rollout - env_pool: 146000, model_pool: 400000
+2021-11-26 16:32:17,994 - finish rollout - env_pool: 146250, model_pool: 400000
+2021-11-26 16:36:20,075 - finish rollout - env_pool: 146500, model_pool: 400000
+2021-11-26 16:40:57,888 - finish rollout - env_pool: 146750, model_pool: 400000
+2021-11-26 16:43:26,901 - total_step: 142000, sum_reward: 3159.208028920106
+2021-11-26 16:45:04,203 - finish rollout - env_pool: 147000, model_pool: 400000
+2021-11-26 16:49:15,735 - finish rollout - env_pool: 147250, model_pool: 400000
+2021-11-26 16:53:14,513 - finish rollout - env_pool: 147500, model_pool: 400000
+2021-11-26 16:57:09,472 - finish rollout - env_pool: 147750, model_pool: 400000
+2021-11-26 16:59:34,124 - total_step: 143000, sum_reward: 3142.738985422032
+2021-11-26 17:01:09,502 - finish rollout - env_pool: 148000, model_pool: 400000
+2021-11-26 17:05:15,632 - finish rollout - env_pool: 148250, model_pool: 400000
+2021-11-26 17:09:21,093 - finish rollout - env_pool: 148500, model_pool: 400000
+2021-11-26 17:13:32,097 - finish rollout - env_pool: 148750, model_pool: 400000
+2021-11-26 17:15:57,050 - total_step: 144000, sum_reward: 3204.7314200026954
+2021-11-26 17:17:39,317 - finish rollout - env_pool: 149000, model_pool: 400000
+2021-11-26 17:21:35,257 - finish rollout - env_pool: 149250, model_pool: 400000
+2021-11-26 17:25:50,429 - finish rollout - env_pool: 149500, model_pool: 400000
+2021-11-26 17:29:37,654 - finish rollout - env_pool: 149750, model_pool: 400000
+2021-11-26 17:32:04,013 - total_step: 145000, sum_reward: 3171.9159084065545
+2021-11-26 17:33:53,551 - finish rollout - env_pool: 150000, model_pool: 400000
+2021-11-26 17:37:25,087 - finish rollout - env_pool: 150250, model_pool: 400000
+2021-11-26 17:41:10,245 - finish rollout - env_pool: 150500, model_pool: 400000
+2021-11-26 17:45:10,553 - finish rollout - env_pool: 150750, model_pool: 400000
+2021-11-26 17:47:36,983 - total_step: 146000, sum_reward: 3175.178000314811
+2021-11-26 17:49:15,514 - finish rollout - env_pool: 151000, model_pool: 400000
+2021-11-26 17:52:54,976 - finish rollout - env_pool: 151250, model_pool: 400000
+2021-11-26 17:56:47,676 - finish rollout - env_pool: 151500, model_pool: 400000
+2021-11-26 18:01:21,906 - finish rollout - env_pool: 151750, model_pool: 400000
+2021-11-26 18:03:50,900 - total_step: 147000, sum_reward: 3164.180253929301
+2021-11-26 18:05:43,299 - finish rollout - env_pool: 152000, model_pool: 400000
+2021-11-26 18:09:24,584 - finish rollout - env_pool: 152250, model_pool: 400000
+2021-11-26 18:13:29,144 - finish rollout - env_pool: 152500, model_pool: 400000
+2021-11-26 18:17:01,202 - finish rollout - env_pool: 152750, model_pool: 400000
+2021-11-26 18:19:29,825 - total_step: 148000, sum_reward: 3176.93155811522
+2021-11-26 18:21:30,290 - finish rollout - env_pool: 153000, model_pool: 400000
+2021-11-26 18:25:39,075 - finish rollout - env_pool: 153250, model_pool: 400000
+2021-11-26 18:29:06,668 - finish rollout - env_pool: 153500, model_pool: 400000
+2021-11-26 18:32:32,138 - finish rollout - env_pool: 153750, model_pool: 400000
+2021-11-26 18:34:55,853 - total_step: 149000, sum_reward: 3171.569023374721
+2021-11-26 18:36:47,859 - finish rollout - env_pool: 154000, model_pool: 400000
+2021-11-26 18:40:52,801 - finish rollout - env_pool: 154250, model_pool: 400000
+2021-11-26 18:45:29,529 - finish rollout - env_pool: 154500, model_pool: 400000
+2021-11-26 18:49:23,909 - finish rollout - env_pool: 154750, model_pool: 400000
+2021-11-26 18:51:48,593 - total_step: 150000, sum_reward: 3165.7230239527917
+2021-11-26 18:53:21,486 - finish rollout - env_pool: 155000, model_pool: 400000
+2021-11-26 18:57:37,429 - finish rollout - env_pool: 155250, model_pool: 400000
+2021-11-26 19:02:22,954 - finish rollout - env_pool: 155500, model_pool: 400000
+2021-11-26 19:06:19,585 - finish rollout - env_pool: 155750, model_pool: 400000
+2021-11-26 19:08:44,501 - total_step: 151000, sum_reward: 3213.2456696050763
+2021-11-26 19:10:31,861 - finish rollout - env_pool: 156000, model_pool: 400000
+2021-11-26 19:14:52,271 - finish rollout - env_pool: 156250, model_pool: 400000
+2021-11-26 19:18:44,930 - finish rollout - env_pool: 156500, model_pool: 400000
+2021-11-26 19:22:56,064 - finish rollout - env_pool: 156750, model_pool: 400000
+2021-11-26 19:25:22,614 - total_step: 152000, sum_reward: 3148.76372897916
+2021-11-26 19:27:03,981 - finish rollout - env_pool: 157000, model_pool: 400000
+2021-11-26 19:30:43,334 - finish rollout - env_pool: 157250, model_pool: 400000
+2021-11-26 19:35:14,582 - finish rollout - env_pool: 157500, model_pool: 400000
+2021-11-26 19:38:52,660 - finish rollout - env_pool: 157750, model_pool: 400000
+2021-11-26 19:41:19,589 - total_step: 153000, sum_reward: 3192.658211726706
+2021-11-26 19:43:23,583 - finish rollout - env_pool: 158000, model_pool: 400000
+2021-11-26 19:47:51,577 - finish rollout - env_pool: 158250, model_pool: 400000
+2021-11-26 19:51:18,708 - finish rollout - env_pool: 158500, model_pool: 400000
+2021-11-26 19:55:38,898 - finish rollout - env_pool: 158750, model_pool: 400000
+2021-11-26 19:58:06,471 - total_step: 154000, sum_reward: 3159.263987969364
+2021-11-26 19:59:43,477 - finish rollout - env_pool: 159000, model_pool: 400000
+2021-11-26 20:03:35,112 - finish rollout - env_pool: 159250, model_pool: 400000
+2021-11-26 20:07:44,215 - finish rollout - env_pool: 159500, model_pool: 400000
+2021-11-26 20:11:46,788 - finish rollout - env_pool: 159750, model_pool: 400000
+2021-11-26 20:14:16,377 - total_step: 155000, sum_reward: 3150.963904618517
+2021-11-26 20:16:01,097 - finish rollout - env_pool: 160000, model_pool: 400000
+2021-11-26 20:19:46,888 - finish rollout - env_pool: 160250, model_pool: 400000
+2021-11-26 20:24:32,807 - finish rollout - env_pool: 160500, model_pool: 400000
+2021-11-26 20:28:55,837 - finish rollout - env_pool: 160750, model_pool: 400000
+2021-11-26 20:31:23,506 - total_step: 156000, sum_reward: 3168.3182086267884
+2021-11-26 20:33:36,861 - finish rollout - env_pool: 161000, model_pool: 400000
+2021-11-26 20:38:13,256 - finish rollout - env_pool: 161250, model_pool: 400000
+2021-11-26 20:42:11,567 - finish rollout - env_pool: 161500, model_pool: 400000
+2021-11-26 20:46:22,053 - finish rollout - env_pool: 161750, model_pool: 400000
+2021-11-26 20:48:46,009 - total_step: 157000, sum_reward: 3168.627938997265
+2021-11-26 20:51:02,045 - finish rollout - env_pool: 162000, model_pool: 400000
+2021-11-26 20:55:53,393 - finish rollout - env_pool: 162250, model_pool: 400000
+2021-11-26 20:59:33,099 - finish rollout - env_pool: 162500, model_pool: 400000
+2021-11-26 21:03:50,898 - finish rollout - env_pool: 162750, model_pool: 400000
+2021-11-26 21:06:15,404 - total_step: 158000, sum_reward: 3177.0687946959806
+2021-11-26 21:07:39,255 - finish rollout - env_pool: 163000, model_pool: 400000
+2021-11-26 21:11:42,735 - finish rollout - env_pool: 163250, model_pool: 400000
+2021-11-26 21:15:37,856 - finish rollout - env_pool: 163500, model_pool: 400000
+2021-11-26 21:19:59,628 - finish rollout - env_pool: 163750, model_pool: 400000
+2021-11-26 21:22:24,000 - total_step: 159000, sum_reward: 3178.7940349449163
+2021-11-26 21:24:51,300 - finish rollout - env_pool: 164000, model_pool: 400000
+2021-11-26 21:29:21,570 - finish rollout - env_pool: 164250, model_pool: 400000
+2021-11-26 21:33:47,688 - finish rollout - env_pool: 164500, model_pool: 400000
+2021-11-26 21:38:17,908 - finish rollout - env_pool: 164750, model_pool: 400000
+2021-11-26 21:40:42,625 - total_step: 160000, sum_reward: 3169.7115009312383
+2021-11-26 21:42:21,978 - finish rollout - env_pool: 165000, model_pool: 400000
+2021-11-26 21:46:01,087 - finish rollout - env_pool: 165250, model_pool: 400000
+2021-11-26 21:49:37,880 - finish rollout - env_pool: 165500, model_pool: 400000
+2021-11-26 21:53:41,665 - finish rollout - env_pool: 165750, model_pool: 400000
+2021-11-26 21:56:08,234 - total_step: 161000, sum_reward: 3143.524827458722
+2021-11-26 21:57:33,435 - finish rollout - env_pool: 166000, model_pool: 400000
+2021-11-26 22:01:33,226 - finish rollout - env_pool: 166250, model_pool: 400000
+2021-11-26 22:05:40,119 - finish rollout - env_pool: 166500, model_pool: 400000
+2021-11-26 22:09:24,000 - finish rollout - env_pool: 166750, model_pool: 400000
+2021-11-26 22:11:51,701 - total_step: 162000, sum_reward: 3181.038899720187
+2021-11-26 22:13:47,946 - finish rollout - env_pool: 167000, model_pool: 400000
+2021-11-26 22:17:41,603 - finish rollout - env_pool: 167250, model_pool: 400000
+2021-11-26 22:22:31,753 - finish rollout - env_pool: 167500, model_pool: 400000
+2021-11-26 22:26:35,275 - finish rollout - env_pool: 167750, model_pool: 400000
+2021-11-26 22:29:03,070 - total_step: 163000, sum_reward: 3146.371433458878
+2021-11-26 22:31:07,416 - finish rollout - env_pool: 168000, model_pool: 400000
+2021-11-26 22:35:17,649 - finish rollout - env_pool: 168250, model_pool: 400000
+2021-11-26 22:38:49,172 - finish rollout - env_pool: 168500, model_pool: 400000
+2021-11-26 22:42:42,908 - finish rollout - env_pool: 168750, model_pool: 400000
+2021-11-26 22:45:12,217 - total_step: 164000, sum_reward: 3166.560739735322
+2021-11-26 22:46:34,184 - finish rollout - env_pool: 169000, model_pool: 400000
+2021-11-26 22:50:11,414 - finish rollout - env_pool: 169250, model_pool: 400000
+2021-11-26 22:54:45,663 - finish rollout - env_pool: 169500, model_pool: 400000
+2021-11-26 22:59:10,128 - finish rollout - env_pool: 169750, model_pool: 400000
+2021-11-26 23:01:35,531 - total_step: 165000, sum_reward: 3198.2279635927703
+2021-11-26 23:03:42,106 - finish rollout - env_pool: 170000, model_pool: 400000
+2021-11-26 23:07:33,193 - finish rollout - env_pool: 170250, model_pool: 400000
+2021-11-26 23:11:46,759 - finish rollout - env_pool: 170500, model_pool: 400000
+2021-11-26 23:16:12,152 - finish rollout - env_pool: 170750, model_pool: 400000
+2021-11-26 23:18:37,173 - total_step: 166000, sum_reward: 3196.4819942119098
+2021-11-26 23:19:50,736 - finish rollout - env_pool: 171000, model_pool: 400000
+2021-11-26 23:24:06,255 - finish rollout - env_pool: 171250, model_pool: 400000
+2021-11-26 23:28:42,684 - finish rollout - env_pool: 171500, model_pool: 400000
+2021-11-26 23:32:40,867 - finish rollout - env_pool: 171750, model_pool: 400000
+2021-11-26 23:35:06,276 - total_step: 167000, sum_reward: 3141.596547131769
+2021-11-26 23:37:13,144 - finish rollout - env_pool: 172000, model_pool: 400000
+2021-11-26 23:41:31,706 - finish rollout - env_pool: 172250, model_pool: 400000
+2021-11-26 23:46:10,005 - finish rollout - env_pool: 172500, model_pool: 400000
+2021-11-26 23:51:09,381 - finish rollout - env_pool: 172750, model_pool: 400000
+2021-11-26 23:53:29,833 - total_step: 168000, sum_reward: 965.1209109752501
+2021-11-26 23:56:04,912 - finish rollout - env_pool: 173000, model_pool: 400000
+2021-11-26 23:59:55,500 - finish rollout - env_pool: 173250, model_pool: 400000
+2021-11-27 00:03:46,355 - finish rollout - env_pool: 173500, model_pool: 400000
+2021-11-27 00:08:23,696 - finish rollout - env_pool: 173750, model_pool: 400000
+2021-11-27 00:10:54,133 - total_step: 169000, sum_reward: 3165.145863666282
+2021-11-27 00:12:57,338 - finish rollout - env_pool: 174000, model_pool: 400000
+2021-11-27 00:17:03,255 - finish rollout - env_pool: 174250, model_pool: 400000
+2021-11-27 00:19:55,725 - finish rollout - env_pool: 174500, model_pool: 400000
+2021-11-27 00:22:03,123 - finish rollout - env_pool: 174750, model_pool: 400000
+2021-11-27 00:22:44,283 - total_step: 170000, sum_reward: 3173.4804187684986
+2021-11-27 00:24:30,503 - finish rollout - env_pool: 175000, model_pool: 400000
+2021-11-27 00:26:45,271 - finish rollout - env_pool: 175250, model_pool: 400000
+2021-11-27 00:28:43,332 - finish rollout - env_pool: 175500, model_pool: 400000
+2021-11-27 00:30:41,116 - finish rollout - env_pool: 175750, model_pool: 400000
+2021-11-27 00:31:21,215 - total_step: 171000, sum_reward: 3143.4265666749197
+2021-11-27 00:33:13,391 - finish rollout - env_pool: 176000, model_pool: 400000
+2021-11-27 00:35:49,040 - finish rollout - env_pool: 176250, model_pool: 400000
+2021-11-27 00:38:10,584 - finish rollout - env_pool: 176500, model_pool: 400000
+2021-11-27 00:40:10,892 - finish rollout - env_pool: 176750, model_pool: 400000
+2021-11-27 00:40:46,791 - total_step: 172000, sum_reward: 3144.021479208856
+2021-11-27 00:42:42,845 - finish rollout - env_pool: 177000, model_pool: 400000
+2021-11-27 00:45:17,734 - finish rollout - env_pool: 177250, model_pool: 400000
+2021-11-27 00:47:59,211 - finish rollout - env_pool: 177500, model_pool: 400000
+2021-11-27 00:50:00,081 - finish rollout - env_pool: 177750, model_pool: 400000
+2021-11-27 00:50:36,011 - total_step: 173000, sum_reward: 3153.302743374936
+2021-11-27 00:51:51,463 - finish rollout - env_pool: 178000, model_pool: 400000
+2021-11-27 00:53:52,508 - finish rollout - env_pool: 178250, model_pool: 400000
+2021-11-27 00:55:52,992 - finish rollout - env_pool: 178500, model_pool: 400000
+2021-11-27 00:58:56,334 - finish rollout - env_pool: 178750, model_pool: 400000
+2021-11-27 00:59:32,229 - total_step: 174000, sum_reward: 3153.1998825696924
+2021-11-27 01:00:54,990 - finish rollout - env_pool: 179000, model_pool: 400000
+2021-11-27 01:03:52,151 - finish rollout - env_pool: 179250, model_pool: 400000
+2021-11-27 01:06:28,422 - finish rollout - env_pool: 179500, model_pool: 400000
+2021-11-27 01:08:30,397 - finish rollout - env_pool: 179750, model_pool: 400000
+2021-11-27 01:09:06,257 - total_step: 175000, sum_reward: 3157.0865568287363
+2021-11-27 01:11:18,644 - finish rollout - env_pool: 180000, model_pool: 400000
+2021-11-27 01:13:27,776 - finish rollout - env_pool: 180250, model_pool: 400000
+2021-11-27 01:15:51,022 - finish rollout - env_pool: 180500, model_pool: 400000
+2021-11-27 01:17:46,566 - finish rollout - env_pool: 180750, model_pool: 400000
+2021-11-27 01:18:22,663 - total_step: 176000, sum_reward: 3195.847214113451
+2021-11-27 01:19:39,338 - finish rollout - env_pool: 181000, model_pool: 400000
+2021-11-27 01:22:17,416 - finish rollout - env_pool: 181250, model_pool: 400000
+2021-11-27 01:24:40,755 - finish rollout - env_pool: 181500, model_pool: 400000
+2021-11-27 01:26:43,811 - finish rollout - env_pool: 181750, model_pool: 400000
+2021-11-27 01:27:19,812 - total_step: 177000, sum_reward: 3157.012234873828
+2021-11-27 01:28:57,930 - finish rollout - env_pool: 182000, model_pool: 400000
+2021-11-27 01:31:43,678 - finish rollout - env_pool: 182250, model_pool: 400000
+2021-11-27 01:33:39,617 - finish rollout - env_pool: 182500, model_pool: 400000
+2021-11-27 01:36:04,284 - finish rollout - env_pool: 182750, model_pool: 400000
+2021-11-27 01:36:40,205 - total_step: 178000, sum_reward: 3190.1352295103775
+2021-11-27 01:38:33,160 - finish rollout - env_pool: 183000, model_pool: 400000
+2021-11-27 01:40:58,466 - finish rollout - env_pool: 183250, model_pool: 400000
+2021-11-27 01:44:05,763 - finish rollout - env_pool: 183500, model_pool: 400000
+2021-11-27 01:46:17,144 - finish rollout - env_pool: 183750, model_pool: 400000
+2021-11-27 01:46:53,031 - total_step: 179000, sum_reward: 3163.060337751619
+2021-11-27 01:48:32,225 - finish rollout - env_pool: 184000, model_pool: 400000
+2021-11-27 01:50:29,667 - finish rollout - env_pool: 184250, model_pool: 400000
+2021-11-27 01:52:55,185 - finish rollout - env_pool: 184500, model_pool: 400000
+2021-11-27 01:55:14,149 - finish rollout - env_pool: 184750, model_pool: 400000
+2021-11-27 01:55:50,059 - total_step: 180000, sum_reward: 3186.766506608401
+2021-11-27 01:56:54,228 - finish rollout - env_pool: 185000, model_pool: 400000
+2021-11-27 01:58:58,978 - finish rollout - env_pool: 185250, model_pool: 400000
+2021-11-27 02:01:39,639 - finish rollout - env_pool: 185500, model_pool: 400000
+2021-11-27 02:04:20,617 - finish rollout - env_pool: 185750, model_pool: 400000
+2021-11-27 02:04:56,597 - total_step: 181000, sum_reward: 3180.0345960532736
+2021-11-27 02:06:15,370 - finish rollout - env_pool: 186000, model_pool: 400000
+2021-11-27 02:08:27,760 - finish rollout - env_pool: 186250, model_pool: 400000
+2021-11-27 02:11:37,612 - finish rollout - env_pool: 186500, model_pool: 400000
+2021-11-27 02:15:03,236 - finish rollout - env_pool: 186750, model_pool: 400000
+2021-11-27 02:15:39,151 - total_step: 182000, sum_reward: 3160.792236261186
+2021-11-27 02:17:42,001 - finish rollout - env_pool: 187000, model_pool: 400000
+2021-11-27 02:20:24,354 - finish rollout - env_pool: 187250, model_pool: 400000
+2021-11-27 02:23:27,907 - finish rollout - env_pool: 187500, model_pool: 400000
