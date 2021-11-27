@@ -59,7 +59,8 @@ def readParser():
 
     parser.add_argument('--replay_size', type=int, default=1000000, metavar='N',
                         help='size of replay buffer (default: 10000000)')
-
+    parser.add_argument('--num_model_rollout', type=int, default=400, metavar='A',
+                        help='model rollouts per step')
     parser.add_argument('--model_retain_epochs', type=int, default=1, metavar='A',
                         help='retain epochs')
     parser.add_argument('--model_train_freq', type=int, default=250, metavar='A',
@@ -70,7 +71,7 @@ def readParser():
                         help='steps per epoch')
     parser.add_argument('--rollout_min_epoch', type=int, default=20, metavar='A',
                         help='rollout min epoch')
-    parser.add_argument('--rollout_max_epoch', type=int, default=150, metavar='A',
+    parser.add_argument('--rollout_max_epoch', type=int, default=100, metavar='A',
                         help='rollout max epoch')
     parser.add_argument('--rollout_min_length', type=int, default=1, metavar='A',
                         help='rollout min length')
@@ -162,9 +163,8 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                 if rollout_length != new_rollout_length:
                     rollout_length = new_rollout_length
                     model_pool = resize_model_pool(args, rollout_length, model_pool)
-
                 rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length)
-                logger.info("finish rollout - env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
+                # logger.info("finish rollout - env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
                 # update delta_score and/or delta_weights for every transition in model_pool
                 # model_pool.update_delta_score(agent)
                 #model_pool update delta_score
