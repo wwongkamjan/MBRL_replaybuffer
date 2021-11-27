@@ -295,7 +295,7 @@ def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model
             if 'delta' in args.reweight_policy:
                 model_state, model_action, model_reward, model_next_state, model_done = model_pool.weightedsample_all_batch(int(model_batch_size))
             elif 'acc' in args.reweight_policy:
-                model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size),int(model_batch_size)*args.multiplier_batch,done_training)
+                model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size), int(model_batch_size)*args.multiplier_batch, done_training)
             else:
                 model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch(int(model_batch_size))
             batch_state, batch_action, batch_reward, batch_next_state, batch_done = np.concatenate((env_state, model_state), axis=0), \

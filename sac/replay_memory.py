@@ -112,7 +112,7 @@ class ReplayMemory:
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
     
-    def sample_all_batch_KL(self, batch_size, sample_size, done):
+    def sample_all_batch_KL(self, batch_size, sample_size, train_done):
         #idxes = np.random.randint(0, len(self.buffer), sample_size)
         n = 100000
         if not self.KL:
@@ -125,7 +125,7 @@ class ReplayMemory:
         # norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
         new_batch = random.choices(batch,weights=self.KL,k=batch_size)
         state, action, reward, next_state, done, _ = map(np.stack, zip(*new_batch))
-        if done:
+        if train_done:
             self.KL = []
         return state, action, reward, next_state, done
 
