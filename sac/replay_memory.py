@@ -6,6 +6,7 @@ import os.path as osp
 import csv
 import random
 import torch
+import heapq
 from torch.utils.data import WeightedRandomSampler
 
 
@@ -106,9 +107,9 @@ class ReplayMemory:
     def weightedsample_all_batch(self, batch_size):
         # idxes = np.random.randint(0, len(self.buffer), batch_size)
         # weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
-        idxes = np.array(list(WeightedRandomSampler(self.delta_weight, batch_size, replacement=True)))
-        print(idxes)
-        batch = list(itemgetter(*idxes)(self.buffer))
+        # idxes = np.array(list(WeightedRandomSampler(self.delta_weight, batch_size, replacement=True)))
+        # batch = list(itemgetter(*idxes)(self.buffer))
+        batch = random.choices(self.buffer, weights=self.delta_weight ,k=batch_size)
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
     

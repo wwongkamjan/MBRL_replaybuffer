@@ -156,7 +156,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
 
                 # update decay_weights and delta_score
                 # env_pool.update_decay_weights()
-                env_pool.update_delta_score(agent)
+                # env_pool.update_delta_score(agent)
                 # decay_weight_list.append(env_pool.decay_weight[::250])
                 # delta_score_list.append(env_pool.delta_score)
 
@@ -168,7 +168,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                 rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length)
                 # logger.info("finish rollout - env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
                 # update delta_score and/or delta_weights for every transition in model_pool
-                # model_pool.update_delta_score(agent)
+                model_pool.update_delta_score(agent)
                 #model_pool update delta_score
 
             cur_state, action, next_state, reward, done, info = env_sampler.sample(agent)
