@@ -12,7 +12,7 @@
 module add cuda/11.1.1
 module load cudnn/v8.2.1
 
-srun bash -c "hostname; python3 main_mbpo.py --env_name 'Hopper-v2' --num_epoch 100 --model_type 'pytorch' --reweight_policy 'acc' --save_dir 'reweight_policylearning' --exp_name 'KL_model_pool'"
+srun bash -c "hostname; python3 main_mbpo.py --env_name 'Hopper-v2' --num_epoch 100 --model_type 'pytorch' --reweight_policy 'acc' --save_dir 'reweight_policylearning' --exp_name 'KL_model_pool_0'"
 # once the end of the batch script is reached your job allocation will be revoked
 
 
