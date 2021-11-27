@@ -112,15 +112,21 @@ class ReplayMemory:
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
     
-    def sample_all_batch_KL(self, batch_size, sample_size, logger):
-        idxes = np.random.randint(0, len(self.buffer), sample_size)
-        batch = list(itemgetter(*idxes)(self.buffer))
-        KL_list = np.array([abs(t[-1]) for t in batch])
-        max_w = [max(KL_list)]*len(batch)
-        weight = np.array(max_w - KL_list)
+    def sample_all_batch_KL(self, batch_size, sample_size, done):
+        #idxes = np.random.randint(0, len(self.buffer), sample_size)
+        n = 100000
+        if not self.KL:
+            idxes = np.arange(n)
+            batch = list(itemgetter(*idxes)(self.buffer[-n:]))
+            KL_list = np.array([abs(t[-1]) for t in batch])
+            max_w = [max(KL_list)]*len(batch)
+            weight = np.array(max_w - KL_list)
+            self.KL = weight
         # norm_weight = np.array([(float(w)/sum(weight)) for w in weight])
-        new_batch = random.choices(batch,weights=weight,k=batch_size)
+        new_batch = random.choices(batch,weights=self.KL,k=batch_size)
         state, action, reward, next_state, done, _ = map(np.stack, zip(*new_batch))
+        if done:
+            self.KL = []
         return state, action, reward, next_state, done
 
     def return_all(self):

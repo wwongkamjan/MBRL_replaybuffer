@@ -123,6 +123,8 @@ def readParser():
                         help='use delta to critic the quality of the model rollout sample')
 
     ### exp for Sec3
+    parser.add_argument('--multiplier_batch', default=5, metavar='A',
+                    help='batch size * multiplier = number of a batch which will be sampled and be picked with the best KL results')
     parser.add_argument('--reweight_policy', default='none', metavar='A',
                         help='reweight replay buffer sampling model pool to train a policy -- none or delta or acc (measure accuracy using KL-div) ')
 
@@ -274,6 +276,7 @@ def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length
 
 
 def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model_pool, agent, logger):
+    done_training = False
     if total_step % args.train_every_n_steps > 0:
         return 0
 
@@ -281,6 +284,8 @@ def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model
         return 0
 
     for i in range(args.num_train_repeat):
+        if i == args.num_train_repeat -1:
+            done_training = True
         env_batch_size = int(args.policy_train_batch_size * args.real_ratio)
         model_batch_size = args.policy_train_batch_size - env_batch_size
 
@@ -290,7 +295,7 @@ def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model
             if 'delta' in args.reweight_policy:
                 model_state, model_action, model_reward, model_next_state, model_done = model_pool.weightedsample_all_batch(int(model_batch_size))
             elif 'acc' in args.reweight_policy:
-                model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size),int(model_batch_size)*5,logger)
+                model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size),int(model_batch_size)*args.multiplier_batch,done_training)
             else:
                 model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch(int(model_batch_size))
             batch_state, batch_action, batch_reward, batch_next_state, batch_done = np.concatenate((env_state, model_state), axis=0), \
