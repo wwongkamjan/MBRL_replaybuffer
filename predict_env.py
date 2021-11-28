@@ -230,4 +230,4 @@ class PredictEnv:
         info = {'mean': return_means, 'std': return_stds, 'log_prob': log_prob, 'dev': dev}
         # add KL_result as a score of uncertainty of model (can be seen as accuracy)
         # print("KL result after step in pred_env", KL_result)
-        return next_obs, rewards, terminals, info #, KL_result
+        return next_obs, rewards, terminals, info , KL_result

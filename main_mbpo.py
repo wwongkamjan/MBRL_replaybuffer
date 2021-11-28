@@ -123,8 +123,8 @@ def readParser():
                         help='use delta to critic the quality of the model rollout sample')
 
     ### exp for Sec3
-    parser.add_argument('--multiplier_batch', default=5, metavar='A',
-                    help='batch size * multiplier = number of a batch which will be sampled and be picked with the best KL results')
+    parser.add_argument('--multiplier_batch', default=20, metavar='A',
+                    help='batch size * multiplier = number of a batch which will be sampled and be weighted with KL results')
     parser.add_argument('--reweight_policy', default='none', metavar='A',
                         help='reweight replay buffer sampling model pool to train a policy -- none or delta or acc (measure accuracy using KL-div) ')
 
@@ -168,7 +168,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                 rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length)
                 # logger.info("finish rollout - env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
                 # update delta_score and/or delta_weights for every transition in model_pool
-                model_pool.update_delta_score(agent)
+                # model_pool.update_delta_score(agent)
                 #model_pool update delta_score
 
             cur_state, action, next_state, reward, done, info = env_sampler.sample(agent)
@@ -266,11 +266,11 @@ def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length
     for i in range(rollout_length):
         # TODO: Get a batch of actions
         action = agent.select_action(state)
-        # next_states, rewards, terminals, info, KL = predict_env.step(state, action)
-        next_states, rewards, terminals, info = predict_env.step(state, action)
+        next_states, rewards, terminals, info, KL = predict_env.step(state, action)
+        # next_states, rewards, terminals, info = predict_env.step(state, action)
         # TODO: Push a batch of samples
-        # model_pool.push_batch([(state[j], action[j], rewards[j], next_states[j], terminals[j], KL[j]) for j in range(state.shape[0])])
-        model_pool.push_batch([(state[j], action[j], rewards[j], next_states[j], terminals[j]) for j in range(state.shape[0])])
+        model_pool.push_batch([(state[j], action[j], rewards[j], next_states[j], terminals[j], KL[j]) for j in range(state.shape[0])])
+        # model_pool.push_batch([(state[j], action[j], rewards[j], next_states[j], terminals[j]) for j in range(state.shape[0])])
         nonterm_mask = ~terminals.squeeze(-1)
         if nonterm_mask.sum() == 0:
             break
