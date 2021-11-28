@@ -60,20 +60,29 @@ class ReplayMemory:
         self.decay_weight = weight_arr.tolist()
 
     def update_delta_score(self, agent):
-        state, action, reward, next_state, done = map(np.stack, zip(*self.buffer))
-        state_batch = torch.FloatTensor(state).to(self.device)
-        next_state_batch = torch.FloatTensor(next_state).to(self.device)
-        # action_batch = torch.FloatTensor(action).to(self.device)
-        reward_batch = torch.FloatTensor(reward).to(self.device).unsqueeze(1)
-        mask_batch = torch.FloatTensor(done).to(self.device).unsqueeze(1)
+        #update in small amount for each loop?
+        minibatch_sz = 256
+        minibatch = []
+        num_round = int(np.ceil(len(self.buffer)/minibatch_sz))
+        self.delta_score = []
+        self.delta_weight = []
+        curr_ind = 0
+        for i in range (num_round):
+            state, action, reward, next_state, done = map(np.stack, zip(*self.buffer[curr_ind:curr_ind+min(minibatch_sz,len(self.buffer)-1)]))
+            state_batch = torch.FloatTensor(state).to(self.device)
+            next_state_batch = torch.FloatTensor(next_state).to(self.device)
+            # action_batch = torch.FloatTensor(action).to(self.device)
+            reward_batch = torch.FloatTensor(reward).to(self.device).unsqueeze(1)
+            mask_batch = torch.FloatTensor(done).to(self.device).unsqueeze(1)
 
-        q_state = self.get_Q_value(agent, state_batch)
-        q_next_state = self.get_Q_value(agent, next_state_batch)
-        score = reward_batch + q_next_state - q_state
-        weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
-        weight = torch.reshape(weight, (-1,))
-        self.delta_score = score.detach().cpu().numpy().tolist()
-        self.delta_weight = weight.detach().cpu().numpy().tolist()
+            q_state = self.get_Q_value(agent, state_batch)
+            q_next_state = self.get_Q_value(agent, next_state_batch)
+            score = reward_batch + q_next_state - q_state
+            weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
+            weight = torch.reshape(weight, (-1,))
+            self.delta_score += score.detach().cpu().numpy().tolist()
+            self.delta_weight += weight.detach().cpu().numpy().tolist()
+            curr_ind += minibatch_sz
         # print(self.delta_weight)
 
     def get_Q_value(self, agent, state):
@@ -115,7 +124,7 @@ class ReplayMemory:
     
     def sample_all_batch_KL(self, batch_size, sample_size, train_done):
         #idxes = np.random.randint(0, len(self.buffer), sample_size)
-        idxes = np.random.randint(0, sample_size, batch_size)
+        idxes = np.random.randint(0, len(self.buffer), sample_size)
         batch = list(itemgetter(*idxes)(self.buffer))
         if len(self.KL) ==0:
             KL_list = np.array([abs(t[-1]) for t in batch])
