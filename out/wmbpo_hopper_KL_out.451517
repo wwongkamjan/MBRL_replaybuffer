@@ -1,0 +1,1196 @@
+cml04.umiacs.umd.edu
+exp name: KL_model_pool_0
+exploration_before_start: step 0/5000
+exploration_before_start: step 1000/5000
+exploration_before_start: step 2000/5000
+exploration_before_start: step 3000/5000
+exploration_before_start: step 4000/5000
+env_pool: 5250, model_pool: 0
+KL result after step in pred_env [[4.0903554]
+ [0.5884191]
+ [1.1708617]
+ ...
+ [1.7202405]
+ [2.770683 ]
+ [4.368638 ]]
+env_pool: 5500, model_pool: 100000
+KL result after step in pred_env [[1.1019111 ]
+ [3.5506158 ]
+ [0.31444374]
+ ...
+ [1.0613787 ]
+ [0.46488047]
+ [0.47600257]]
+env_pool: 5750, model_pool: 200000
+KL result after step in pred_env [[1.5966303 ]
+ [1.3949046 ]
+ [3.7168095 ]
+ ...
+ [0.59446454]
+ [3.8012998 ]
+ [1.4082042 ]]
+total_step: 1000, sum_reward: 204.35370262178347
+env_pool: 6250, model_pool: 300000
+KL result after step in pred_env [[2.901452 ]
+ [4.9013653]
+ [8.6368685]
+ ...
+ [9.542122 ]
+ [2.75462  ]
+ [1.1687336]]
+env_pool: 6500, model_pool: 400000
+KL result after step in pred_env [[ 3.1686232]
+ [ 1.456486 ]
+ [10.730906 ]
+ ...
+ [ 1.0177252]
+ [ 2.2933054]
+ [ 4.9338007]]
+env_pool: 6750, model_pool: 400000
+KL result after step in pred_env [[ 3.9055858]
+ [ 0.597207 ]
+ [ 2.2365916]
+ ...
+ [ 3.2037964]
+ [13.230131 ]
+ [ 3.15144  ]]
+total_step: 2000, sum_reward: 230.46080688253255
+env_pool: 7000, model_pool: 400000
+KL result after step in pred_env [[ 4.375304 ]
+ [ 1.250566 ]
+ [ 5.0986485]
+ ...
+ [ 3.7337646]
+ [10.326855 ]
+ [ 0.859035 ]]
+env_pool: 7250, model_pool: 400000
+KL result after step in pred_env [[3.2097857]
+ [1.5974429]
+ [1.8399811]
+ ...
+ [4.177713 ]
+ [1.0975511]
+ [1.7961357]]
+env_pool: 7500, model_pool: 400000
+KL result after step in pred_env [[ 2.6520925]
+ [ 3.5341675]
+ [ 3.4344785]
+ ...
+ [ 1.0930169]
+ [ 1.1201518]
+ [14.369232 ]]
+env_pool: 7750, model_pool: 400000
+KL result after step in pred_env [[1.793946 ]
+ [1.2144332]
+ [2.9886465]
+ ...
+ [3.6738575]
+ [2.6454117]
+ [9.423096 ]]
+total_step: 3000, sum_reward: 306.21894606772156
+env_pool: 8250, model_pool: 400000
+KL result after step in pred_env [[ 1.8051351]
+ [ 3.399466 ]
+ [ 8.599441 ]
+ ...
+ [15.093498 ]
+ [ 5.3974004]
+ [ 3.6412466]]
+env_pool: 8500, model_pool: 400000
+KL result after step in pred_env [[19.498552  ]
+ [ 4.86205   ]
+ [-0.09673268]
+ ...
+ [ 2.6091843 ]
+ [ 3.7609637 ]
+ [ 1.7806574 ]]
+env_pool: 8750, model_pool: 400000
+KL result after step in pred_env [[ 3.1365824 ]
+ [ 3.4443834 ]
+ [11.306244  ]
+ ...
+ [ 0.67860824]
+ [ 4.148903  ]
+ [ 1.8715478 ]]
+total_step: 4000, sum_reward: 356.0764685220705
+env_pool: 9000, model_pool: 400000
+KL result after step in pred_env [[ 8.917986  ]
+ [ 0.71953404]
+ [14.139842  ]
+ ...
+ [ 0.8910401 ]
+ [ 7.525597  ]
+ [ 3.258425  ]]
+env_pool: 9250, model_pool: 400000
+KL result after step in pred_env [[0.4090852]
+ [5.862473 ]
+ [1.5457573]
+ ...
+ [1.0760119]
+ [1.3145857]
+ [1.7129441]]
+env_pool: 9500, model_pool: 400000
+KL result after step in pred_env [[4.400022 ]
+ [3.153143 ]
+ [8.21617  ]
+ ...
+ [1.0421116]
+ [1.0998139]
+ [5.8798404]]
+env_pool: 9750, model_pool: 400000
+KL result after step in pred_env [[6.302952  ]
+ [1.6392345 ]
+ [3.7478795 ]
+ ...
+ [3.664012  ]
+ [6.4565697 ]
+ [0.73067826]]
+total_step: 5000, sum_reward: 339.6274140348588
+env_pool: 10000, model_pool: 400000
+KL result after step in pred_env [[2.9229074]
+ [2.457209 ]
+ [2.0744078]
+ ...
+ [2.9809427]
+ [3.1032794]
+ [8.200215 ]]
+env_pool: 10250, model_pool: 400000
+KL result after step in pred_env [[ 8.111309 ]
+ [ 5.152665 ]
+ [ 6.7896514]
+ ...
+ [ 8.504265 ]
+ [25.485203 ]
+ [ 8.428431 ]]
+env_pool: 10500, model_pool: 400000
+KL result after step in pred_env [[17.096672  ]
+ [ 0.50438744]
+ [ 1.1181602 ]
+ ...
+ [11.414951  ]
+ [ 0.7341147 ]
+ [10.662878  ]]
+env_pool: 10750, model_pool: 400000
+KL result after step in pred_env [[2.8530598]
+ [3.161344 ]
+ [6.786332 ]
+ ...
+ [3.5106437]
+ [2.9712398]
+ [6.5840664]]
+total_step: 6000, sum_reward: 721.6559663870717
+env_pool: 11000, model_pool: 400000
+KL result after step in pred_env [[ 7.729951 ]
+ [12.194836 ]
+ [ 2.2323182]
+ ...
+ [ 6.745441 ]
+ [ 2.230364 ]
+ [ 1.2729546]]
+env_pool: 11250, model_pool: 400000
+KL result after step in pred_env [[ 1.0600944]
+ [ 2.2995927]
+ [18.997606 ]
+ ...
+ [ 5.5090218]
+ [ 2.8019023]
+ [ 3.2132773]]
+env_pool: 11500, model_pool: 400000
+KL result after step in pred_env [[1.8405652]
+ [2.2837288]
+ [4.998071 ]
+ ...
+ [2.2850122]
+ [1.5880954]
+ [1.3660512]]
+env_pool: 11750, model_pool: 400000
+KL result after step in pred_env [[ 1.3012867]
+ [ 1.2634311]
+ [ 3.900216 ]
+ ...
+ [17.912365 ]
+ [ 2.9502287]
+ [ 2.4114666]]
+total_step: 7000, sum_reward: 307.2948155321795
+env_pool: 12250, model_pool: 400000
+KL result after step in pred_env [[8.123251 ]
+ [4.867015 ]
+ [1.0298615]
+ ...
+ [6.6500406]
+ [5.2817807]
+ [8.543926 ]]
+env_pool: 12500, model_pool: 400000
+KL result after step in pred_env [[1.2493995]
+ [7.6420317]
+ [7.225682 ]
+ ...
+ [2.804657 ]
+ [2.241908 ]
+ [4.4475203]]
+env_pool: 12750, model_pool: 400000
+KL result after step in pred_env [[1.7081974 ]
+ [3.1152077 ]
+ [7.720466  ]
+ ...
+ [5.9996634 ]
+ [1.4227898 ]
+ [0.18601224]]
+total_step: 8000, sum_reward: 459.5462482925667
+env_pool: 13000, model_pool: 400000
+KL result after step in pred_env [[5.31973  ]
+ [2.843993 ]
+ [4.684436 ]
+ ...
+ [4.6415596]
+ [0.9992471]
+ [2.2945125]]
+env_pool: 13250, model_pool: 400000
+KL result after step in pred_env [[2.0662432]
+ [8.110394 ]
+ [4.7846937]
+ ...
+ [3.2550473]
+ [5.369057 ]
+ [4.7476797]]
+env_pool: 13500, model_pool: 400000
+KL result after step in pred_env [[1.5201575]
+ [1.8793308]
+ [6.188238 ]
+ ...
+ [1.4627895]
+ [7.095079 ]
+ [9.6593895]]
+env_pool: 13750, model_pool: 400000
+KL result after step in pred_env [[44.150753 ]
+ [ 0.9574179]
+ [12.831857 ]
+ ...
+ [ 2.3938496]
+ [ 4.666783 ]
+ [ 1.5580488]]
+total_step: 9000, sum_reward: 328.29795314153586
+env_pool: 14000, model_pool: 400000
+KL result after step in pred_env [[7.3068876]
+ [3.3819103]
+ [2.1102686]
+ ...
+ [2.846941 ]
+ [1.365412 ]
+ [4.2013674]]
+env_pool: 14250, model_pool: 400000
+KL result after step in pred_env [[ 3.553361 ]
+ [15.012476 ]
+ [ 3.213636 ]
+ ...
+ [ 2.4851718]
+ [ 5.562786 ]
+ [ 5.860748 ]]
+env_pool: 14500, model_pool: 400000
+KL result after step in pred_env [[1.8017123]
+ [5.0998344]
+ [1.2251189]
+ ...
+ [2.1067085]
+ [7.782424 ]
+ [5.8407454]]
+env_pool: 14750, model_pool: 400000
+KL result after step in pred_env [[23.761019 ]
+ [ 8.328471 ]
+ [ 2.334609 ]
+ ...
+ [ 3.4139786]
+ [ 4.5728674]
+ [ 6.7886686]]
+total_step: 10000, sum_reward: 366.637961442009
+env_pool: 15000, model_pool: 400000
+KL result after step in pred_env [[6.451049  ]
+ [0.82408637]
+ [5.6129103 ]
+ ...
+ [8.418919  ]
+ [2.7398462 ]
+ [4.879923  ]]
+env_pool: 15250, model_pool: 400000
+KL result after step in pred_env [[0.60443175]
+ [9.069665  ]
+ [1.2841076 ]
+ ...
+ [2.0097494 ]
+ [1.3632294 ]
+ [2.0122385 ]]
+env_pool: 15500, model_pool: 400000
+KL result after step in pred_env [[4.266055 ]
+ [2.598549 ]
+ [1.4015408]
+ ...
+ [9.55134  ]
+ [5.82704  ]
+ [3.8836234]]
+env_pool: 15750, model_pool: 400000
+KL result after step in pred_env [[2.2917638]
+ [7.7737346]
+ [3.4375355]
+ ...
+ [8.067005 ]
+ [3.1401184]
+ [3.6632328]]
+total_step: 11000, sum_reward: 336.19908836770634
+env_pool: 16000, model_pool: 400000
+KL result after step in pred_env [[2.451178 ]
+ [3.5139513]
+ [4.1035733]
+ ...
+ [2.7254512]
+ [3.4187243]
+ [3.6124654]]
+env_pool: 16250, model_pool: 400000
+KL result after step in pred_env [[ 3.8277414]
+ [22.070425 ]
+ [ 8.314262 ]
+ ...
+ [ 2.9310417]
+ [ 2.2147205]
+ [ 1.195491 ]]
+env_pool: 16500, model_pool: 400000
+KL result after step in pred_env [[  1.2282922]
+ [  5.7873626]
+ [108.104355 ]
+ ...
+ [  3.4476619]
+ [  5.409401 ]
+ [  4.7257915]]
+env_pool: 16750, model_pool: 400000
+KL result after step in pred_env [[ 2.3583903]
+ [ 5.2459626]
+ [14.244234 ]
+ ...
+ [ 0.6620178]
+ [ 2.3884468]
+ [ 6.183926 ]]
+total_step: 12000, sum_reward: 335.51005638719056
+env_pool: 17000, model_pool: 400000
+KL result after step in pred_env [[5.5276804]
+ [3.497414 ]
+ [1.5097411]
+ ...
+ [3.718922 ]
+ [4.529022 ]
+ [6.5810146]]
+env_pool: 17250, model_pool: 400000
+KL result after step in pred_env [[7.344466 ]
+ [2.7456064]
+ [3.14632  ]
+ ...
+ [2.0616086]
+ [2.1102686]
+ [5.917542 ]]
+env_pool: 17500, model_pool: 400000
+KL result after step in pred_env [[20.98773  ]
+ [ 1.8269093]
+ [ 3.4006746]
+ ...
+ [ 0.5782608]
+ [12.58894  ]
+ [ 1.7589018]]
+env_pool: 17750, model_pool: 400000
+KL result after step in pred_env [[ 3.1956837]
+ [ 2.6476226]
+ [17.721544 ]
+ ...
+ [ 4.3529844]
+ [ 5.832448 ]
+ [ 3.4634156]]
+total_step: 13000, sum_reward: 284.05328245982986
+env_pool: 18000, model_pool: 400000
+KL result after step in pred_env [[2.9304228]
+ [2.1822646]
+ [1.1915185]
+ ...
+ [3.119521 ]
+ [2.5001838]
+ [6.247319 ]]
+env_pool: 18250, model_pool: 400000
+KL result after step in pred_env [[ 2.9545588]
+ [11.383023 ]
+ [ 2.7931807]
+ ...
+ [ 1.7770417]
+ [21.871288 ]
+ [ 7.144282 ]]
+env_pool: 18500, model_pool: 400000
+KL result after step in pred_env [[4.346483 ]
+ [5.7039003]
+ [4.598345 ]
+ ...
+ [2.461276 ]
+ [7.248341 ]
+ [0.4705367]]
+env_pool: 18750, model_pool: 400000
+KL result after step in pred_env [[6.5514064]
+ [2.5414615]
+ [2.6899326]
+ ...
+ [4.742881 ]
+ [7.733478 ]
+ [2.6505585]]
+total_step: 14000, sum_reward: 340.0638105930322
+env_pool: 19000, model_pool: 400000
+KL result after step in pred_env [[ 8.217136 ]
+ [ 1.561239 ]
+ [ 3.081927 ]
+ ...
+ [ 1.4956446]
+ [13.194698 ]
+ [ 3.7198257]]
+env_pool: 19250, model_pool: 400000
+KL result after step in pred_env [[9.458983 ]
+ [9.585283 ]
+ [3.011156 ]
+ ...
+ [6.5024548]
+ [3.0509682]
+ [2.3760931]]
+env_pool: 19500, model_pool: 400000
+KL result after step in pred_env [[1.4891983 ]
+ [2.3745852 ]
+ [0.26688886]
+ ...
+ [3.1848586 ]
+ [3.0522192 ]
+ [1.5457314 ]]
+env_pool: 19750, model_pool: 400000
+KL result after step in pred_env [[ 1.943407 ]
+ [ 4.239785 ]
+ [41.862392 ]
+ ...
+ [ 1.572705 ]
+ [ 4.648947 ]
+ [ 1.9856513]]
+total_step: 15000, sum_reward: 274.91667553046324
+env_pool: 20250, model_pool: 400000
+KL result after step in pred_env [[ 3.4264832]
+ [11.513998 ]
+ [39.014915 ]
+ ...
+ [ 1.5230583]
+ [ 3.3551877]
+ [ 7.2360625]]
+env_pool: 20500, model_pool: 400000
+KL result after step in pred_env [[1.5778018]
+ [3.6791177]
+ [5.6685805]
+ ...
+ [5.345064 ]
+ [2.6544213]
+ [2.7921307]]
+env_pool: 20750, model_pool: 400000
+KL result after step in pred_env [[ 6.26439  ]
+ [ 2.039184 ]
+ [ 2.723761 ]
+ ...
+ [ 1.6897001]
+ [14.114947 ]
+ [ 6.3760643]]
+total_step: 16000, sum_reward: 1102.8472247165616
+env_pool: 21000, model_pool: 400000
+KL result after step in pred_env [[ 3.340626  ]
+ [18.46073   ]
+ [ 0.31409103]
+ ...
+ [ 4.0313168 ]
+ [ 7.193937  ]
+ [ 3.3587081 ]]
+env_pool: 21250, model_pool: 400000
+KL result after step in pred_env [[7.5159726]
+ [2.1749747]
+ [0.9953402]
+ ...
+ [6.0083895]
+ [1.1847527]
+ [1.7640774]]
+env_pool: 21500, model_pool: 400000
+KL result after step in pred_env [[3.050449 ]
+ [2.2756252]
+ [1.309991 ]
+ ...
+ [4.8977327]
+ [1.3132756]
+ [3.4380689]]
+env_pool: 21750, model_pool: 400000
+KL result after step in pred_env [[ 2.1813192]
+ [ 3.1489532]
+ [ 6.258144 ]
+ ...
+ [26.887552 ]
+ [ 1.1929529]
+ [ 6.4666634]]
+total_step: 17000, sum_reward: 455.58456930033486
+env_pool: 22000, model_pool: 400000
+KL result after step in pred_env [[0.44900814]
+ [1.8716928 ]
+ [0.51421833]
+ ...
+ [2.3632705 ]
+ [2.3196845 ]
+ [2.1959314 ]]
+env_pool: 22250, model_pool: 400000
+KL result after step in pred_env [[ 1.6960276]
+ [12.474373 ]
+ [ 2.4167986]
+ ...
+ [ 1.9346577]
+ [ 6.8191895]
+ [ 6.893981 ]]
+env_pool: 22500, model_pool: 400000
+KL result after step in pred_env [[ 2.8968227 ]
+ [11.751932  ]
+ [ 0.52561855]
+ ...
+ [ 0.66385317]
+ [ 9.719052  ]
+ [ 4.01891   ]]
+env_pool: 22750, model_pool: 400000
+KL result after step in pred_env [[ 0.7198238]
+ [10.568111 ]
+ [ 0.7595911]
+ ...
+ [ 7.441933 ]
+ [ 1.1417912]
+ [ 2.2945948]]
+total_step: 18000, sum_reward: 552.463799067194
+env_pool: 23000, model_pool: 400000
+KL result after step in pred_env [[2.323296 ]
+ [1.6736879]
+ [1.7261167]
+ ...
+ [5.815324 ]
+ [4.980367 ]
+ [8.118724 ]]
+env_pool: 23250, model_pool: 400000
+KL result after step in pred_env [[1.9536319]
+ [3.7622657]
+ [5.188893 ]
+ ...
+ [1.0838304]
+ [6.398731 ]
+ [2.2000856]]
+env_pool: 23500, model_pool: 400000
+KL result after step in pred_env [[4.153016 ]
+ [4.699514 ]
+ [0.9007305]
+ ...
+ [1.2033889]
+ [9.968907 ]
+ [4.599595 ]]
+env_pool: 23750, model_pool: 400000
+KL result after step in pred_env [[1.1372387]
+ [8.367542 ]
+ [3.021225 ]
+ ...
+ [3.9932892]
+ [4.1278048]
+ [4.2712674]]
+total_step: 19000, sum_reward: 478.1841834869982
+env_pool: 24000, model_pool: 400000
+KL result after step in pred_env [[1.2674035]
+ [4.478655 ]
+ [2.9129245]
+ ...
+ [4.2383842]
+ [3.0394588]
+ [3.9074192]]
+env_pool: 24250, model_pool: 400000
+KL result after step in pred_env [[ 3.8694446]
+ [ 2.5822906]
+ [ 2.2207904]
+ ...
+ [ 1.6437242]
+ [15.56792  ]
+ [ 1.0178258]]
+env_pool: 24500, model_pool: 400000
+KL result after step in pred_env [[3.9235427]
+ [0.3188743]
+ [8.29762  ]
+ ...
+ [1.3422966]
+ [3.564015 ]
+ [3.3903675]]
+env_pool: 24750, model_pool: 400000
+KL result after step in pred_env [[ 1.1112525 ]
+ [ 0.19877535]
+ [ 4.19996   ]
+ ...
+ [19.476456  ]
+ [ 1.2780031 ]
+ [ 0.9921257 ]]
+total_step: 20000, sum_reward: 510.1202423742009
+env_pool: 25000, model_pool: 400000
+KL result after step in pred_env [[6.443077 ]
+ [4.835052 ]
+ [5.2333694]
+ ...
+ [8.151409 ]
+ [2.4504774]
+ [4.482847 ]]
+env_pool: 25250, model_pool: 400000
+KL result after step in pred_env [[6.7664123]
+ [1.6054946]
+ [4.487391 ]
+ ...
+ [2.5908039]
+ [4.6851315]
+ [3.3048084]]
+env_pool: 25500, model_pool: 400000
+KL result after step in pred_env [[12.612041  ]
+ [ 0.30425233]
+ [ 1.4836735 ]
+ ...
+ [ 5.290234  ]
+ [ 4.124497  ]
+ [21.622496  ]]
+env_pool: 25750, model_pool: 400000
+KL result after step in pred_env [[22.644194 ]
+ [ 0.793196 ]
+ [ 3.147225 ]
+ ...
+ [ 2.6648142]
+ [ 9.180968 ]
+ [ 1.1231024]]
+total_step: 21000, sum_reward: 927.8491385741336
+env_pool: 26000, model_pool: 400000
+KL result after step in pred_env [[2.6792521]
+ [3.4674468]
+ [3.1375747]
+ ...
+ [2.8100886]
+ [6.8354774]
+ [6.5846605]]
+env_pool: 26250, model_pool: 400000
+KL result after step in pred_env [[ 4.0269985]
+ [ 2.2338114]
+ [ 4.1862593]
+ ...
+ [47.10659  ]
+ [ 9.167764 ]
+ [ 5.8413897]]
+env_pool: 26500, model_pool: 400000
+KL result after step in pred_env [[0.6450693]
+ [2.227716 ]
+ [0.6661837]
+ ...
+ [9.041319 ]
+ [6.7134967]
+ [6.142999 ]]
+env_pool: 26750, model_pool: 400000
+KL result after step in pred_env [[ 3.8555546]
+ [25.332712 ]
+ [ 2.9338222]
+ ...
+ [ 4.887092 ]
+ [ 2.0298803]
+ [ 1.5543349]]
+total_step: 22000, sum_reward: 304.82041305758526
+env_pool: 27000, model_pool: 400000
+KL result after step in pred_env [[0.5515917 ]
+ [0.42418817]
+ [2.7281075 ]
+ ...
+ [1.2130516 ]
+ [1.7562273 ]
+ [2.121111  ]]
+env_pool: 27250, model_pool: 400000
+KL result after step in pred_env [[4.9644494]
+ [6.0331583]
+ [4.0785275]
+ ...
+ [4.4608607]
+ [4.5292797]
+ [2.0888374]]
+env_pool: 27500, model_pool: 400000
+KL result after step in pred_env [[7.871316 ]
+ [9.58283  ]
+ [7.0751934]
+ ...
+ [6.6007137]
+ [2.8824315]
+ [2.2897868]]
+env_pool: 27750, model_pool: 400000
+KL result after step in pred_env [[8.489094 ]
+ [3.1526482]
+ [3.5491977]
+ ...
+ [8.038924 ]
+ [2.456606 ]
+ [9.577802 ]]
+total_step: 23000, sum_reward: 1319.1845491405825
+env_pool: 28000, model_pool: 400000
+KL result after step in pred_env [[1.4152926]
+ [2.5712042]
+ [1.048697 ]
+ ...
+ [3.245165 ]
+ [1.487832 ]
+ [7.982428 ]]
+env_pool: 28250, model_pool: 400000
+KL result after step in pred_env [[ 4.9157414]
+ [ 2.6540093]
+ [ 6.208634 ]
+ ...
+ [ 3.0918112]
+ [ 5.2389903]
+ [10.140415 ]]
+env_pool: 28500, model_pool: 400000
+KL result after step in pred_env [[ 2.2035253]
+ [ 9.017692 ]
+ [12.414218 ]
+ ...
+ [ 6.304372 ]
+ [ 2.0373645]
+ [ 8.9873085]]
+env_pool: 28750, model_pool: 400000
+KL result after step in pred_env [[1.3152921]
+ [1.7184206]
+ [1.2532691]
+ ...
+ [1.3680679]
+ [5.741171 ]
+ [0.9952929]]
+total_step: 24000, sum_reward: 565.2445005893832
+env_pool: 29000, model_pool: 400000
+KL result after step in pred_env [[6.26937   ]
+ [4.820278  ]
+ [0.11674047]
+ ...
+ [0.92260826]
+ [2.8094807 ]
+ [2.3156173 ]]
+env_pool: 29250, model_pool: 400000
+KL result after step in pred_env [[ 2.983255  ]
+ [ 0.23751196]
+ [14.989252  ]
+ ...
+ [ 3.5661874 ]
+ [ 3.241855  ]
+ [ 1.674407  ]]
+env_pool: 29500, model_pool: 400000
+KL result after step in pred_env [[19.438051 ]
+ [ 5.0749474]
+ [ 2.3007817]
+ ...
+ [ 1.3246489]
+ [ 3.9768913]
+ [ 0.9484308]]
+env_pool: 29750, model_pool: 400000
+KL result after step in pred_env [[2.5953698]
+ [1.0303931]
+ [4.1312723]
+ ...
+ [8.844842 ]
+ [0.8682549]
+ [8.386338 ]]
+total_step: 25000, sum_reward: 2348.1956876238914
+env_pool: 30000, model_pool: 400000
+KL result after step in pred_env [[6.0669847]
+ [4.37882  ]
+ [2.0923738]
+ ...
+ [4.3345733]
+ [1.0230885]
+ [3.014602 ]]
+env_pool: 30250, model_pool: 400000
+KL result after step in pred_env [[0.7347284]
+ [0.2964639]
+ [6.2426224]
+ ...
+ [2.4174635]
+ [5.3881483]
+ [2.9666317]]
+env_pool: 30500, model_pool: 400000
+KL result after step in pred_env [[4.580223 ]
+ [6.93771  ]
+ [3.4916387]
+ ...
+ [2.8269434]
+ [1.5777991]
+ [2.4785352]]
+env_pool: 30750, model_pool: 400000
+KL result after step in pred_env [[0.8763885]
+ [5.30394  ]
+ [4.0661507]
+ ...
+ [7.167714 ]
+ [1.9426236]
+ [2.6687796]]
+total_step: 26000, sum_reward: 166.5649840286789
+env_pool: 31000, model_pool: 400000
+KL result after step in pred_env [[1.3883293]
+ [4.534622 ]
+ [1.4831117]
+ ...
+ [1.439167 ]
+ [1.1428549]
+ [2.0063167]]
+env_pool: 31250, model_pool: 400000
+KL result after step in pred_env [[2.5237763]
+ [2.7342544]
+ [2.148672 ]
+ ...
+ [1.1426828]
+ [1.2559007]
+ [5.2750072]]
+env_pool: 31500, model_pool: 400000
+KL result after step in pred_env [[1.2293025]
+ [5.6115417]
+ [2.1461234]
+ ...
+ [0.4010781]
+ [6.219692 ]
+ [2.4742646]]
+env_pool: 31750, model_pool: 400000
+KL result after step in pred_env [[1.3458356 ]
+ [6.6061196 ]
+ [2.7220006 ]
+ ...
+ [6.6940794 ]
+ [1.0239453 ]
+ [0.51622117]]
+total_step: 27000, sum_reward: 282.56123912688577
+env_pool: 32000, model_pool: 400000
+KL result after step in pred_env [[3.4394734]
+ [1.896124 ]
+ [4.2619295]
+ ...
+ [2.0949974]
+ [1.8698692]
+ [4.2509856]]
+env_pool: 32250, model_pool: 400000
+KL result after step in pred_env [[2.1770163]
+ [5.5510235]
+ [6.470027 ]
+ ...
+ [5.0520964]
+ [0.4395045]
+ [2.7598062]]
+env_pool: 32500, model_pool: 400000
+KL result after step in pred_env [[2.7339675 ]
+ [1.1597877 ]
+ [3.5036845 ]
+ ...
+ [0.89107937]
+ [1.3715254 ]
+ [1.1442276 ]]
+env_pool: 32750, model_pool: 400000
+KL result after step in pred_env [[0.9415868]
+ [0.9453685]
+ [1.2236677]
+ ...
+ [1.0492804]
+ [1.8200606]
+ [1.1378603]]
+total_step: 28000, sum_reward: 2717.4075692364836
+env_pool: 33000, model_pool: 400000
+KL result after step in pred_env [[ 7.0877895]
+ [ 3.723985 ]
+ [ 6.4805145]
+ ...
+ [ 4.0514913]
+ [ 8.796901 ]
+ [12.607576 ]]
+env_pool: 33250, model_pool: 400000
+KL result after step in pred_env [[18.285019  ]
+ [ 4.2056913 ]
+ [ 1.4372064 ]
+ ...
+ [ 2.2821922 ]
+ [ 1.6526433 ]
+ [ 0.60682094]]
+env_pool: 33500, model_pool: 400000
+KL result after step in pred_env [[1.838526 ]
+ [7.3015037]
+ [1.6221317]
+ ...
+ [7.989262 ]
+ [3.2831416]
+ [4.16561  ]]
+env_pool: 33750, model_pool: 400000
+KL result after step in pred_env [[ 9.583679 ]
+ [10.870665 ]
+ [ 2.677204 ]
+ ...
+ [ 2.3288748]
+ [ 5.2964144]
+ [ 1.7650409]]
+total_step: 29000, sum_reward: 2919.84848154218
+env_pool: 34000, model_pool: 400000
+KL result after step in pred_env [[ 5.2616563]
+ [10.569388 ]
+ [ 1.0095054]
+ ...
+ [ 1.9515135]
+ [ 2.1607523]
+ [ 1.8451891]]
+env_pool: 34250, model_pool: 400000
+KL result after step in pred_env [[ 9.746106 ]
+ [10.487324 ]
+ [ 7.182427 ]
+ ...
+ [ 5.1002803]
+ [ 4.3272557]
+ [ 7.924038 ]]
+env_pool: 34500, model_pool: 400000
+KL result after step in pred_env [[5.347265 ]
+ [1.9524095]
+ [5.2121854]
+ ...
+ [4.140824 ]
+ [2.6798558]
+ [4.731893 ]]
+env_pool: 34750, model_pool: 400000
+KL result after step in pred_env [[2.763074 ]
+ [2.0765858]
+ [5.0346985]
+ ...
+ [0.4503647]
+ [8.086836 ]
+ [1.395519 ]]
+total_step: 30000, sum_reward: 296.9075069532732
+env_pool: 35000, model_pool: 400000
+KL result after step in pred_env [[ 1.0576117]
+ [18.686161 ]
+ [ 1.5202234]
+ ...
+ [ 0.8041282]
+ [ 2.2348075]
+ [ 1.0175327]]
+env_pool: 35250, model_pool: 400000
+KL result after step in pred_env [[1.5343682]
+ [5.932191 ]
+ [2.5153725]
+ ...
+ [8.584049 ]
+ [0.5945603]
+ [4.074887 ]]
+env_pool: 35500, model_pool: 400000
+KL result after step in pred_env [[6.977277 ]
+ [1.0802987]
+ [1.8016994]
+ ...
+ [2.3215845]
+ [0.325144 ]
+ [5.6512103]]
+env_pool: 35750, model_pool: 400000
+KL result after step in pred_env [[2.9366643]
+ [2.6999168]
+ [2.537076 ]
+ ...
+ [1.2475822]
+ [2.233562 ]
+ [4.3642845]]
+total_step: 31000, sum_reward: 980.9261566337229
+env_pool: 36250, model_pool: 400000
+KL result after step in pred_env [[2.2132654]
+ [1.1087646]
+ [1.6256754]
+ ...
+ [2.7053814]
+ [1.2239513]
+ [3.0108042]]
+env_pool: 36500, model_pool: 400000
+KL result after step in pred_env [[ 4.1803927]
+ [10.298158 ]
+ [10.824588 ]
+ ...
+ [11.805402 ]
+ [ 6.138596 ]
+ [ 6.8730745]]
+env_pool: 36750, model_pool: 400000
+KL result after step in pred_env [[0.379964  ]
+ [0.28203192]
+ [5.357963  ]
+ ...
+ [7.2770524 ]
+ [2.1804144 ]
+ [1.467943  ]]
+total_step: 32000, sum_reward: 939.9542299455424
+env_pool: 37000, model_pool: 400000
+KL result after step in pred_env [[1.8284913]
+ [3.0386229]
+ [3.137019 ]
+ ...
+ [2.8454328]
+ [8.7132   ]
+ [3.046145 ]]
+env_pool: 37250, model_pool: 400000
+KL result after step in pred_env [[1.2778732]
+ [2.8755345]
+ [5.685793 ]
+ ...
+ [1.7245758]
+ [2.0326095]
+ [1.2252454]]
+env_pool: 37500, model_pool: 400000
+KL result after step in pred_env [[1.9839941]
+ [6.6024942]
+ [1.715435 ]
+ ...
+ [1.3490609]
+ [3.995507 ]
+ [3.962833 ]]
+env_pool: 37750, model_pool: 400000
+KL result after step in pred_env [[1.9265678]
+ [5.3583703]
+ [6.0647626]
+ ...
+ [1.2932837]
+ [1.7746214]
+ [2.7414181]]
+total_step: 33000, sum_reward: 250.98222349127624
+env_pool: 38000, model_pool: 400000
+KL result after step in pred_env [[0.9246532]
+ [1.5647583]
+ [4.127058 ]
+ ...
+ [6.0323133]
+ [3.5528965]
+ [2.059773 ]]
+env_pool: 38250, model_pool: 400000
+KL result after step in pred_env [[ 2.907811  ]
+ [ 6.461541  ]
+ [10.005923  ]
+ ...
+ [ 0.52116305]
+ [ 3.0928512 ]
+ [ 0.71291625]]
+env_pool: 38500, model_pool: 400000
+KL result after step in pred_env [[1.8683887]
+ [1.8342056]
+ [1.8781196]
+ ...
+ [3.3339431]
+ [3.4128244]
+ [3.696867 ]]
+env_pool: 38750, model_pool: 400000
+KL result after step in pred_env [[ 2.9877644]
+ [15.779176 ]
+ [ 5.9124947]
+ ...
+ [ 2.4990115]
+ [ 2.9656587]
+ [ 7.2211895]]
+total_step: 34000, sum_reward: 246.6782515029157
+env_pool: 39000, model_pool: 400000
+KL result after step in pred_env [[2.3579283 ]
+ [2.3238661 ]
+ [1.1969913 ]
+ ...
+ [1.1344616 ]
+ [0.64712656]
+ [0.82513833]]
+env_pool: 39250, model_pool: 400000
+KL result after step in pred_env [[2.632925  ]
+ [5.48619   ]
+ [1.4496584 ]
+ ...
+ [0.34094876]
+ [1.1181718 ]
+ [1.0298133 ]]
+env_pool: 39500, model_pool: 400000
+KL result after step in pred_env [[3.8371434]
+ [3.7968292]
+ [9.030341 ]
+ ...
+ [5.1334705]
+ [0.7648845]
+ [3.5429864]]
+env_pool: 39750, model_pool: 400000
+KL result after step in pred_env [[2.960853 ]
+ [3.538344 ]
+ [0.9752109]
+ ...
+ [1.5282446]
+ [4.931772 ]
+ [2.485461 ]]
+total_step: 35000, sum_reward: 298.468371199129
+env_pool: 40000, model_pool: 400000
+KL result after step in pred_env [[2.1390011]
+ [5.0222683]
+ [6.3682375]
+ ...
+ [0.4543362]
+ [2.8616827]
+ [9.445815 ]]
+env_pool: 40250, model_pool: 400000
+KL result after step in pred_env [[ 1.3792977]
+ [ 7.841705 ]
+ [ 2.4785888]
+ ...
+ [21.097317 ]
+ [ 5.140862 ]
+ [ 3.7693768]]
+env_pool: 40500, model_pool: 400000
+KL result after step in pred_env [[ 2.7918808 ]
+ [ 0.86578465]
+ [10.078531  ]
+ ...
+ [ 1.4906344 ]
+ [ 0.90666324]
+ [ 1.7697663 ]]
+env_pool: 40750, model_pool: 400000
+KL result after step in pred_env [[ 2.3006682]
+ [10.928364 ]
+ [ 1.6838044]
+ ...
+ [ 0.9068699]
+ [ 0.6337774]
+ [33.662582 ]]
+total_step: 36000, sum_reward: 457.42035997452365
+env_pool: 41000, model_pool: 400000
+KL result after step in pred_env [[2.402578  ]
+ [3.1522784 ]
+ [0.7439153 ]
+ ...
+ [2.0947416 ]
+ [2.54983   ]
+ [0.97882456]]
+env_pool: 41250, model_pool: 400000
+KL result after step in pred_env [[0.35346806]
+ [2.6414146 ]
+ [4.1204243 ]
+ ...
+ [2.430045  ]
+ [1.8071848 ]
+ [1.841655  ]]
+env_pool: 41500, model_pool: 400000
+KL result after step in pred_env [[ 2.8346987 ]
+ [ 0.58541477]
+ [ 6.0089273 ]
+ ...
+ [26.162952  ]
+ [ 4.004625  ]
+ [ 2.615493  ]]
+env_pool: 41750, model_pool: 400000
+KL result after step in pred_env [[3.5864112]
+ [1.0705122]
+ [0.700861 ]
+ ...
+ [1.6914806]
+ [6.807925 ]
+ [2.3143935]]
+total_step: 37000, sum_reward: 3122.035591192295
+env_pool: 42000, model_pool: 400000
+KL result after step in pred_env [[4.886392 ]
+ [2.2013001]
+ [0.5175386]
+ ...
+ [1.1655701]
+ [0.850808 ]
+ [0.6373137]]
+env_pool: 42250, model_pool: 400000
+KL result after step in pred_env [[ 9.641133 ]
+ [ 0.5100484]
+ [ 7.8879204]
+ ...
+ [10.191327 ]
+ [ 1.6204697]
+ [ 3.702259 ]]

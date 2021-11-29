@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "main_mbpo.py", line 410, in <module>
+    main()
+  File "main_mbpo.py", line 406, in main
+    train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, model_pool, logger)
+  File "main_mbpo.py", line 171, in train
+    model_pool.update_delta_score(agent)
+  File "/nfshomes/wwongkam/MBRL_replaybuffer/sac/replay_memory.py", line 72, in update_delta_score
+    score = reward_batch + q_next_state - q_state
+RuntimeError: CUDA out of memory. Tried to allocate 37.25 GiB (GPU 0; 10.76 GiB total capacity; 1.19 GiB already allocated; 8.39 GiB free; 1.22 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+srun: error: cml04: task 0: Exited with exit code 1

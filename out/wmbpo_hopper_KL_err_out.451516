@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "main_mbpo.py", line 408, in <module>
+    main()
+  File "main_mbpo.py", line 404, in main
+    train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, model_pool, logger)
+  File "main_mbpo.py", line 178, in train
+    train_policy_steps += train_policy_repeats(args, total_step, train_policy_steps, cur_step, env_pool, model_pool, agent, logger)
+  File "main_mbpo.py", line 298, in train_policy_repeats
+    model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size), int(model_batch_size)*args.multiplier_batch, done_training)
+  File "/nfshomes/wwongkam/MBRL_replaybuffer/sac/replay_memory.py", line 126, in sample_all_batch_KL
+    new_batch = random.choices(batch,weights=self.KL,k=batch_size)
+UnboundLocalError: local variable 'batch' referenced before assignment
+srun: error: cml04: task 0: Exited with exit code 1
