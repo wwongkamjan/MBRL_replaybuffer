@@ -1,0 +1,1650 @@
+2021-09-09 14:51:05,435 - exp name: hopper_random_select1
+2021-09-09 14:52:55,529 - env_pool: 5250, model_pool: 0
+2021-09-09 14:52:56,260 - model_epoch: 0, losses_avg: 0.204146, losses_std: 0.017775
+2021-09-09 14:53:56,512 - model_epoch: 100, losses_avg: 0.018198, losses_std: 0.000599
+2021-09-09 14:54:30,502 - model_epoch: 156, losses_avg: 0.016674, losses_std: 0.000734
+2021-09-09 14:55:41,176 - env_pool: 5500, model_pool: 100000
+2021-09-09 14:55:41,907 - model_epoch: 0, losses_avg: 0.015833, losses_std: 0.000697
+2021-09-09 14:56:44,812 - model_epoch: 100, losses_avg: 0.012495, losses_std: 0.001012
+2021-09-09 14:57:47,988 - model_epoch: 200, losses_avg: 0.010546, losses_std: 0.001356
+2021-09-09 14:58:05,356 - model_epoch: 227, losses_avg: 0.010236, losses_std: 0.001340
+2021-09-09 14:59:17,060 - env_pool: 5750, model_pool: 200000
+2021-09-09 14:59:17,764 - model_epoch: 0, losses_avg: 0.053531, losses_std: 0.009702
+2021-09-09 15:00:20,832 - model_epoch: 100, losses_avg: 0.013006, losses_std: 0.002722
+2021-09-09 15:00:46,152 - model_epoch: 140, losses_avg: 0.012422, losses_std: 0.002877
+2021-09-09 15:01:57,064 - total_step: 1000, sum_reward: 173.23041538241293
+2021-09-09 15:06:20,505 - env_pool: 6250, model_pool: 300000
+2021-09-09 15:06:21,338 - model_epoch: 0, losses_avg: 0.103264, losses_std: 0.112170
+2021-09-09 15:07:31,316 - model_epoch: 100, losses_avg: 0.006868, losses_std: 0.001613
+2021-09-09 15:08:42,194 - model_epoch: 200, losses_avg: 0.005331, losses_std: 0.001224
+2021-09-09 15:09:06,369 - model_epoch: 234, losses_avg: 0.005052, losses_std: 0.001111
+2021-09-09 15:11:22,584 - env_pool: 6500, model_pool: 400000
+2021-09-09 15:11:23,397 - model_epoch: 0, losses_avg: 0.015557, losses_std: 0.003183
+2021-09-09 15:12:37,866 - model_epoch: 100, losses_avg: 0.008063, losses_std: 0.002337
+2021-09-09 15:13:03,724 - model_epoch: 135, losses_avg: 0.007552, losses_std: 0.002111
+2021-09-09 15:14:15,422 - env_pool: 6750, model_pool: 400000
+2021-09-09 15:14:16,303 - model_epoch: 0, losses_avg: 0.012960, losses_std: 0.005213
+2021-09-09 15:14:27,368 - model_epoch: 14, losses_avg: 0.004495, losses_std: 0.000987
+2021-09-09 15:15:37,650 - total_step: 2000, sum_reward: 230.5947294631376
+2021-09-09 15:15:37,664 - env_pool: 7000, model_pool: 400000
+2021-09-09 15:15:38,489 - model_epoch: 0, losses_avg: 0.007263, losses_std: 0.001595
+2021-09-09 15:16:45,162 - model_epoch: 86, losses_avg: 0.004260, losses_std: 0.000734
+2021-09-09 15:17:56,210 - env_pool: 7250, model_pool: 400000
+2021-09-09 15:17:57,188 - model_epoch: 0, losses_avg: 0.006392, losses_std: 0.000876
+2021-09-09 15:18:10,897 - model_epoch: 17, losses_avg: 0.004321, losses_std: 0.000969
+2021-09-09 15:19:20,999 - env_pool: 7500, model_pool: 400000
+2021-09-09 15:19:22,008 - model_epoch: 0, losses_avg: 0.004599, losses_std: 0.001179
+2021-09-09 15:19:35,893 - model_epoch: 16, losses_avg: 0.004034, losses_std: 0.000894
+2021-09-09 15:20:47,829 - env_pool: 7750, model_pool: 400000
+2021-09-09 15:20:48,906 - model_epoch: 0, losses_avg: 0.006715, losses_std: 0.000741
+2021-09-09 15:21:23,230 - model_epoch: 38, losses_avg: 0.004794, losses_std: 0.001159
+2021-09-09 15:22:34,490 - total_step: 3000, sum_reward: 199.99042317032504
+2021-09-09 15:26:55,060 - env_pool: 8250, model_pool: 400000
+2021-09-09 15:26:56,120 - model_epoch: 0, losses_avg: 0.020767, losses_std: 0.005169
+2021-09-09 15:28:10,921 - model_epoch: 80, losses_avg: 0.007318, losses_std: 0.001077
+2021-09-09 15:32:35,441 - env_pool: 8500, model_pool: 400000
+2021-09-09 15:32:36,477 - model_epoch: 0, losses_avg: 0.009864, losses_std: 0.004289
+2021-09-09 15:33:46,860 - model_epoch: 74, losses_avg: 0.004411, losses_std: 0.000911
+2021-09-09 15:38:11,936 - env_pool: 8750, model_pool: 400000
+2021-09-09 15:38:13,081 - model_epoch: 0, losses_avg: 0.008900, losses_std: 0.002538
+2021-09-09 15:39:00,900 - model_epoch: 49, losses_avg: 0.005994, losses_std: 0.001106
+2021-09-09 15:43:26,406 - total_step: 4000, sum_reward: 270.69746241990856
+2021-09-09 15:43:26,422 - env_pool: 9000, model_pool: 400000
+2021-09-09 15:43:27,558 - model_epoch: 0, losses_avg: 0.020152, losses_std: 0.013521
+2021-09-09 15:43:57,158 - model_epoch: 28, losses_avg: 0.004233, losses_std: 0.000689
+2021-09-09 15:45:08,003 - env_pool: 9250, model_pool: 400000
+2021-09-09 15:45:09,179 - model_epoch: 0, losses_avg: 0.007294, losses_std: 0.001053
+2021-09-09 15:45:22,408 - model_epoch: 13, losses_avg: 0.007192, losses_std: 0.000990
+2021-09-09 15:46:32,652 - env_pool: 9500, model_pool: 400000
+2021-09-09 15:46:33,862 - model_epoch: 0, losses_avg: 0.016565, losses_std: 0.008680
+2021-09-09 15:47:13,212 - model_epoch: 37, losses_avg: 0.007924, losses_std: 0.000830
+2021-09-09 15:48:24,112 - env_pool: 9750, model_pool: 400000
+2021-09-09 15:48:25,348 - model_epoch: 0, losses_avg: 0.012039, losses_std: 0.006827
+2021-09-09 15:48:43,056 - model_epoch: 16, losses_avg: 0.007024, losses_std: 0.000853
+2021-09-09 15:49:53,599 - total_step: 5000, sum_reward: 282.8980268158127
+2021-09-09 15:49:53,616 - env_pool: 10000, model_pool: 400000
+2021-09-09 15:49:54,858 - model_epoch: 0, losses_avg: 0.007190, losses_std: 0.002249
+2021-09-09 15:50:17,469 - model_epoch: 20, losses_avg: 0.005674, losses_std: 0.000775
+2021-09-09 15:51:28,699 - env_pool: 10250, model_pool: 400000
+2021-09-09 15:51:30,063 - model_epoch: 0, losses_avg: 0.006630, losses_std: 0.000533
+2021-09-09 15:51:48,911 - model_epoch: 16, losses_avg: 0.006174, losses_std: 0.000580
+2021-09-09 15:52:58,118 - env_pool: 10500, model_pool: 400000
+2021-09-09 15:52:59,461 - model_epoch: 0, losses_avg: 0.006150, losses_std: 0.000681
+2021-09-09 15:53:24,153 - model_epoch: 21, losses_avg: 0.005769, losses_std: 0.000636
+2021-09-09 15:54:34,825 - env_pool: 10750, model_pool: 400000
+2021-09-09 15:54:36,238 - model_epoch: 0, losses_avg: 0.008515, losses_std: 0.000700
+2021-09-09 15:54:54,237 - model_epoch: 15, losses_avg: 0.008353, losses_std: 0.000703
+2021-09-09 15:56:06,181 - total_step: 6000, sum_reward: 348.1999197166927
+2021-09-09 15:56:06,200 - env_pool: 11000, model_pool: 400000
+2021-09-09 15:56:07,630 - model_epoch: 0, losses_avg: 0.007673, losses_std: 0.000481
+2021-09-09 15:56:17,383 - model_epoch: 8, losses_avg: 0.007220, losses_std: 0.000608
+2021-09-09 15:57:27,954 - env_pool: 11250, model_pool: 400000
+2021-09-09 15:57:29,325 - model_epoch: 0, losses_avg: 0.006819, losses_std: 0.000762
+2021-09-09 15:58:44,986 - model_epoch: 59, losses_avg: 0.005615, losses_std: 0.000828
+2021-09-09 15:59:54,586 - env_pool: 11500, model_pool: 400000
+2021-09-09 15:59:55,990 - model_epoch: 0, losses_avg: 0.006343, losses_std: 0.000669
+2021-09-09 16:00:16,601 - model_epoch: 16, losses_avg: 0.006194, losses_std: 0.000591
+2021-09-09 16:01:26,296 - env_pool: 11750, model_pool: 400000
+2021-09-09 16:01:27,796 - model_epoch: 0, losses_avg: 0.004619, losses_std: 0.000519
+2021-09-09 16:01:53,280 - model_epoch: 19, losses_avg: 0.004540, losses_std: 0.000419
+2021-09-09 16:03:04,546 - total_step: 7000, sum_reward: 333.0145678415393
+2021-09-09 16:07:26,788 - env_pool: 12250, model_pool: 400000
+2021-09-09 16:07:28,394 - model_epoch: 0, losses_avg: 0.014782, losses_std: 0.006261
+2021-09-09 16:08:19,832 - model_epoch: 37, losses_avg: 0.004599, losses_std: 0.000461
+2021-09-09 16:12:45,985 - env_pool: 12500, model_pool: 400000
+2021-09-09 16:12:47,676 - model_epoch: 0, losses_avg: 0.005390, losses_std: 0.000752
+2021-09-09 16:13:50,284 - model_epoch: 44, losses_avg: 0.004829, losses_std: 0.000687
+2021-09-09 16:18:18,967 - env_pool: 12750, model_pool: 400000
+2021-09-09 16:18:20,550 - model_epoch: 0, losses_avg: 0.009981, losses_std: 0.000877
+2021-09-09 16:18:54,795 - model_epoch: 24, losses_avg: 0.009080, losses_std: 0.000594
+2021-09-09 16:23:22,132 - total_step: 8000, sum_reward: 304.55610933233805
+2021-09-09 16:23:22,147 - env_pool: 13000, model_pool: 400000
+2021-09-09 16:23:23,755 - model_epoch: 0, losses_avg: 0.008101, losses_std: 0.000647
+2021-09-09 16:24:27,442 - model_epoch: 44, losses_avg: 0.007601, losses_std: 0.000543
+2021-09-09 16:28:53,836 - env_pool: 13250, model_pool: 400000
+2021-09-09 16:28:55,518 - model_epoch: 0, losses_avg: 0.006456, losses_std: 0.000743
+2021-09-09 16:30:38,185 - model_epoch: 69, losses_avg: 0.005547, losses_std: 0.000640
+2021-09-09 16:35:04,047 - env_pool: 13500, model_pool: 400000
+2021-09-09 16:35:05,854 - model_epoch: 0, losses_avg: 0.006799, losses_std: 0.000413
+2021-09-09 16:35:41,087 - model_epoch: 23, losses_avg: 0.006575, losses_std: 0.000372
+2021-09-09 16:40:07,148 - env_pool: 13750, model_pool: 400000
+2021-09-09 16:40:08,994 - model_epoch: 0, losses_avg: 0.004487, losses_std: 0.000326
+2021-09-09 16:41:04,203 - model_epoch: 36, losses_avg: 0.004323, losses_std: 0.000269
+2021-09-09 16:45:30,346 - total_step: 9000, sum_reward: 307.4615820399001
+2021-09-09 16:45:30,359 - env_pool: 14000, model_pool: 400000
+2021-09-09 16:45:32,107 - model_epoch: 0, losses_avg: 0.007317, losses_std: 0.000697
+2021-09-09 16:46:02,657 - model_epoch: 19, losses_avg: 0.007358, losses_std: 0.000882
+2021-09-09 16:50:29,297 - env_pool: 14250, model_pool: 400000
+2021-09-09 16:50:31,189 - model_epoch: 0, losses_avg: 0.004915, losses_std: 0.000446
+2021-09-09 16:51:56,283 - model_epoch: 53, losses_avg: 0.004831, losses_std: 0.000476
+2021-09-09 16:54:11,187 - env_pool: 14500, model_pool: 400000
+2021-09-09 16:54:13,035 - model_epoch: 0, losses_avg: 0.005604, losses_std: 0.000490
+2021-09-09 16:55:08,880 - model_epoch: 34, losses_avg: 0.005454, losses_std: 0.000514
+2021-09-09 16:56:20,480 - env_pool: 14750, model_pool: 400000
+2021-09-09 16:56:22,477 - model_epoch: 0, losses_avg: 0.004970, losses_std: 0.000495
+2021-09-09 16:56:44,458 - model_epoch: 13, losses_avg: 0.004995, losses_std: 0.000568
+2021-09-09 16:57:56,015 - total_step: 10000, sum_reward: 325.3971112592487
+2021-09-09 16:57:56,028 - env_pool: 15000, model_pool: 400000
+2021-09-09 16:57:58,085 - model_epoch: 0, losses_avg: 0.009471, losses_std: 0.005914
+2021-09-09 16:58:39,652 - model_epoch: 25, losses_avg: 0.006164, losses_std: 0.000690
+2021-09-09 16:59:50,737 - env_pool: 15250, model_pool: 400000
+2021-09-09 16:59:52,738 - model_epoch: 0, losses_avg: 0.006243, losses_std: 0.000822
+2021-09-09 17:01:03,935 - model_epoch: 42, losses_avg: 0.006089, losses_std: 0.000657
+2021-09-09 17:02:14,287 - env_pool: 15500, model_pool: 400000
+2021-09-09 17:02:16,314 - model_epoch: 0, losses_avg: 0.005800, losses_std: 0.000965
+2021-09-09 17:02:51,134 - model_epoch: 20, losses_avg: 0.005695, losses_std: 0.000948
+2021-09-09 17:04:04,043 - env_pool: 15750, model_pool: 400000
+2021-09-09 17:04:06,081 - model_epoch: 0, losses_avg: 0.004694, losses_std: 0.000478
+2021-09-09 17:04:40,772 - model_epoch: 19, losses_avg: 0.004553, losses_std: 0.000402
+2021-09-09 17:05:53,556 - total_step: 11000, sum_reward: 400.52181120898234
+2021-09-09 17:05:53,574 - env_pool: 16000, model_pool: 400000
+2021-09-09 17:05:55,502 - model_epoch: 0, losses_avg: 0.005071, losses_std: 0.001279
+2021-09-09 17:06:42,998 - model_epoch: 27, losses_avg: 0.004686, losses_std: 0.000682
+2021-09-09 17:07:55,797 - env_pool: 16250, model_pool: 400000
+2021-09-09 17:07:57,898 - model_epoch: 0, losses_avg: 0.007566, losses_std: 0.003855
+2021-09-09 17:08:49,425 - model_epoch: 28, losses_avg: 0.005468, losses_std: 0.000732
+2021-09-09 17:09:59,732 - env_pool: 16500, model_pool: 400000
+2021-09-09 17:10:01,812 - model_epoch: 0, losses_avg: 0.005910, losses_std: 0.001048
+2021-09-09 17:10:48,140 - model_epoch: 25, losses_avg: 0.005789, losses_std: 0.001048
+2021-09-09 17:11:58,412 - env_pool: 16750, model_pool: 400000
+2021-09-09 17:12:00,639 - model_epoch: 0, losses_avg: 0.004450, losses_std: 0.000753
+2021-09-09 17:12:25,314 - model_epoch: 13, losses_avg: 0.004210, losses_std: 0.000632
+2021-09-09 17:13:36,455 - total_step: 12000, sum_reward: 303.70025663533323
+2021-09-09 17:13:36,473 - env_pool: 17000, model_pool: 400000
+2021-09-09 17:13:38,660 - model_epoch: 0, losses_avg: 0.004188, losses_std: 0.000714
+2021-09-09 17:14:05,595 - model_epoch: 14, losses_avg: 0.004263, losses_std: 0.000912
+2021-09-09 17:15:16,782 - env_pool: 17250, model_pool: 400000
+2021-09-09 17:15:19,010 - model_epoch: 0, losses_avg: 0.005337, losses_std: 0.000843
+2021-09-09 17:16:07,025 - model_epoch: 25, losses_avg: 0.005360, losses_std: 0.000763
+2021-09-09 17:17:17,890 - env_pool: 17500, model_pool: 400000
+2021-09-09 17:17:20,235 - model_epoch: 0, losses_avg: 0.004914, losses_std: 0.000809
+2021-09-09 17:17:55,284 - model_epoch: 18, losses_avg: 0.005045, losses_std: 0.000872
+2021-09-09 17:19:06,556 - env_pool: 17750, model_pool: 400000
+2021-09-09 17:19:08,841 - model_epoch: 0, losses_avg: 0.004615, losses_std: 0.000713
+2021-09-09 17:19:38,652 - model_epoch: 15, losses_avg: 0.004453, losses_std: 0.000610
+2021-09-09 17:20:52,115 - total_step: 13000, sum_reward: 597.8091739995056
+2021-09-09 17:20:52,128 - env_pool: 18000, model_pool: 400000
+2021-09-09 17:20:54,404 - model_epoch: 0, losses_avg: 0.004925, losses_std: 0.000835
+2021-09-09 17:21:26,815 - model_epoch: 16, losses_avg: 0.004750, losses_std: 0.000696
+2021-09-09 17:22:38,269 - env_pool: 18250, model_pool: 400000
+2021-09-09 17:22:40,728 - model_epoch: 0, losses_avg: 0.004358, losses_std: 0.000602
+2021-09-09 17:23:09,807 - model_epoch: 14, losses_avg: 0.004205, losses_std: 0.000523
+2021-09-09 17:24:19,996 - env_pool: 18500, model_pool: 400000
+2021-09-09 17:24:22,393 - model_epoch: 0, losses_avg: 0.005535, losses_std: 0.001052
+2021-09-09 17:25:40,851 - model_epoch: 38, losses_avg: 0.005330, losses_std: 0.000783
+2021-09-09 17:26:52,971 - env_pool: 18750, model_pool: 400000
+2021-09-09 17:26:55,355 - model_epoch: 0, losses_avg: 0.004446, losses_std: 0.000729
+2021-09-09 17:27:22,451 - model_epoch: 13, losses_avg: 0.004490, losses_std: 0.000660
+2021-09-09 17:28:34,905 - total_step: 14000, sum_reward: 686.8558200338673
+2021-09-09 17:28:34,917 - env_pool: 19000, model_pool: 400000
+2021-09-09 17:28:37,476 - model_epoch: 0, losses_avg: 0.004133, losses_std: 0.000722
+2021-09-09 17:29:29,424 - model_epoch: 24, losses_avg: 0.004242, losses_std: 0.000683
+2021-09-09 17:30:40,572 - env_pool: 19250, model_pool: 400000
+2021-09-09 17:30:43,108 - model_epoch: 0, losses_avg: 0.003508, losses_std: 0.000562
+2021-09-09 17:31:06,786 - model_epoch: 11, losses_avg: 0.003619, losses_std: 0.000461
+2021-09-09 17:32:17,506 - env_pool: 19500, model_pool: 400000
+2021-09-09 17:32:20,017 - model_epoch: 0, losses_avg: 0.004620, losses_std: 0.000896
+2021-09-09 17:32:46,680 - model_epoch: 12, losses_avg: 0.004501, losses_std: 0.000775
+2021-09-09 17:33:58,054 - env_pool: 19750, model_pool: 400000
+2021-09-09 17:34:00,635 - model_epoch: 0, losses_avg: 0.004148, losses_std: 0.000644
+2021-09-09 17:34:18,134 - model_epoch: 8, losses_avg: 0.004236, losses_std: 0.000584
+2021-09-09 17:35:30,061 - total_step: 15000, sum_reward: 484.58880200330987
+2021-09-09 17:39:53,595 - env_pool: 20250, model_pool: 400000
+2021-09-09 17:39:56,325 - model_epoch: 0, losses_avg: 0.003673, losses_std: 0.000493
+2021-09-09 17:40:30,341 - model_epoch: 15, losses_avg: 0.003697, losses_std: 0.000480
+2021-09-09 17:44:58,106 - env_pool: 20500, model_pool: 400000
+2021-09-09 17:45:00,921 - model_epoch: 0, losses_avg: 0.004278, losses_std: 0.000785
+2021-09-09 17:46:04,273 - model_epoch: 27, losses_avg: 0.004317, losses_std: 0.000852
+2021-09-09 17:50:30,470 - env_pool: 20750, model_pool: 400000
+2021-09-09 17:50:33,077 - model_epoch: 0, losses_avg: 0.005364, losses_std: 0.000644
+2021-09-09 17:51:05,743 - model_epoch: 14, losses_avg: 0.005280, losses_std: 0.000678
+2021-09-09 17:55:35,843 - total_step: 16000, sum_reward: 638.3146957168979
+2021-09-09 17:55:35,867 - env_pool: 21000, model_pool: 400000
+2021-09-09 17:55:38,591 - model_epoch: 0, losses_avg: 0.006004, losses_std: 0.000844
+2021-09-09 17:56:23,517 - model_epoch: 19, losses_avg: 0.005956, losses_std: 0.000899
+2021-09-09 18:00:51,172 - env_pool: 21250, model_pool: 400000
+2021-09-09 18:00:53,955 - model_epoch: 0, losses_avg: 0.005800, losses_std: 0.000997
+2021-09-09 18:02:15,475 - model_epoch: 34, losses_avg: 0.005758, losses_std: 0.001064
+2021-09-09 18:06:43,340 - env_pool: 21500, model_pool: 400000
+2021-09-09 18:06:46,159 - model_epoch: 0, losses_avg: 0.004847, losses_std: 0.000564
+2021-09-09 18:07:27,217 - model_epoch: 17, losses_avg: 0.004947, losses_std: 0.000497
+2021-09-09 18:11:54,486 - env_pool: 21750, model_pool: 400000
+2021-09-09 18:11:57,298 - model_epoch: 0, losses_avg: 0.004933, losses_std: 0.000650
+2021-09-09 18:12:32,095 - model_epoch: 14, losses_avg: 0.004992, losses_std: 0.000723
+2021-09-09 18:16:59,477 - total_step: 17000, sum_reward: 316.33204078639517
+2021-09-09 18:16:59,495 - env_pool: 22000, model_pool: 400000
+2021-09-09 18:17:02,264 - model_epoch: 0, losses_avg: 0.005080, losses_std: 0.000936
+2021-09-09 18:17:37,395 - model_epoch: 14, losses_avg: 0.005028, losses_std: 0.000842
+2021-09-09 18:22:04,524 - env_pool: 22250, model_pool: 400000
+2021-09-09 18:22:07,365 - model_epoch: 0, losses_avg: 0.005711, losses_std: 0.000905
+2021-09-09 18:22:40,114 - model_epoch: 13, losses_avg: 0.005660, losses_std: 0.000934
+2021-09-09 18:27:07,859 - env_pool: 22500, model_pool: 400000
+2021-09-09 18:27:10,618 - model_epoch: 0, losses_avg: 0.005073, losses_std: 0.000861
+2021-09-09 18:27:38,219 - model_epoch: 11, losses_avg: 0.004996, losses_std: 0.000788
+2021-09-09 18:32:04,513 - env_pool: 22750, model_pool: 400000
+2021-09-09 18:32:07,409 - model_epoch: 0, losses_avg: 0.004598, losses_std: 0.000663
+2021-09-09 18:32:53,791 - model_epoch: 18, losses_avg: 0.004493, losses_std: 0.000587
+2021-09-09 18:37:22,628 - total_step: 18000, sum_reward: 953.7436415577746
+2021-09-09 18:37:22,647 - env_pool: 23000, model_pool: 400000
+2021-09-09 18:37:25,548 - model_epoch: 0, losses_avg: 0.004164, losses_std: 0.000699
+2021-09-09 18:37:51,007 - model_epoch: 10, losses_avg: 0.004161, losses_std: 0.000625
+2021-09-09 18:42:17,162 - env_pool: 23250, model_pool: 400000
+2021-09-09 18:42:20,272 - model_epoch: 0, losses_avg: 0.004616, losses_std: 0.000604
+2021-09-09 18:42:45,817 - model_epoch: 10, losses_avg: 0.004653, losses_std: 0.000632
+2021-09-09 18:47:13,680 - env_pool: 23500, model_pool: 400000
+2021-09-09 18:47:16,533 - model_epoch: 0, losses_avg: 0.004917, losses_std: 0.000679
+2021-09-09 18:47:58,306 - model_epoch: 16, losses_avg: 0.004978, losses_std: 0.000701
+2021-09-09 18:52:25,933 - env_pool: 23750, model_pool: 400000
+2021-09-09 18:52:28,933 - model_epoch: 0, losses_avg: 0.005054, losses_std: 0.000778
+2021-09-09 18:53:14,690 - model_epoch: 17, losses_avg: 0.005107, losses_std: 0.000796
+2021-09-09 18:57:46,170 - total_step: 19000, sum_reward: 670.7508435925669
+2021-09-09 18:57:46,189 - env_pool: 24000, model_pool: 400000
+2021-09-09 18:57:49,130 - model_epoch: 0, losses_avg: 0.005281, losses_std: 0.000872
+2021-09-09 18:58:21,266 - model_epoch: 12, losses_avg: 0.005400, losses_std: 0.000818
+2021-09-09 19:02:48,133 - env_pool: 24250, model_pool: 400000
+2021-09-09 19:02:51,290 - model_epoch: 0, losses_avg: 0.004347, losses_std: 0.000577
+2021-09-09 19:03:23,749 - model_epoch: 12, losses_avg: 0.004405, losses_std: 0.000563
+2021-09-09 19:07:52,778 - env_pool: 24500, model_pool: 400000
+2021-09-09 19:07:55,867 - model_epoch: 0, losses_avg: 0.005516, losses_std: 0.001346
+2021-09-09 19:08:37,491 - model_epoch: 15, losses_avg: 0.005280, losses_std: 0.000841
+2021-09-09 19:13:05,880 - env_pool: 24750, model_pool: 400000
+2021-09-09 19:13:09,043 - model_epoch: 0, losses_avg: 0.004786, losses_std: 0.000758
+2021-09-09 19:13:51,240 - model_epoch: 15, losses_avg: 0.004666, losses_std: 0.000621
+2021-09-09 19:18:21,988 - total_step: 20000, sum_reward: 390.37650727545554
+2021-09-09 19:18:22,007 - env_pool: 25000, model_pool: 400000
+2021-09-09 19:18:25,120 - model_epoch: 0, losses_avg: 0.005645, losses_std: 0.000716
+2021-09-09 19:20:07,506 - model_epoch: 36, losses_avg: 0.005685, losses_std: 0.000734
+2021-09-09 19:21:18,830 - env_pool: 25250, model_pool: 400000
+2021-09-09 19:21:22,134 - model_epoch: 0, losses_avg: 0.006316, losses_std: 0.002213
+2021-09-09 19:21:55,794 - model_epoch: 12, losses_avg: 0.005417, losses_std: 0.000815
+2021-09-09 19:23:07,367 - env_pool: 25500, model_pool: 400000
+2021-09-09 19:23:10,734 - model_epoch: 0, losses_avg: 0.006716, losses_std: 0.001009
+2021-09-09 19:23:47,299 - model_epoch: 13, losses_avg: 0.006887, losses_std: 0.001139
+2021-09-09 19:24:58,263 - env_pool: 25750, model_pool: 400000
+2021-09-09 19:25:01,544 - model_epoch: 0, losses_avg: 0.005721, losses_std: 0.000519
+2021-09-09 19:25:56,760 - model_epoch: 19, losses_avg: 0.005708, losses_std: 0.000771
+2021-09-09 19:27:09,133 - total_step: 21000, sum_reward: 793.1321005696126
+2021-09-09 19:27:09,149 - env_pool: 26000, model_pool: 400000
+2021-09-09 19:27:12,471 - model_epoch: 0, losses_avg: 0.006904, losses_std: 0.000949
+2021-09-09 19:27:57,151 - model_epoch: 15, losses_avg: 0.006960, losses_std: 0.000907
+2021-09-09 19:29:08,717 - env_pool: 26250, model_pool: 400000
+2021-09-09 19:29:12,143 - model_epoch: 0, losses_avg: 0.012402, losses_std: 0.005659
+2021-09-09 19:30:50,506 - model_epoch: 33, losses_avg: 0.007706, losses_std: 0.001718
+2021-09-09 19:32:02,340 - env_pool: 26500, model_pool: 400000
+2021-09-09 19:32:05,658 - model_epoch: 0, losses_avg: 0.006902, losses_std: 0.001667
+2021-09-09 19:33:04,465 - model_epoch: 20, losses_avg: 0.005951, losses_std: 0.000856
+2021-09-09 19:34:17,147 - env_pool: 26750, model_pool: 400000
+2021-09-09 19:34:20,521 - model_epoch: 0, losses_avg: 0.006131, losses_std: 0.000969
+2021-09-09 19:35:08,438 - model_epoch: 16, losses_avg: 0.005972, losses_std: 0.000834
+2021-09-09 19:36:21,283 - total_step: 22000, sum_reward: 684.2360296662331
+2021-09-09 19:36:21,296 - env_pool: 27000, model_pool: 400000
+2021-09-09 19:36:24,704 - model_epoch: 0, losses_avg: 0.005886, losses_std: 0.000981
+2021-09-09 19:37:04,166 - model_epoch: 13, losses_avg: 0.005616, losses_std: 0.000850
+2021-09-09 19:38:16,606 - env_pool: 27250, model_pool: 400000
+2021-09-09 19:38:20,158 - model_epoch: 0, losses_avg: 0.007379, losses_std: 0.001037
+2021-09-09 19:39:21,110 - model_epoch: 20, losses_avg: 0.007367, losses_std: 0.000997
+2021-09-09 19:40:32,057 - env_pool: 27500, model_pool: 400000
+2021-09-09 19:40:35,555 - model_epoch: 0, losses_avg: 0.007591, losses_std: 0.004935
+2021-09-09 19:43:10,026 - model_epoch: 50, losses_avg: 0.005512, losses_std: 0.000756
+2021-09-09 19:44:21,335 - env_pool: 27750, model_pool: 400000
+2021-09-09 19:44:24,935 - model_epoch: 0, losses_avg: 0.006419, losses_std: 0.000791
+2021-09-09 19:45:05,804 - model_epoch: 13, losses_avg: 0.006481, losses_std: 0.000790
+2021-09-09 19:46:19,599 - total_step: 23000, sum_reward: 995.4357634925645
+2021-09-09 19:46:19,613 - env_pool: 28000, model_pool: 400000
+2021-09-09 19:46:23,330 - model_epoch: 0, losses_avg: 0.005779, losses_std: 0.000769
+2021-09-09 19:47:07,574 - model_epoch: 14, losses_avg: 0.005820, losses_std: 0.000664
+2021-09-09 19:48:19,126 - env_pool: 28250, model_pool: 400000
+2021-09-09 19:48:22,640 - model_epoch: 0, losses_avg: 0.006366, losses_std: 0.000960
+2021-09-09 19:48:51,402 - model_epoch: 9, losses_avg: 0.006680, losses_std: 0.001138
+2021-09-09 19:50:02,659 - env_pool: 28500, model_pool: 400000
+2021-09-09 19:50:06,379 - model_epoch: 0, losses_avg: 0.006473, losses_std: 0.000947
+2021-09-09 19:50:44,710 - model_epoch: 12, losses_avg: 0.006356, losses_std: 0.000773
+2021-09-09 19:51:57,483 - env_pool: 28750, model_pool: 400000
+2021-09-09 19:52:01,149 - model_epoch: 0, losses_avg: 0.006361, losses_std: 0.000694
+2021-09-09 19:52:49,061 - model_epoch: 15, losses_avg: 0.006312, losses_std: 0.000743
+2021-09-09 19:54:03,336 - total_step: 24000, sum_reward: 1063.4112085489824
+2021-09-09 19:54:03,352 - env_pool: 29000, model_pool: 400000
+2021-09-09 19:54:07,206 - model_epoch: 0, losses_avg: 0.005838, losses_std: 0.000805
+2021-09-09 19:55:08,952 - model_epoch: 19, losses_avg: 0.005811, losses_std: 0.000852
+2021-09-09 19:56:21,006 - env_pool: 29250, model_pool: 400000
+2021-09-09 19:56:24,860 - model_epoch: 0, losses_avg: 0.006035, losses_std: 0.000734
+2021-09-09 19:57:17,527 - model_epoch: 16, losses_avg: 0.006073, losses_std: 0.000823
+2021-09-09 19:58:28,561 - env_pool: 29500, model_pool: 400000
+2021-09-09 19:58:32,496 - model_epoch: 0, losses_avg: 0.005947, losses_std: 0.000772
+2021-09-09 20:00:19,538 - model_epoch: 32, losses_avg: 0.005775, losses_std: 0.000689
+2021-09-09 20:01:31,906 - env_pool: 29750, model_pool: 400000
+2021-09-09 20:01:35,804 - model_epoch: 0, losses_avg: 0.005623, losses_std: 0.000767
+2021-09-09 20:02:36,570 - model_epoch: 18, losses_avg: 0.005719, losses_std: 0.000676
+2021-09-09 20:03:53,837 - total_step: 25000, sum_reward: 2336.3033351940785
+2021-09-09 20:03:53,850 - env_pool: 30000, model_pool: 400000
+2021-09-09 20:03:57,703 - model_epoch: 0, losses_avg: 0.005144, losses_std: 0.000677
+2021-09-09 20:04:42,073 - model_epoch: 13, losses_avg: 0.005133, losses_std: 0.000688
+2021-09-09 20:05:54,661 - env_pool: 30250, model_pool: 400000
+2021-09-09 20:05:58,392 - model_epoch: 0, losses_avg: 0.006408, losses_std: 0.000800
+2021-09-09 20:06:49,114 - model_epoch: 15, losses_avg: 0.006419, losses_std: 0.000821
+2021-09-09 20:08:00,477 - env_pool: 30500, model_pool: 400000
+2021-09-09 20:08:04,352 - model_epoch: 0, losses_avg: 0.005448, losses_std: 0.000718
+2021-09-09 20:08:52,096 - model_epoch: 14, losses_avg: 0.005555, losses_std: 0.000770
+2021-09-09 20:10:04,891 - env_pool: 30750, model_pool: 400000
+2021-09-09 20:10:09,054 - model_epoch: 0, losses_avg: 0.005019, losses_std: 0.000790
+2021-09-09 20:11:08,040 - model_epoch: 17, losses_avg: 0.004916, losses_std: 0.000795
+2021-09-09 20:12:21,370 - total_step: 26000, sum_reward: 1350.3807652997596
+2021-09-09 20:12:21,383 - env_pool: 31000, model_pool: 400000
+2021-09-09 20:12:25,308 - model_epoch: 0, losses_avg: 0.005559, losses_std: 0.000843
+2021-09-09 20:13:17,139 - model_epoch: 15, losses_avg: 0.005643, losses_std: 0.000833
+2021-09-09 20:14:28,677 - env_pool: 31250, model_pool: 400000
+2021-09-09 20:14:32,934 - model_epoch: 0, losses_avg: 0.005189, losses_std: 0.000696
+2021-09-09 20:16:50,908 - model_epoch: 39, losses_avg: 0.005236, losses_std: 0.000694
+2021-09-09 20:18:01,849 - env_pool: 31500, model_pool: 400000
+2021-09-09 20:18:06,033 - model_epoch: 0, losses_avg: 0.005337, losses_std: 0.000915
+2021-09-09 20:19:50,001 - model_epoch: 29, losses_avg: 0.005407, losses_std: 0.000931
+2021-09-09 20:21:00,988 - env_pool: 31750, model_pool: 400000
+2021-09-09 20:21:05,206 - model_epoch: 0, losses_avg: 0.005393, losses_std: 0.000833
+2021-09-09 20:22:27,708 - model_epoch: 23, losses_avg: 0.005237, losses_std: 0.000914
+2021-09-09 20:23:43,739 - total_step: 27000, sum_reward: 1963.8683814885646
+2021-09-09 20:23:43,752 - env_pool: 32000, model_pool: 400000
+2021-09-09 20:23:47,758 - model_epoch: 0, losses_avg: 0.005136, losses_std: 0.000779
+2021-09-09 20:24:55,818 - model_epoch: 19, losses_avg: 0.005140, losses_std: 0.001015
+2021-09-09 20:26:07,995 - env_pool: 32250, model_pool: 400000
+2021-09-09 20:26:12,274 - model_epoch: 0, losses_avg: 0.006483, losses_std: 0.003646
+2021-09-09 20:30:01,288 - model_epoch: 63, losses_avg: 0.005120, losses_std: 0.000987
+2021-09-09 20:31:12,605 - env_pool: 32500, model_pool: 400000
+2021-09-09 20:31:16,520 - model_epoch: 0, losses_avg: 0.005570, losses_std: 0.001146
+2021-09-09 20:32:17,765 - model_epoch: 17, losses_avg: 0.005595, losses_std: 0.001173
+2021-09-09 20:33:29,667 - env_pool: 32750, model_pool: 400000
+2021-09-09 20:33:33,986 - model_epoch: 0, losses_avg: 0.005381, losses_std: 0.001102
+2021-09-09 20:34:47,480 - model_epoch: 20, losses_avg: 0.005075, losses_std: 0.001070
+2021-09-09 20:36:01,485 - total_step: 28000, sum_reward: 1089.6044174148105
+2021-09-09 20:36:01,505 - env_pool: 33000, model_pool: 400000
+2021-09-09 20:36:05,791 - model_epoch: 0, losses_avg: 0.006689, losses_std: 0.002528
+2021-09-09 20:37:13,418 - model_epoch: 18, losses_avg: 0.004704, losses_std: 0.000967
+2021-09-09 20:38:24,836 - env_pool: 33250, model_pool: 400000
+2021-09-09 20:38:29,284 - model_epoch: 0, losses_avg: 0.004926, losses_std: 0.000841
+2021-09-09 20:39:29,775 - model_epoch: 16, losses_avg: 0.004927, losses_std: 0.000835
+2021-09-09 20:40:39,816 - env_pool: 33500, model_pool: 400000
+2021-09-09 20:40:44,163 - model_epoch: 0, losses_avg: 0.004999, losses_std: 0.000927
+2021-09-09 20:41:36,650 - model_epoch: 14, losses_avg: 0.005028, losses_std: 0.000891
+2021-09-09 20:42:48,189 - env_pool: 33750, model_pool: 400000
+2021-09-09 20:42:52,596 - model_epoch: 0, losses_avg: 0.004828, losses_std: 0.001059
+2021-09-09 20:43:56,857 - model_epoch: 17, losses_avg: 0.004822, losses_std: 0.001029
+2021-09-09 20:45:12,299 - total_step: 29000, sum_reward: 1522.9884314404997
+2021-09-09 20:45:12,321 - env_pool: 34000, model_pool: 400000
+2021-09-09 20:45:16,756 - model_epoch: 0, losses_avg: 0.005025, losses_std: 0.001050
+2021-09-09 20:46:25,302 - model_epoch: 18, losses_avg: 0.005095, losses_std: 0.001018
+2021-09-09 20:47:37,345 - env_pool: 34250, model_pool: 400000
+2021-09-09 20:47:41,750 - model_epoch: 0, losses_avg: 0.005378, losses_std: 0.001292
+2021-09-09 20:49:21,459 - model_epoch: 26, losses_avg: 0.005291, losses_std: 0.001059
+2021-09-09 20:50:32,935 - env_pool: 34500, model_pool: 400000
+2021-09-09 20:50:37,364 - model_epoch: 0, losses_avg: 0.005244, losses_std: 0.001190
+2021-09-09 20:52:46,819 - model_epoch: 33, losses_avg: 0.005113, losses_std: 0.001107
+2021-09-09 20:53:57,936 - env_pool: 34750, model_pool: 400000
+2021-09-09 20:54:02,348 - model_epoch: 0, losses_avg: 0.004549, losses_std: 0.000877
+2021-09-09 20:55:05,198 - model_epoch: 16, losses_avg: 0.004554, losses_std: 0.000875
+2021-09-09 20:56:23,102 - total_step: 30000, sum_reward: 3231.0494932284473
+2021-09-09 20:56:23,115 - env_pool: 35000, model_pool: 400000
+2021-09-09 20:56:27,589 - model_epoch: 0, losses_avg: 0.004181, losses_std: 0.001028
+2021-09-09 20:57:35,312 - model_epoch: 17, losses_avg: 0.004576, losses_std: 0.001599
+2021-09-09 20:58:47,293 - env_pool: 35250, model_pool: 400000
+2021-09-09 20:58:51,760 - model_epoch: 0, losses_avg: 0.003978, losses_std: 0.000983
+2021-09-09 21:00:35,804 - model_epoch: 26, losses_avg: 0.003824, losses_std: 0.000724
+2021-09-09 21:01:46,293 - env_pool: 35500, model_pool: 400000
+2021-09-09 21:01:50,829 - model_epoch: 0, losses_avg: 0.004316, losses_std: 0.000946
+2021-09-09 21:03:58,816 - model_epoch: 32, losses_avg: 0.004239, losses_std: 0.000971
+2021-09-09 21:05:10,733 - env_pool: 35750, model_pool: 400000
+2021-09-09 21:05:15,416 - model_epoch: 0, losses_avg: 0.003822, losses_std: 0.000881
+2021-09-09 21:06:03,993 - model_epoch: 12, losses_avg: 0.003746, losses_std: 0.000903
+2021-09-09 21:07:21,558 - total_step: 31000, sum_reward: 3009.4975960012403
+2021-09-09 21:11:45,210 - env_pool: 36250, model_pool: 400000
+2021-09-09 21:11:50,028 - model_epoch: 0, losses_avg: 0.005814, losses_std: 0.002407
+2021-09-09 21:15:19,980 - model_epoch: 52, losses_avg: 0.003945, losses_std: 0.000872
+2021-09-09 21:19:48,568 - env_pool: 36500, model_pool: 400000
+2021-09-09 21:19:53,475 - model_epoch: 0, losses_avg: 0.005591, losses_std: 0.003697
+2021-09-09 21:21:14,540 - model_epoch: 20, losses_avg: 0.003439, losses_std: 0.000933
+2021-09-09 21:25:43,073 - env_pool: 36750, model_pool: 400000
+2021-09-09 21:25:47,747 - model_epoch: 0, losses_avg: 0.003840, losses_std: 0.000944
+2021-09-09 21:26:16,225 - model_epoch: 7, losses_avg: 0.003822, losses_std: 0.000946
+2021-09-09 21:30:45,842 - total_step: 32000, sum_reward: 1034.922510845099
+2021-09-09 21:30:45,861 - env_pool: 37000, model_pool: 400000
+2021-09-09 21:30:50,628 - model_epoch: 0, losses_avg: 0.003561, losses_std: 0.000949
+2021-09-09 21:32:41,942 - model_epoch: 27, losses_avg: 0.003530, losses_std: 0.000960
+2021-09-09 21:37:10,043 - env_pool: 37250, model_pool: 400000
+2021-09-09 21:37:14,993 - model_epoch: 0, losses_avg: 0.003315, losses_std: 0.000817
+2021-09-09 21:38:46,947 - model_epoch: 22, losses_avg: 0.003306, losses_std: 0.000783
+2021-09-09 21:43:11,988 - env_pool: 37500, model_pool: 400000
+2021-09-09 21:43:16,786 - model_epoch: 0, losses_avg: 0.003727, losses_std: 0.000823
+2021-09-09 21:45:25,784 - model_epoch: 31, losses_avg: 0.003680, losses_std: 0.001553
+2021-09-09 21:49:49,771 - env_pool: 37750, model_pool: 400000
+2021-09-09 21:49:54,828 - model_epoch: 0, losses_avg: 0.003224, losses_std: 0.001029
+2021-09-09 21:51:34,368 - model_epoch: 24, losses_avg: 0.003162, losses_std: 0.000847
+2021-09-09 21:56:05,798 - total_step: 33000, sum_reward: 3223.213031627988
+2021-09-09 21:56:05,811 - env_pool: 38000, model_pool: 400000
+2021-09-09 21:56:10,466 - model_epoch: 0, losses_avg: 0.003651, losses_std: 0.000979
+2021-09-09 21:57:04,807 - model_epoch: 13, losses_avg: 0.003767, losses_std: 0.000903
+2021-09-09 22:01:26,702 - env_pool: 38250, model_pool: 400000
+2021-09-09 22:01:31,476 - model_epoch: 0, losses_avg: 0.003133, losses_std: 0.000866
+2021-09-09 22:02:17,738 - model_epoch: 11, losses_avg: 0.003145, losses_std: 0.000884
+2021-09-09 22:06:39,054 - env_pool: 38500, model_pool: 400000
+2021-09-09 22:06:43,815 - model_epoch: 0, losses_avg: 0.003735, losses_std: 0.000949
+2021-09-09 22:07:48,471 - model_epoch: 15, losses_avg: 0.003477, losses_std: 0.000883
+2021-09-09 22:12:08,701 - env_pool: 38750, model_pool: 400000
+2021-09-09 22:12:13,810 - model_epoch: 0, losses_avg: 0.003396, losses_std: 0.000986
+2021-09-09 22:14:28,272 - model_epoch: 31, losses_avg: 0.003412, losses_std: 0.000852
+2021-09-09 22:18:56,622 - total_step: 34000, sum_reward: 3057.2666745954675
+2021-09-09 22:18:56,636 - env_pool: 39000, model_pool: 400000
+2021-09-09 22:19:01,447 - model_epoch: 0, losses_avg: 0.002838, losses_std: 0.000798
+2021-09-09 22:20:23,589 - model_epoch: 19, losses_avg: 0.002867, losses_std: 0.000773
+2021-09-09 22:24:44,659 - env_pool: 39250, model_pool: 400000
+2021-09-09 22:24:49,569 - model_epoch: 0, losses_avg: 0.003075, losses_std: 0.000787
+2021-09-09 22:26:02,663 - model_epoch: 17, losses_avg: 0.003165, losses_std: 0.000852
+2021-09-09 22:30:22,325 - env_pool: 39500, model_pool: 400000
+2021-09-09 22:30:27,442 - model_epoch: 0, losses_avg: 0.002961, losses_std: 0.000754
+2021-09-09 22:31:20,704 - model_epoch: 12, losses_avg: 0.003065, losses_std: 0.000716
+2021-09-09 22:35:38,409 - env_pool: 39750, model_pool: 400000
+2021-09-09 22:35:43,520 - model_epoch: 0, losses_avg: 0.003075, losses_std: 0.000704
+2021-09-09 22:37:11,681 - model_epoch: 20, losses_avg: 0.002954, losses_std: 0.000749
+2021-09-09 22:41:35,866 - total_step: 35000, sum_reward: 3266.2120156227256
+2021-09-09 22:41:35,885 - env_pool: 40000, model_pool: 400000
+2021-09-09 22:41:40,749 - model_epoch: 0, losses_avg: 0.002598, losses_std: 0.000956
+2021-09-09 22:47:11,725 - model_epoch: 76, losses_avg: 0.002235, losses_std: 0.000681
+2021-09-09 22:51:28,182 - env_pool: 40250, model_pool: 400000
+2021-09-09 22:51:33,167 - model_epoch: 0, losses_avg: 0.002635, losses_std: 0.000750
+2021-09-09 22:52:34,410 - model_epoch: 14, losses_avg: 0.002299, losses_std: 0.000662
+2021-09-09 22:56:49,226 - env_pool: 40500, model_pool: 400000
+2021-09-09 22:56:53,961 - model_epoch: 0, losses_avg: 0.004011, losses_std: 0.002182
+2021-09-09 22:57:59,264 - model_epoch: 15, losses_avg: 0.002577, losses_std: 0.000706
+2021-09-09 23:02:12,308 - env_pool: 40750, model_pool: 400000
+2021-09-09 23:02:17,449 - model_epoch: 0, losses_avg: 0.002418, losses_std: 0.000657
+2021-09-09 23:03:41,377 - model_epoch: 19, losses_avg: 0.002445, losses_std: 0.000639
+2021-09-09 23:07:54,935 - total_step: 36000, sum_reward: 2083.374196094163
+2021-09-09 23:07:54,948 - env_pool: 41000, model_pool: 400000
+2021-09-09 23:07:59,963 - model_epoch: 0, losses_avg: 0.002202, losses_std: 0.000817
+2021-09-09 23:09:19,238 - model_epoch: 18, losses_avg: 0.001869, losses_std: 0.000600
+2021-09-09 23:13:26,321 - env_pool: 41250, model_pool: 400000
+2021-09-09 23:13:31,472 - model_epoch: 0, losses_avg: 0.002219, losses_std: 0.000720
+2021-09-09 23:15:25,690 - model_epoch: 26, losses_avg: 0.002263, losses_std: 0.000732
+2021-09-09 23:19:33,591 - env_pool: 41500, model_pool: 400000
+2021-09-09 23:19:38,638 - model_epoch: 0, losses_avg: 0.002156, losses_std: 0.000626
+2021-09-09 23:20:22,901 - model_epoch: 10, losses_avg: 0.002194, losses_std: 0.000644
+2021-09-09 23:24:29,989 - env_pool: 41750, model_pool: 400000
+2021-09-09 23:24:35,055 - model_epoch: 0, losses_avg: 0.003316, losses_std: 0.001437
+2021-09-09 23:25:28,987 - model_epoch: 12, losses_avg: 0.002327, losses_std: 0.000659
+2021-09-09 23:29:38,823 - total_step: 37000, sum_reward: 3247.9709682062953
+2021-09-09 23:29:38,836 - env_pool: 42000, model_pool: 400000
+2021-09-09 23:29:43,843 - model_epoch: 0, losses_avg: 0.001816, losses_std: 0.000683
+2021-09-09 23:31:10,469 - model_epoch: 19, losses_avg: 0.002053, losses_std: 0.000968
+2021-09-09 23:35:14,135 - env_pool: 42250, model_pool: 400000
+2021-09-09 23:35:19,359 - model_epoch: 0, losses_avg: 0.002222, losses_std: 0.000765
+2021-09-09 23:36:27,404 - model_epoch: 15, losses_avg: 0.002460, losses_std: 0.000864
+2021-09-09 23:40:21,538 - env_pool: 42500, model_pool: 400000
+2021-09-09 23:40:26,638 - model_epoch: 0, losses_avg: 0.002001, losses_std: 0.000706
+2021-09-09 23:42:03,696 - model_epoch: 22, losses_avg: 0.001974, losses_std: 0.000696
+2021-09-09 23:45:58,258 - env_pool: 42750, model_pool: 400000
+2021-09-09 23:46:03,384 - model_epoch: 0, losses_avg: 0.001714, losses_std: 0.000712
+2021-09-09 23:46:51,823 - model_epoch: 11, losses_avg: 0.001719, losses_std: 0.000737
+2021-09-09 23:50:52,704 - total_step: 38000, sum_reward: 3234.806003186723
+2021-09-09 23:50:52,717 - env_pool: 43000, model_pool: 400000
+2021-09-09 23:50:57,835 - model_epoch: 0, losses_avg: 0.001860, losses_std: 0.000631
+2021-09-09 23:52:14,481 - model_epoch: 17, losses_avg: 0.001791, losses_std: 0.000616
+2021-09-09 23:56:05,379 - env_pool: 43250, model_pool: 400000
+2021-09-09 23:56:10,616 - model_epoch: 0, losses_avg: 0.001892, losses_std: 0.000690
+2021-09-09 23:57:43,558 - model_epoch: 21, losses_avg: 0.001917, losses_std: 0.000672
+2021-09-10 00:01:34,944 - env_pool: 43500, model_pool: 400000
+2021-09-10 00:01:40,057 - model_epoch: 0, losses_avg: 0.001885, losses_std: 0.000628
+2021-09-10 00:02:36,445 - model_epoch: 12, losses_avg: 0.001920, losses_std: 0.000615
+2021-09-10 00:06:24,576 - env_pool: 43750, model_pool: 400000
+2021-09-10 00:06:29,444 - model_epoch: 0, losses_avg: 0.002020, losses_std: 0.000762
+2021-09-10 00:07:13,801 - model_epoch: 10, losses_avg: 0.002086, losses_std: 0.000721
+2021-09-10 00:11:05,128 - total_step: 39000, sum_reward: 2050.7495652297916
+2021-09-10 00:11:05,147 - env_pool: 44000, model_pool: 400000
+2021-09-10 00:11:10,318 - model_epoch: 0, losses_avg: 0.001851, losses_std: 0.000682
+2021-09-10 00:11:55,428 - model_epoch: 10, losses_avg: 0.001882, losses_std: 0.000651
+2021-09-10 00:15:42,842 - env_pool: 44250, model_pool: 400000
+2021-09-10 00:15:48,107 - model_epoch: 0, losses_avg: 0.002101, losses_std: 0.000703
+2021-09-10 00:16:45,968 - model_epoch: 13, losses_avg: 0.002018, losses_std: 0.000666
+2021-09-10 00:20:35,108 - env_pool: 44500, model_pool: 400000
+2021-09-10 00:20:40,386 - model_epoch: 0, losses_avg: 0.002013, losses_std: 0.000700
+2021-09-10 00:21:25,974 - model_epoch: 10, losses_avg: 0.002513, losses_std: 0.001059
+2021-09-10 00:25:15,726 - env_pool: 44750, model_pool: 400000
+2021-09-10 00:25:20,986 - model_epoch: 0, losses_avg: 0.001695, losses_std: 0.000686
+2021-09-10 00:26:15,577 - model_epoch: 12, losses_avg: 0.001665, losses_std: 0.000667
+2021-09-10 00:30:08,488 - total_step: 40000, sum_reward: 2865.177771038298
+2021-09-10 00:30:08,501 - env_pool: 45000, model_pool: 400000
+2021-09-10 00:30:13,706 - model_epoch: 0, losses_avg: 0.001617, losses_std: 0.000586
+2021-09-10 00:31:19,479 - model_epoch: 15, losses_avg: 0.002461, losses_std: 0.001913
+2021-09-10 00:35:05,185 - env_pool: 45250, model_pool: 400000
+2021-09-10 00:35:10,481 - model_epoch: 0, losses_avg: 0.002467, losses_std: 0.001460
+2021-09-10 00:36:44,114 - model_epoch: 20, losses_avg: 0.001927, losses_std: 0.000641
+2021-09-10 00:40:29,776 - env_pool: 45500, model_pool: 400000
+2021-09-10 00:40:35,162 - model_epoch: 0, losses_avg: 0.001577, losses_std: 0.000657
+2021-09-10 00:42:08,946 - model_epoch: 20, losses_avg: 0.001807, losses_std: 0.000681
+2021-09-10 00:45:55,321 - env_pool: 45750, model_pool: 400000
+2021-09-10 00:46:00,361 - model_epoch: 0, losses_avg: 0.001721, losses_std: 0.000643
+2021-09-10 00:46:57,328 - model_epoch: 12, losses_avg: 0.001700, losses_std: 0.000733
+2021-09-10 00:50:46,061 - total_step: 41000, sum_reward: 1083.1297970272508
+2021-09-10 00:50:46,075 - env_pool: 46000, model_pool: 400000
+2021-09-10 00:50:51,903 - model_epoch: 0, losses_avg: 0.002160, losses_std: 0.001163
+2021-09-10 00:52:18,029 - model_epoch: 18, losses_avg: 0.001916, losses_std: 0.000901
+2021-09-10 00:56:05,743 - env_pool: 46250, model_pool: 400000
+2021-09-10 00:56:11,095 - model_epoch: 0, losses_avg: 0.001698, losses_std: 0.000663
+2021-09-10 00:57:27,785 - model_epoch: 16, losses_avg: 0.001743, losses_std: 0.000626
+2021-09-10 00:59:23,946 - env_pool: 46500, model_pool: 400000
+2021-09-10 00:59:29,446 - model_epoch: 0, losses_avg: 0.001724, losses_std: 0.000546
+2021-09-10 01:00:16,513 - model_epoch: 10, losses_avg: 0.001731, losses_std: 0.000626
+2021-09-10 01:01:16,921 - env_pool: 46750, model_pool: 400000
+2021-09-10 01:01:22,336 - model_epoch: 0, losses_avg: 0.001784, losses_std: 0.000589
+2021-09-10 01:02:05,458 - model_epoch: 9, losses_avg: 0.001802, losses_std: 0.000585
+2021-09-10 01:03:07,304 - total_step: 42000, sum_reward: 1027.7134216272786
+2021-09-10 01:03:07,316 - env_pool: 47000, model_pool: 400000
+2021-09-10 01:03:12,685 - model_epoch: 0, losses_avg: 0.002163, losses_std: 0.001129
+2021-09-10 01:04:34,200 - model_epoch: 17, losses_avg: 0.001870, losses_std: 0.000552
+2021-09-10 01:05:34,972 - env_pool: 47250, model_pool: 400000
+2021-09-10 01:05:40,528 - model_epoch: 0, losses_avg: 0.001540, losses_std: 0.000539
+2021-09-10 01:07:34,018 - model_epoch: 24, losses_avg: 0.001593, losses_std: 0.000486
+2021-09-10 01:08:33,890 - env_pool: 47500, model_pool: 400000
+2021-09-10 01:08:39,355 - model_epoch: 0, losses_avg: 0.001454, losses_std: 0.000542
+2021-09-10 01:09:21,397 - model_epoch: 9, losses_avg: 0.001438, losses_std: 0.000546
+2021-09-10 01:10:21,878 - env_pool: 47750, model_pool: 400000
+2021-09-10 01:10:27,412 - model_epoch: 0, losses_avg: 0.001702, losses_std: 0.000602
+2021-09-10 01:11:41,725 - model_epoch: 15, losses_avg: 0.001722, losses_std: 0.000606
+2021-09-10 01:12:45,517 - total_step: 43000, sum_reward: 1660.5049295143458
+2021-09-10 01:12:45,529 - env_pool: 48000, model_pool: 400000
+2021-09-10 01:12:51,044 - model_epoch: 0, losses_avg: 0.001702, losses_std: 0.000649
+2021-09-10 01:14:08,181 - model_epoch: 18, losses_avg: 0.001758, losses_std: 0.000626
+2021-09-10 01:15:03,005 - env_pool: 48250, model_pool: 400000
+2021-09-10 01:15:08,579 - model_epoch: 0, losses_avg: 0.003247, losses_std: 0.004081
+2021-09-10 01:16:30,553 - model_epoch: 17, losses_avg: 0.001717, losses_std: 0.000619
+2021-09-10 01:17:20,098 - env_pool: 48500, model_pool: 400000
+2021-09-10 01:17:25,785 - model_epoch: 0, losses_avg: 0.001373, losses_std: 0.000431
+2021-09-10 01:19:44,970 - model_epoch: 28, losses_avg: 0.001383, losses_std: 0.000418
+2021-09-10 01:20:44,091 - env_pool: 48750, model_pool: 400000
+2021-09-10 01:20:49,730 - model_epoch: 0, losses_avg: 0.001986, losses_std: 0.000768
+2021-09-10 01:22:05,608 - model_epoch: 15, losses_avg: 0.001587, losses_std: 0.000508
+2021-09-10 01:23:09,181 - total_step: 44000, sum_reward: 2321.8287319985816
+2021-09-10 01:23:09,192 - env_pool: 49000, model_pool: 400000
+2021-09-10 01:23:14,794 - model_epoch: 0, losses_avg: 0.001643, losses_std: 0.000572
+2021-09-10 01:24:05,634 - model_epoch: 10, losses_avg: 0.001580, losses_std: 0.000566
+2021-09-10 01:25:06,980 - env_pool: 49250, model_pool: 400000
+2021-09-10 01:25:12,594 - model_epoch: 0, losses_avg: 0.001507, losses_std: 0.000569
+2021-09-10 01:26:22,511 - model_epoch: 14, losses_avg: 0.001559, losses_std: 0.000508
+2021-09-10 01:27:21,870 - env_pool: 49500, model_pool: 400000
+2021-09-10 01:27:27,457 - model_epoch: 0, losses_avg: 0.001631, losses_std: 0.000423
+2021-09-10 01:29:04,214 - model_epoch: 19, losses_avg: 0.001639, losses_std: 0.000479
+2021-09-10 01:30:05,535 - env_pool: 49750, model_pool: 400000
+2021-09-10 01:30:11,109 - model_epoch: 0, losses_avg: 0.001591, losses_std: 0.000593
+2021-09-10 01:31:42,466 - model_epoch: 18, losses_avg: 0.001491, losses_std: 0.000457
+2021-09-10 01:32:47,522 - total_step: 45000, sum_reward: 3304.1364974775224
+2021-09-10 01:32:47,535 - env_pool: 50000, model_pool: 400000
+2021-09-10 01:32:53,223 - model_epoch: 0, losses_avg: 0.001317, losses_std: 0.000410
+2021-09-10 01:33:55,340 - model_epoch: 12, losses_avg: 0.001382, losses_std: 0.000428
+2021-09-10 01:34:54,867 - env_pool: 50250, model_pool: 400000
+2021-09-10 01:35:00,663 - model_epoch: 0, losses_avg: 0.001606, losses_std: 0.000404
+2021-09-10 01:37:50,877 - model_epoch: 33, losses_avg: 0.001696, losses_std: 0.000481
+2021-09-10 01:38:50,060 - env_pool: 50500, model_pool: 400000
+2021-09-10 01:38:55,868 - model_epoch: 0, losses_avg: 0.001302, losses_std: 0.000430
+2021-09-10 01:39:57,969 - model_epoch: 12, losses_avg: 0.001297, losses_std: 0.000406
+2021-09-10 01:40:57,044 - env_pool: 50750, model_pool: 400000
+2021-09-10 01:41:02,862 - model_epoch: 0, losses_avg: 0.001429, losses_std: 0.000380
+2021-09-10 01:42:04,982 - model_epoch: 12, losses_avg: 0.001599, losses_std: 0.000491
+2021-09-10 01:43:10,735 - total_step: 46000, sum_reward: 3302.6636157946255
+2021-09-10 01:43:10,747 - env_pool: 51000, model_pool: 400000
+2021-09-10 01:43:16,702 - model_epoch: 0, losses_avg: 0.001401, losses_std: 0.000370
+2021-09-10 01:44:55,699 - model_epoch: 19, losses_avg: 0.001416, losses_std: 0.000262
+2021-09-10 01:45:55,999 - env_pool: 51250, model_pool: 400000
+2021-09-10 01:46:02,217 - model_epoch: 0, losses_avg: 0.001423, losses_std: 0.000339
+2021-09-10 01:47:21,544 - model_epoch: 15, losses_avg: 0.001499, losses_std: 0.000314
+2021-09-10 01:48:21,248 - env_pool: 51500, model_pool: 400000
+2021-09-10 01:48:27,187 - model_epoch: 0, losses_avg: 0.001594, losses_std: 0.000312
+2021-09-10 01:49:54,093 - model_epoch: 17, losses_avg: 0.001647, losses_std: 0.000392
+2021-09-10 01:50:55,446 - env_pool: 51750, model_pool: 400000
+2021-09-10 01:51:01,522 - model_epoch: 0, losses_avg: 0.001668, losses_std: 0.000386
+2021-09-10 01:52:26,832 - model_epoch: 16, losses_avg: 0.001699, losses_std: 0.000284
+2021-09-10 01:53:30,224 - total_step: 47000, sum_reward: 2284.8180960700997
+2021-09-10 01:53:30,236 - env_pool: 52000, model_pool: 400000
+2021-09-10 01:53:36,291 - model_epoch: 0, losses_avg: 0.001443, losses_std: 0.000322
+2021-09-10 01:54:36,056 - model_epoch: 11, losses_avg: 0.001741, losses_std: 0.000928
+2021-09-10 01:55:36,716 - env_pool: 52250, model_pool: 400000
+2021-09-10 01:55:42,763 - model_epoch: 0, losses_avg: 0.001696, losses_std: 0.000418
+2021-09-10 01:57:08,392 - model_epoch: 16, losses_avg: 0.001432, losses_std: 0.000135
+2021-09-10 01:58:08,978 - env_pool: 52500, model_pool: 400000
+2021-09-10 01:58:15,161 - model_epoch: 0, losses_avg: 0.001307, losses_std: 0.000182
+2021-09-10 01:59:42,015 - model_epoch: 16, losses_avg: 0.001307, losses_std: 0.000163
+2021-09-10 02:00:41,549 - env_pool: 52750, model_pool: 400000
+2021-09-10 02:00:47,657 - model_epoch: 0, losses_avg: 0.001268, losses_std: 0.000240
+2021-09-10 02:02:25,429 - model_epoch: 18, losses_avg: 0.001305, losses_std: 0.000208
+2021-09-10 02:03:26,164 - total_step: 48000, sum_reward: 1708.0616022511308
+2021-09-10 02:03:26,176 - env_pool: 53000, model_pool: 400000
+2021-09-10 02:03:32,214 - model_epoch: 0, losses_avg: 0.001292, losses_std: 0.000180
+2021-09-10 02:04:26,789 - model_epoch: 10, losses_avg: 0.001315, losses_std: 0.000169
+2021-09-10 02:05:27,822 - env_pool: 53250, model_pool: 400000
+2021-09-10 02:05:34,106 - model_epoch: 0, losses_avg: 0.001265, losses_std: 0.000232
+2021-09-10 02:06:39,176 - model_epoch: 12, losses_avg: 0.001346, losses_std: 0.000335
+2021-09-10 02:07:39,412 - env_pool: 53500, model_pool: 400000
+2021-09-10 02:07:45,591 - model_epoch: 0, losses_avg: 0.001242, losses_std: 0.000145
+2021-09-10 02:09:03,025 - model_epoch: 14, losses_avg: 0.001325, losses_std: 0.000164
+2021-09-10 02:10:03,924 - env_pool: 53750, model_pool: 400000
+2021-09-10 02:10:10,268 - model_epoch: 0, losses_avg: 0.001125, losses_std: 0.000162
+2021-09-10 02:11:33,959 - model_epoch: 15, losses_avg: 0.001174, losses_std: 0.000147
+2021-09-10 02:12:37,389 - total_step: 49000, sum_reward: 1675.4288745626811
+2021-09-10 02:12:37,401 - env_pool: 54000, model_pool: 400000
+2021-09-10 02:12:43,609 - model_epoch: 0, losses_avg: 0.001350, losses_std: 0.000165
+2021-09-10 02:14:34,363 - model_epoch: 20, losses_avg: 0.001660, losses_std: 0.000769
+2021-09-10 02:15:34,159 - env_pool: 54250, model_pool: 400000
+2021-09-10 02:15:40,421 - model_epoch: 0, losses_avg: 0.000990, losses_std: 0.000176
+2021-09-10 02:16:24,584 - model_epoch: 8, losses_avg: 0.001018, losses_std: 0.000157
+2021-09-10 02:17:24,013 - env_pool: 54500, model_pool: 400000
+2021-09-10 02:17:30,269 - model_epoch: 0, losses_avg: 0.001174, losses_std: 0.000129
+2021-09-10 02:18:15,886 - model_epoch: 8, losses_avg: 0.001222, losses_std: 0.000116
+2021-09-10 02:19:16,264 - env_pool: 54750, model_pool: 400000
+2021-09-10 02:19:22,733 - model_epoch: 0, losses_avg: 0.001179, losses_std: 0.000139
+2021-09-10 02:20:47,358 - model_epoch: 15, losses_avg: 0.001201, losses_std: 0.000139
+2021-09-10 02:21:47,572 - total_step: 50000, sum_reward: 2143.5076943929553
+2021-09-10 02:21:47,585 - env_pool: 55000, model_pool: 400000
+2021-09-10 02:21:53,791 - model_epoch: 0, losses_avg: 0.001249, losses_std: 0.000171
+2021-09-10 02:23:34,701 - model_epoch: 18, losses_avg: 0.001236, losses_std: 0.000174
+2021-09-10 02:24:34,492 - env_pool: 55250, model_pool: 400000
+2021-09-10 02:24:40,867 - model_epoch: 0, losses_avg: 0.001137, losses_std: 0.000105
+2021-09-10 02:25:42,795 - model_epoch: 11, losses_avg: 0.001169, losses_std: 0.000120
+2021-09-10 02:26:42,740 - env_pool: 55500, model_pool: 400000
+2021-09-10 02:26:48,976 - model_epoch: 0, losses_avg: 0.001498, losses_std: 0.001039
+2021-09-10 02:27:45,573 - model_epoch: 10, losses_avg: 0.001122, losses_std: 0.000143
+2021-09-10 02:28:43,125 - env_pool: 55750, model_pool: 400000
+2021-09-10 02:28:49,678 - model_epoch: 0, losses_avg: 0.001206, losses_std: 0.000223
+2021-09-10 02:29:52,724 - model_epoch: 11, losses_avg: 0.001227, losses_std: 0.000151
+2021-09-10 02:30:55,630 - total_step: 51000, sum_reward: 1714.3276868329378
+2021-09-10 02:30:55,642 - env_pool: 56000, model_pool: 400000
+2021-09-10 02:31:02,164 - model_epoch: 0, losses_avg: 0.001156, losses_std: 0.000108
+2021-09-10 02:32:15,876 - model_epoch: 13, losses_avg: 0.001256, losses_std: 0.000216
+2021-09-10 02:33:14,890 - env_pool: 56250, model_pool: 400000
+2021-09-10 02:33:21,499 - model_epoch: 0, losses_avg: 0.001280, losses_std: 0.000154
+2021-09-10 02:34:07,822 - model_epoch: 8, losses_avg: 0.001310, losses_std: 0.000159
+2021-09-10 02:35:07,587 - env_pool: 56500, model_pool: 400000
+2021-09-10 02:35:14,281 - model_epoch: 0, losses_avg: 0.001649, losses_std: 0.000997
+2021-09-10 02:36:47,684 - model_epoch: 16, losses_avg: 0.001280, losses_std: 0.000179
+2021-09-10 02:37:48,732 - env_pool: 56750, model_pool: 400000
+2021-09-10 02:37:55,574 - model_epoch: 0, losses_avg: 0.001040, losses_std: 0.000120
+2021-09-10 02:38:42,763 - model_epoch: 8, losses_avg: 0.001402, losses_std: 0.000715
+2021-09-10 02:39:44,341 - total_step: 52000, sum_reward: 1987.852485697201
+2021-09-10 02:39:44,353 - env_pool: 57000, model_pool: 400000
+2021-09-10 02:39:51,019 - model_epoch: 0, losses_avg: 0.001229, losses_std: 0.000164
+2021-09-10 02:41:25,535 - model_epoch: 16, losses_avg: 0.001202, losses_std: 0.000124
+2021-09-10 02:42:26,078 - env_pool: 57250, model_pool: 400000
+2021-09-10 02:42:32,853 - model_epoch: 0, losses_avg: 0.001238, losses_std: 0.000194
+2021-09-10 02:43:55,393 - model_epoch: 14, losses_avg: 0.001270, losses_std: 0.000152
+2021-09-10 02:44:55,836 - env_pool: 57500, model_pool: 400000
+2021-09-10 02:45:02,698 - model_epoch: 0, losses_avg: 0.001113, losses_std: 0.000139
+2021-09-10 02:46:14,076 - model_epoch: 12, losses_avg: 0.001194, losses_std: 0.000150
+2021-09-10 02:47:14,256 - env_pool: 57750, model_pool: 400000
+2021-09-10 02:47:21,010 - model_epoch: 0, losses_avg: 0.001218, losses_std: 0.000108
+2021-09-10 02:48:41,878 - model_epoch: 15, losses_avg: 0.001233, losses_std: 0.000111
+2021-09-10 02:49:44,070 - total_step: 53000, sum_reward: 2233.5525254896056
+2021-09-10 02:49:44,083 - env_pool: 58000, model_pool: 400000
+2021-09-10 02:49:50,866 - model_epoch: 0, losses_avg: 0.001109, losses_std: 0.000161
+2021-09-10 02:50:56,630 - model_epoch: 11, losses_avg: 0.001125, losses_std: 0.000180
+2021-09-10 02:51:56,802 - env_pool: 58250, model_pool: 400000
+2021-09-10 02:52:03,747 - model_epoch: 0, losses_avg: 0.001259, losses_std: 0.000170
+2021-09-10 02:54:09,816 - model_epoch: 21, losses_avg: 0.001339, losses_std: 0.000110
+2021-09-10 02:55:10,449 - env_pool: 58500, model_pool: 400000
+2021-09-10 02:55:17,139 - model_epoch: 0, losses_avg: 0.001054, losses_std: 0.000110
+2021-09-10 02:56:34,175 - model_epoch: 13, losses_avg: 0.001134, losses_std: 0.000233
+2021-09-10 02:57:35,153 - env_pool: 58750, model_pool: 400000
+2021-09-10 02:57:42,006 - model_epoch: 0, losses_avg: 0.001101, losses_std: 0.000129
+2021-09-10 02:58:59,773 - model_epoch: 13, losses_avg: 0.001116, losses_std: 0.000089
+2021-09-10 03:00:03,296 - total_step: 54000, sum_reward: 1375.6671687691437
+2021-09-10 03:00:03,308 - env_pool: 59000, model_pool: 400000
+2021-09-10 03:00:10,281 - model_epoch: 0, losses_avg: 0.002073, losses_std: 0.001482
+2021-09-10 03:01:40,218 - model_epoch: 15, losses_avg: 0.001112, losses_std: 0.000123
+2021-09-10 03:02:40,173 - env_pool: 59250, model_pool: 400000
+2021-09-10 03:02:46,253 - model_epoch: 0, losses_avg: 0.001013, losses_std: 0.000117
+2021-09-10 03:03:33,162 - model_epoch: 9, losses_avg: 0.001070, losses_std: 0.000118
+2021-09-10 03:04:31,476 - env_pool: 59500, model_pool: 400000
+2021-09-10 03:04:38,429 - model_epoch: 0, losses_avg: 0.000906, losses_std: 0.000114
+2021-09-10 03:06:11,900 - model_epoch: 15, losses_avg: 0.000948, losses_std: 0.000139
+2021-09-10 03:07:13,033 - env_pool: 59750, model_pool: 400000
+2021-09-10 03:07:19,828 - model_epoch: 0, losses_avg: 0.001104, losses_std: 0.000129
+2021-09-10 03:08:14,373 - model_epoch: 9, losses_avg: 0.001079, losses_std: 0.000085
+2021-09-10 03:09:17,746 - total_step: 55000, sum_reward: 2201.348731253328
+2021-09-10 03:09:17,758 - env_pool: 60000, model_pool: 400000
+2021-09-10 03:09:24,671 - model_epoch: 0, losses_avg: 0.001089, losses_std: 0.000121
+2021-09-10 03:10:20,841 - model_epoch: 9, losses_avg: 0.001111, losses_std: 0.000117
+2021-09-10 03:11:21,733 - env_pool: 60250, model_pool: 400000
+2021-09-10 03:11:28,600 - model_epoch: 0, losses_avg: 0.001112, losses_std: 0.000147
+2021-09-10 03:12:23,779 - model_epoch: 9, losses_avg: 0.001115, losses_std: 0.000106
+2021-09-10 03:13:22,955 - env_pool: 60500, model_pool: 400000
+2021-09-10 03:13:30,041 - model_epoch: 0, losses_avg: 0.001071, losses_std: 0.000175
+2021-09-10 03:15:04,393 - model_epoch: 15, losses_avg: 0.001512, losses_std: 0.000970
+2021-09-10 03:16:04,865 - env_pool: 60750, model_pool: 400000
+2021-09-10 03:16:12,045 - model_epoch: 0, losses_avg: 0.001099, losses_std: 0.000088
+2021-09-10 03:17:08,254 - model_epoch: 9, losses_avg: 0.001115, losses_std: 0.000091
+2021-09-10 03:18:12,937 - total_step: 56000, sum_reward: 2609.6752988247626
+2021-09-10 03:18:12,950 - env_pool: 61000, model_pool: 400000
+2021-09-10 03:18:20,395 - model_epoch: 0, losses_avg: 0.001133, losses_std: 0.000115
+2021-09-10 03:20:13,330 - model_epoch: 18, losses_avg: 0.001127, losses_std: 0.000120
+2021-09-10 03:21:15,077 - env_pool: 61250, model_pool: 400000
+2021-09-10 03:21:22,461 - model_epoch: 0, losses_avg: 0.001036, losses_std: 0.000088
+2021-09-10 03:22:49,736 - model_epoch: 14, losses_avg: 0.001053, losses_std: 0.000086
+2021-09-10 03:23:49,259 - env_pool: 61500, model_pool: 400000
+2021-09-10 03:23:56,422 - model_epoch: 0, losses_avg: 0.001056, losses_std: 0.000229
+2021-09-10 03:26:08,993 - model_epoch: 21, losses_avg: 0.001012, losses_std: 0.000192
+2021-09-10 03:27:09,468 - env_pool: 61750, model_pool: 400000
+2021-09-10 03:27:16,689 - model_epoch: 0, losses_avg: 0.001022, losses_std: 0.000139
+2021-09-10 03:28:53,391 - model_epoch: 15, losses_avg: 0.001062, losses_std: 0.000113
+2021-09-10 03:29:59,912 - total_step: 57000, sum_reward: 3381.2523778925574
+2021-09-10 03:29:59,924 - env_pool: 62000, model_pool: 400000
+2021-09-10 03:30:07,313 - model_epoch: 0, losses_avg: 0.001018, losses_std: 0.000102
+2021-09-10 03:31:24,667 - model_epoch: 12, losses_avg: 0.000977, losses_std: 0.000089
+2021-09-10 03:32:22,681 - env_pool: 62250, model_pool: 400000
+2021-09-10 03:32:30,021 - model_epoch: 0, losses_avg: 0.000925, losses_std: 0.000083
+2021-09-10 03:34:15,722 - model_epoch: 17, losses_avg: 0.000951, losses_std: 0.000103
+2021-09-10 03:35:15,492 - env_pool: 62500, model_pool: 400000
+2021-09-10 03:35:21,861 - model_epoch: 0, losses_avg: 0.000866, losses_std: 0.000097
+2021-09-10 03:36:45,167 - model_epoch: 13, losses_avg: 0.000894, losses_std: 0.000115
+2021-09-10 03:37:46,214 - env_pool: 62750, model_pool: 400000
+2021-09-10 03:37:53,680 - model_epoch: 0, losses_avg: 0.000932, losses_std: 0.000115
+2021-09-10 03:39:32,808 - model_epoch: 15, losses_avg: 0.002155, losses_std: 0.002830
+2021-09-10 03:40:38,710 - total_step: 58000, sum_reward: 3315.1389752687232
+2021-09-10 03:40:38,721 - env_pool: 63000, model_pool: 400000
+2021-09-10 03:40:46,022 - model_epoch: 0, losses_avg: 0.001928, losses_std: 0.002390
+2021-09-10 03:41:57,450 - model_epoch: 11, losses_avg: 0.001025, losses_std: 0.000132
+2021-09-10 03:42:58,269 - env_pool: 63250, model_pool: 400000
+2021-09-10 03:43:06,215 - model_epoch: 0, losses_avg: 0.000813, losses_std: 0.000104
+2021-09-10 03:44:12,600 - model_epoch: 10, losses_avg: 0.000856, losses_std: 0.000099
+2021-09-10 03:45:13,557 - env_pool: 63500, model_pool: 400000
+2021-09-10 03:45:20,851 - model_epoch: 0, losses_avg: 0.001408, losses_std: 0.001020
+2021-09-10 03:46:58,995 - model_epoch: 15, losses_avg: 0.001071, losses_std: 0.000159
+2021-09-10 03:48:01,257 - env_pool: 63750, model_pool: 400000
+2021-09-10 03:48:08,467 - model_epoch: 0, losses_avg: 0.000996, losses_std: 0.000106
+2021-09-10 03:49:47,065 - model_epoch: 15, losses_avg: 0.000990, losses_std: 0.000115
+2021-09-10 03:50:53,252 - total_step: 59000, sum_reward: 3332.605079217644
+2021-09-10 03:50:53,265 - env_pool: 64000, model_pool: 400000
+2021-09-10 03:51:00,601 - model_epoch: 0, losses_avg: 0.001003, losses_std: 0.000089
+2021-09-10 03:52:38,163 - model_epoch: 15, losses_avg: 0.000970, losses_std: 0.000078
+2021-09-10 03:53:38,223 - env_pool: 64250, model_pool: 400000
+2021-09-10 03:53:45,916 - model_epoch: 0, losses_avg: 0.001085, losses_std: 0.000119
+2021-09-10 03:54:58,047 - model_epoch: 11, losses_avg: 0.001130, losses_std: 0.000154
+2021-09-10 03:55:58,061 - env_pool: 64500, model_pool: 400000
+2021-09-10 03:56:05,650 - model_epoch: 0, losses_avg: 0.001010, losses_std: 0.000187
+2021-09-10 03:57:05,521 - model_epoch: 9, losses_avg: 0.000989, losses_std: 0.000129
+2021-09-10 03:58:04,426 - env_pool: 64750, model_pool: 400000
+2021-09-10 03:58:11,987 - model_epoch: 0, losses_avg: 0.000989, losses_std: 0.000133
+2021-09-10 03:59:46,203 - model_epoch: 14, losses_avg: 0.001032, losses_std: 0.000112
+2021-09-10 04:00:51,465 - total_step: 60000, sum_reward: 3367.2311040410145
+2021-09-10 04:00:51,478 - env_pool: 65000, model_pool: 400000
+2021-09-10 04:00:59,071 - model_epoch: 0, losses_avg: 0.000866, losses_std: 0.000100
+2021-09-10 04:02:13,035 - model_epoch: 11, losses_avg: 0.000892, losses_std: 0.000117
+2021-09-10 04:03:13,791 - env_pool: 65250, model_pool: 400000
+2021-09-10 04:03:21,361 - model_epoch: 0, losses_avg: 0.000873, losses_std: 0.000095
+2021-09-10 04:04:28,400 - model_epoch: 10, losses_avg: 0.000904, losses_std: 0.000112
+2021-09-10 04:05:27,061 - env_pool: 65500, model_pool: 400000
+2021-09-10 04:05:34,499 - model_epoch: 0, losses_avg: 0.000938, losses_std: 0.000160
+2021-09-10 04:07:28,420 - model_epoch: 17, losses_avg: 0.000876, losses_std: 0.000096
+2021-09-10 04:08:29,562 - env_pool: 65750, model_pool: 400000
+2021-09-10 04:08:37,267 - model_epoch: 0, losses_avg: 0.001016, losses_std: 0.000137
+2021-09-10 04:10:25,726 - model_epoch: 16, losses_avg: 0.000976, losses_std: 0.000112
+2021-09-10 04:11:30,365 - total_step: 61000, sum_reward: 3398.545850303368
+2021-09-10 04:11:30,377 - env_pool: 66000, model_pool: 400000
+2021-09-10 04:11:37,943 - model_epoch: 0, losses_avg: 0.001248, losses_std: 0.000168
+2021-09-10 04:13:06,169 - model_epoch: 13, losses_avg: 0.001117, losses_std: 0.000120
+2021-09-10 04:14:05,807 - env_pool: 66250, model_pool: 400000
+2021-09-10 04:14:13,282 - model_epoch: 0, losses_avg: 0.000962, losses_std: 0.000082
+2021-09-10 04:16:51,143 - model_epoch: 23, losses_avg: 0.001167, losses_std: 0.000308
+2021-09-10 04:17:49,531 - env_pool: 66500, model_pool: 400000
+2021-09-10 04:17:57,204 - model_epoch: 0, losses_avg: 0.000889, losses_std: 0.000086
+2021-09-10 04:20:00,132 - model_epoch: 18, losses_avg: 0.000891, losses_std: 0.000089
+2021-09-10 04:21:01,258 - env_pool: 66750, model_pool: 400000
+2021-09-10 04:21:09,189 - model_epoch: 0, losses_avg: 0.000881, losses_std: 0.000083
+2021-09-10 04:22:25,994 - model_epoch: 11, losses_avg: 0.000921, losses_std: 0.000067
+2021-09-10 04:23:30,857 - total_step: 62000, sum_reward: 3356.194894527363
+2021-09-10 04:23:30,869 - env_pool: 67000, model_pool: 400000
+2021-09-10 04:23:38,632 - model_epoch: 0, losses_avg: 0.000944, losses_std: 0.000093
+2021-09-10 04:24:48,814 - model_epoch: 10, losses_avg: 0.000996, losses_std: 0.000105
+2021-09-10 04:25:43,725 - env_pool: 67250, model_pool: 400000
+2021-09-10 04:25:51,346 - model_epoch: 0, losses_avg: 0.000898, losses_std: 0.000122
+2021-09-10 04:28:11,234 - model_epoch: 20, losses_avg: 0.000961, losses_std: 0.000109
+2021-09-10 04:29:09,808 - env_pool: 67500, model_pool: 400000
+2021-09-10 04:29:17,623 - model_epoch: 0, losses_avg: 0.000937, losses_std: 0.000126
+2021-09-10 04:30:26,674 - model_epoch: 10, losses_avg: 0.000991, losses_std: 0.000153
+2021-09-10 04:31:25,970 - env_pool: 67750, model_pool: 400000
+2021-09-10 04:31:33,748 - model_epoch: 0, losses_avg: 0.000874, losses_std: 0.000120
+2021-09-10 04:32:49,330 - model_epoch: 11, losses_avg: 0.000891, losses_std: 0.000095
+2021-09-10 04:33:56,401 - total_step: 63000, sum_reward: 3353.2188527130306
+2021-09-10 04:37:40,874 - env_pool: 68250, model_pool: 400000
+2021-09-10 04:37:49,136 - model_epoch: 0, losses_avg: 0.000920, losses_std: 0.000100
+2021-09-10 04:39:06,455 - model_epoch: 11, losses_avg: 0.000953, losses_std: 0.000090
+2021-09-10 04:42:53,723 - env_pool: 68500, model_pool: 400000
+2021-09-10 04:43:01,910 - model_epoch: 0, losses_avg: 0.001059, losses_std: 0.000296
+2021-09-10 04:44:18,816 - model_epoch: 11, losses_avg: 0.001000, losses_std: 0.000105
+2021-09-10 04:48:05,017 - env_pool: 68750, model_pool: 400000
+2021-09-10 04:48:12,987 - model_epoch: 0, losses_avg: 0.000821, losses_std: 0.000082
+2021-09-10 04:49:51,468 - model_epoch: 14, losses_avg: 0.000888, losses_std: 0.000117
+2021-09-10 04:53:45,422 - total_step: 64000, sum_reward: 3459.4862289049565
+2021-09-10 04:53:45,435 - env_pool: 69000, model_pool: 400000
+2021-09-10 04:53:53,607 - model_epoch: 0, losses_avg: 0.001056, losses_std: 0.000156
+2021-09-10 04:55:40,310 - model_epoch: 15, losses_avg: 0.001064, losses_std: 0.000085
+2021-09-10 04:59:28,989 - env_pool: 69250, model_pool: 400000
+2021-09-10 04:59:37,222 - model_epoch: 0, losses_avg: 0.000798, losses_std: 0.000137
+2021-09-10 05:01:09,826 - model_epoch: 13, losses_avg: 0.000787, losses_std: 0.000074
+2021-09-10 05:04:54,238 - env_pool: 69500, model_pool: 400000
+2021-09-10 05:05:02,308 - model_epoch: 0, losses_avg: 0.000960, losses_std: 0.000381
+2021-09-10 05:06:35,458 - model_epoch: 13, losses_avg: 0.000901, losses_std: 0.000133
+2021-09-10 05:10:23,307 - env_pool: 69750, model_pool: 400000
+2021-09-10 05:10:31,558 - model_epoch: 0, losses_avg: 0.000749, losses_std: 0.000066
+2021-09-10 05:11:21,101 - model_epoch: 7, losses_avg: 0.000801, losses_std: 0.000063
+2021-09-10 05:15:15,736 - total_step: 65000, sum_reward: 3347.772067827903
+2021-09-10 05:15:15,749 - env_pool: 70000, model_pool: 400000
+2021-09-10 05:15:24,297 - model_epoch: 0, losses_avg: 0.000859, losses_std: 0.000076
+2021-09-10 05:16:28,484 - model_epoch: 9, losses_avg: 0.000880, losses_std: 0.000077
+2021-09-10 05:20:12,882 - env_pool: 70250, model_pool: 400000
+2021-09-10 05:20:21,288 - model_epoch: 0, losses_avg: 0.000947, losses_std: 0.000167
+2021-09-10 05:21:46,026 - model_epoch: 12, losses_avg: 0.000958, losses_std: 0.000078
+2021-09-10 05:25:33,706 - env_pool: 70500, model_pool: 400000
+2021-09-10 05:25:41,999 - model_epoch: 0, losses_avg: 0.000950, losses_std: 0.000089
+2021-09-10 05:27:00,766 - model_epoch: 11, losses_avg: 0.000918, losses_std: 0.000081
+2021-09-10 05:30:46,530 - env_pool: 70750, model_pool: 400000
+2021-09-10 05:30:54,875 - model_epoch: 0, losses_avg: 0.000880, losses_std: 0.000079
+2021-09-10 05:31:46,192 - model_epoch: 7, losses_avg: 0.000914, losses_std: 0.000076
+2021-09-10 05:35:39,140 - total_step: 66000, sum_reward: 3420.008938282069
+2021-09-10 05:35:39,152 - env_pool: 71000, model_pool: 400000
+2021-09-10 05:35:47,680 - model_epoch: 0, losses_avg: 0.000885, losses_std: 0.000049
+2021-09-10 05:36:53,918 - model_epoch: 9, losses_avg: 0.000937, losses_std: 0.000118
+2021-09-10 05:40:39,673 - env_pool: 71250, model_pool: 400000
+2021-09-10 05:40:47,908 - model_epoch: 0, losses_avg: 0.000957, losses_std: 0.000073
+2021-09-10 05:42:16,583 - model_epoch: 12, losses_avg: 0.000996, losses_std: 0.000102
+2021-09-10 05:46:01,870 - env_pool: 71500, model_pool: 400000
+2021-09-10 05:46:10,179 - model_epoch: 0, losses_avg: 0.000880, losses_std: 0.000084
+2021-09-10 05:47:38,866 - model_epoch: 12, losses_avg: 0.000890, losses_std: 0.000108
+2021-09-10 05:51:25,408 - env_pool: 71750, model_pool: 400000
+2021-09-10 05:51:33,804 - model_epoch: 0, losses_avg: 0.000820, losses_std: 0.000097
+2021-09-10 05:52:55,366 - model_epoch: 11, losses_avg: 0.001234, losses_std: 0.001068
+2021-09-10 05:56:44,428 - total_step: 67000, sum_reward: 3434.889731328607
+2021-09-10 05:56:44,440 - env_pool: 72000, model_pool: 400000
+2021-09-10 05:56:52,731 - model_epoch: 0, losses_avg: 0.000929, losses_std: 0.000089
+2021-09-10 05:57:45,204 - model_epoch: 7, losses_avg: 0.000967, losses_std: 0.000097
+2021-09-10 06:01:32,877 - env_pool: 72250, model_pool: 400000
+2021-09-10 06:01:41,454 - model_epoch: 0, losses_avg: 0.000798, losses_std: 0.000100
+2021-09-10 06:02:33,107 - model_epoch: 7, losses_avg: 0.000844, losses_std: 0.000108
+2021-09-10 06:06:21,254 - env_pool: 72500, model_pool: 400000
+2021-09-10 06:06:29,772 - model_epoch: 0, losses_avg: 0.000903, losses_std: 0.000086
+2021-09-10 06:07:29,019 - model_epoch: 8, losses_avg: 0.000916, losses_std: 0.000079
+2021-09-10 06:11:15,515 - env_pool: 72750, model_pool: 400000
+2021-09-10 06:11:23,906 - model_epoch: 0, losses_avg: 0.000843, losses_std: 0.000066
+2021-09-10 06:12:59,645 - model_epoch: 13, losses_avg: 0.001071, losses_std: 0.000539
+2021-09-10 06:16:53,600 - total_step: 68000, sum_reward: 3441.916209819629
+2021-09-10 06:16:53,612 - env_pool: 73000, model_pool: 400000
+2021-09-10 06:17:02,190 - model_epoch: 0, losses_avg: 0.001098, losses_std: 0.000491
+2021-09-10 06:21:46,495 - model_epoch: 38, losses_avg: 0.000929, losses_std: 0.000053
+2021-09-10 06:25:34,525 - env_pool: 73250, model_pool: 400000
+2021-09-10 06:25:43,152 - model_epoch: 0, losses_avg: 0.000889, losses_std: 0.000334
+2021-09-10 06:27:12,450 - model_epoch: 12, losses_avg: 0.000850, losses_std: 0.000196
+2021-09-10 06:30:58,915 - env_pool: 73500, model_pool: 400000
+2021-09-10 06:31:06,803 - model_epoch: 0, losses_avg: 0.000800, losses_std: 0.000047
+2021-09-10 06:32:37,231 - model_epoch: 14, losses_avg: 0.000836, losses_std: 0.000026
+2021-09-10 06:36:22,422 - env_pool: 73750, model_pool: 400000
+2021-09-10 06:36:31,027 - model_epoch: 0, losses_avg: 0.001137, losses_std: 0.000896
+2021-09-10 06:38:16,869 - model_epoch: 14, losses_avg: 0.000863, losses_std: 0.000075
+2021-09-10 06:42:08,854 - total_step: 69000, sum_reward: 3478.3812522570906
+2021-09-10 06:42:08,867 - env_pool: 74000, model_pool: 400000
+2021-09-10 06:42:17,746 - model_epoch: 0, losses_avg: 0.000742, losses_std: 0.000046
+2021-09-10 06:43:25,889 - model_epoch: 9, losses_avg: 0.000764, losses_std: 0.000063
+2021-09-10 06:47:12,655 - env_pool: 74250, model_pool: 400000
+2021-09-10 06:47:21,243 - model_epoch: 0, losses_avg: 0.000836, losses_std: 0.000060
+2021-09-10 06:50:13,844 - model_epoch: 23, losses_avg: 0.000902, losses_std: 0.000062
+2021-09-10 06:53:59,943 - env_pool: 74500, model_pool: 400000
+2021-09-10 06:54:08,471 - model_epoch: 0, losses_avg: 0.001114, losses_std: 0.000248
+2021-09-10 06:55:46,587 - model_epoch: 13, losses_avg: 0.001048, losses_std: 0.000083
+2021-09-10 06:59:32,383 - env_pool: 74750, model_pool: 400000
+2021-09-10 06:59:41,241 - model_epoch: 0, losses_avg: 0.000936, losses_std: 0.000111
+2021-09-10 07:02:26,534 - model_epoch: 22, losses_avg: 0.000991, losses_std: 0.000127
+2021-09-10 07:06:16,802 - total_step: 70000, sum_reward: 409.7463759034238
+2021-09-10 07:06:16,815 - env_pool: 75000, model_pool: 400000
+2021-09-10 07:06:25,445 - model_epoch: 0, losses_avg: 0.000875, losses_std: 0.000159
+2021-09-10 07:08:16,442 - model_epoch: 15, losses_avg: 0.000907, losses_std: 0.000136
+2021-09-10 07:11:57,662 - env_pool: 75250, model_pool: 400000
+2021-09-10 07:12:06,552 - model_epoch: 0, losses_avg: 0.001050, losses_std: 0.000410
+2021-09-10 07:14:23,883 - model_epoch: 18, losses_avg: 0.000825, losses_std: 0.000048
+2021-09-10 07:18:10,908 - env_pool: 75500, model_pool: 400000
+2021-09-10 07:18:18,646 - model_epoch: 0, losses_avg: 0.001096, losses_std: 0.000379
+2021-09-10 07:20:22,037 - model_epoch: 18, losses_avg: 0.000994, losses_std: 0.000117
+2021-09-10 07:24:09,861 - env_pool: 75750, model_pool: 400000
+2021-09-10 07:24:18,634 - model_epoch: 0, losses_avg: 0.000899, losses_std: 0.000096
+2021-09-10 07:25:43,102 - model_epoch: 11, losses_avg: 0.000874, losses_std: 0.000061
+2021-09-10 07:29:30,935 - total_step: 71000, sum_reward: 945.3390024893814
+2021-09-10 07:29:30,947 - env_pool: 76000, model_pool: 400000
+2021-09-10 07:29:39,805 - model_epoch: 0, losses_avg: 0.000800, losses_std: 0.000040
+2021-09-10 07:30:57,349 - model_epoch: 10, losses_avg: 0.000854, losses_std: 0.000145
+2021-09-10 07:34:44,062 - env_pool: 76250, model_pool: 400000
+2021-09-10 07:34:53,030 - model_epoch: 0, losses_avg: 0.000899, losses_std: 0.000081
+2021-09-10 07:36:03,393 - model_epoch: 9, losses_avg: 0.000942, losses_std: 0.000086
+2021-09-10 07:39:50,205 - env_pool: 76500, model_pool: 400000
+2021-09-10 07:39:59,332 - model_epoch: 0, losses_avg: 0.000969, losses_std: 0.000131
+2021-09-10 07:42:11,464 - model_epoch: 17, losses_avg: 0.001028, losses_std: 0.000089
+2021-09-10 07:45:58,811 - env_pool: 76750, model_pool: 400000
+2021-09-10 07:46:07,707 - model_epoch: 0, losses_avg: 0.000801, losses_std: 0.000065
+2021-09-10 07:48:48,662 - model_epoch: 21, losses_avg: 0.000842, losses_std: 0.000079
+2021-09-10 07:52:42,926 - total_step: 72000, sum_reward: 3400.653228050487
+2021-09-10 07:52:42,938 - env_pool: 77000, model_pool: 400000
+2021-09-10 07:52:51,823 - model_epoch: 0, losses_avg: 0.000839, losses_std: 0.000067
+2021-09-10 07:54:02,379 - model_epoch: 9, losses_avg: 0.000999, losses_std: 0.000291
+2021-09-10 07:57:43,652 - env_pool: 77250, model_pool: 400000
+2021-09-10 07:57:52,906 - model_epoch: 0, losses_avg: 0.000754, losses_std: 0.000066
+2021-09-10 07:59:19,488 - model_epoch: 11, losses_avg: 0.000771, losses_std: 0.000084
+2021-09-10 08:03:05,115 - env_pool: 77500, model_pool: 400000
+2021-09-10 08:03:14,402 - model_epoch: 0, losses_avg: 0.000859, losses_std: 0.000042
+2021-09-10 08:05:29,434 - model_epoch: 17, losses_avg: 0.000949, losses_std: 0.000145
+2021-09-10 08:09:15,383 - env_pool: 77750, model_pool: 400000
+2021-09-10 08:09:24,540 - model_epoch: 0, losses_avg: 0.000788, losses_std: 0.000163
+2021-09-10 08:10:59,256 - model_epoch: 12, losses_avg: 0.000794, losses_std: 0.000074
+2021-09-10 08:14:49,812 - total_step: 73000, sum_reward: 3341.117138320215
+2021-09-10 08:14:49,824 - env_pool: 78000, model_pool: 400000
+2021-09-10 08:14:58,891 - model_epoch: 0, losses_avg: 0.000766, losses_std: 0.000061
+2021-09-10 08:16:19,398 - model_epoch: 10, losses_avg: 0.001040, losses_std: 0.000614
+2021-09-10 08:20:04,106 - env_pool: 78250, model_pool: 400000
+2021-09-10 08:20:13,561 - model_epoch: 0, losses_avg: 0.001055, losses_std: 0.000553
+2021-09-10 08:23:23,911 - model_epoch: 24, losses_avg: 0.000846, losses_std: 0.000068
+2021-09-10 08:27:04,390 - env_pool: 78500, model_pool: 400000
+2021-09-10 08:27:13,680 - model_epoch: 0, losses_avg: 0.000817, losses_std: 0.000067
+2021-09-10 08:29:22,730 - model_epoch: 16, losses_avg: 0.000855, losses_std: 0.000076
+2021-09-10 08:33:07,812 - env_pool: 78750, model_pool: 400000
+2021-09-10 08:33:17,042 - model_epoch: 0, losses_avg: 0.000824, losses_std: 0.000068
+2021-09-10 08:35:09,844 - model_epoch: 14, losses_avg: 0.000832, losses_std: 0.000061
+2021-09-10 08:39:01,123 - total_step: 74000, sum_reward: 3390.981473760647
+2021-09-10 08:39:01,136 - env_pool: 79000, model_pool: 400000
+2021-09-10 08:39:10,352 - model_epoch: 0, losses_avg: 0.000932, losses_std: 0.000153
+2021-09-10 08:40:55,738 - model_epoch: 13, losses_avg: 0.000911, losses_std: 0.000039
+2021-09-10 08:44:41,581 - env_pool: 79250, model_pool: 400000
+2021-09-10 08:44:51,248 - model_epoch: 0, losses_avg: 0.000892, losses_std: 0.000095
+2021-09-10 08:46:27,925 - model_epoch: 12, losses_avg: 0.001020, losses_std: 0.000278
+2021-09-10 08:50:14,618 - env_pool: 79500, model_pool: 400000
+2021-09-10 08:50:24,027 - model_epoch: 0, losses_avg: 0.001014, losses_std: 0.000369
+2021-09-10 08:52:49,998 - model_epoch: 18, losses_avg: 0.000774, losses_std: 0.000069
+2021-09-10 08:56:37,290 - env_pool: 79750, model_pool: 400000
+2021-09-10 08:56:46,601 - model_epoch: 0, losses_avg: 0.000788, losses_std: 0.000067
+2021-09-10 08:58:23,534 - model_epoch: 12, losses_avg: 0.000878, losses_std: 0.000107
+2021-09-10 09:02:18,978 - total_step: 75000, sum_reward: 3339.007064443028
+2021-09-10 09:02:18,990 - env_pool: 80000, model_pool: 400000
+2021-09-10 09:02:28,392 - model_epoch: 0, losses_avg: 0.001446, losses_std: 0.001851
+2021-09-10 09:04:40,768 - model_epoch: 17, losses_avg: 0.000928, losses_std: 0.000499
+2021-09-10 09:08:29,814 - env_pool: 80250, model_pool: 400000
+2021-09-10 09:08:39,316 - model_epoch: 0, losses_avg: 0.000822, losses_std: 0.000190
+2021-09-10 09:10:49,353 - model_epoch: 16, losses_avg: 0.000775, losses_std: 0.000060
+2021-09-10 09:14:34,932 - env_pool: 80500, model_pool: 400000
+2021-09-10 09:14:44,501 - model_epoch: 0, losses_avg: 0.000841, losses_std: 0.000080
+2021-09-10 09:17:13,174 - model_epoch: 18, losses_avg: 0.000867, losses_std: 0.000073
+2021-09-10 09:20:54,452 - env_pool: 80750, model_pool: 400000
+2021-09-10 09:21:04,048 - model_epoch: 0, losses_avg: 0.000791, losses_std: 0.000079
+2021-09-10 09:23:57,261 - model_epoch: 21, losses_avg: 0.000832, losses_std: 0.000053
+2021-09-10 09:27:51,679 - total_step: 76000, sum_reward: 3428.7828607298075
+2021-09-10 09:27:51,691 - env_pool: 81000, model_pool: 400000
+2021-09-10 09:28:01,039 - model_epoch: 0, losses_avg: 0.000820, losses_std: 0.000115
+2021-09-10 09:29:47,625 - model_epoch: 13, losses_avg: 0.000898, losses_std: 0.000239
+2021-09-10 09:33:35,146 - env_pool: 81250, model_pool: 400000
+2021-09-10 09:33:44,620 - model_epoch: 0, losses_avg: 0.000816, losses_std: 0.000121
+2021-09-10 09:35:15,083 - model_epoch: 11, losses_avg: 0.000813, losses_std: 0.000071
+2021-09-10 09:38:57,543 - env_pool: 81500, model_pool: 400000
+2021-09-10 09:39:07,194 - model_epoch: 0, losses_avg: 0.000747, losses_std: 0.000054
+2021-09-10 09:40:21,240 - model_epoch: 9, losses_avg: 0.000786, losses_std: 0.000070
+2021-09-10 09:44:10,095 - env_pool: 81750, model_pool: 400000
+2021-09-10 09:44:19,785 - model_epoch: 0, losses_avg: 0.001954, losses_std: 0.002772
+2021-09-10 09:45:27,670 - model_epoch: 8, losses_avg: 0.000869, losses_std: 0.000068
+2021-09-10 09:49:18,571 - total_step: 77000, sum_reward: 3368.7019491088586
+2021-09-10 09:49:18,583 - env_pool: 82000, model_pool: 400000
+2021-09-10 09:49:28,452 - model_epoch: 0, losses_avg: 0.000810, losses_std: 0.000068
+2021-09-10 09:51:51,211 - model_epoch: 17, losses_avg: 0.000859, losses_std: 0.000084
+2021-09-10 09:55:37,744 - env_pool: 82250, model_pool: 400000
+2021-09-10 09:55:47,578 - model_epoch: 0, losses_avg: 0.001094, losses_std: 0.000520
+2021-09-10 09:58:26,495 - model_epoch: 19, losses_avg: 0.000906, losses_std: 0.000067
+2021-09-10 10:02:10,794 - env_pool: 82500, model_pool: 400000
+2021-09-10 10:02:20,551 - model_epoch: 0, losses_avg: 0.000806, losses_std: 0.000045
+2021-09-10 10:05:17,359 - model_epoch: 21, losses_avg: 0.000824, losses_std: 0.000052
+2021-09-10 10:09:03,106 - env_pool: 82750, model_pool: 400000
+2021-09-10 10:09:12,769 - model_epoch: 0, losses_avg: 0.000725, losses_std: 0.000062
+2021-09-10 10:11:02,105 - model_epoch: 13, losses_avg: 0.000741, losses_std: 0.000081
+2021-09-10 10:14:53,681 - total_step: 78000, sum_reward: 3450.253391729316
+2021-09-10 10:14:53,693 - env_pool: 83000, model_pool: 400000
+2021-09-10 10:15:03,299 - model_epoch: 0, losses_avg: 0.000871, losses_std: 0.000061
+2021-09-10 10:16:28,070 - model_epoch: 10, losses_avg: 0.001008, losses_std: 0.000123
+2021-09-10 10:20:10,993 - env_pool: 83250, model_pool: 400000
+2021-09-10 10:20:20,709 - model_epoch: 0, losses_avg: 0.000877, losses_std: 0.000053
+2021-09-10 10:22:19,034 - model_epoch: 14, losses_avg: 0.000928, losses_std: 0.000084
+2021-09-10 10:26:04,246 - env_pool: 83500, model_pool: 400000
+2021-09-10 10:26:14,042 - model_epoch: 0, losses_avg: 0.000803, losses_std: 0.000043
+2021-09-10 10:27:38,525 - model_epoch: 10, losses_avg: 0.000863, losses_std: 0.000095
+2021-09-10 10:31:26,924 - env_pool: 83750, model_pool: 400000
+2021-09-10 10:31:36,586 - model_epoch: 0, losses_avg: 0.000912, losses_std: 0.000395
+2021-09-10 10:33:27,023 - model_epoch: 13, losses_avg: 0.000766, losses_std: 0.000046
+2021-09-10 10:37:18,726 - total_step: 79000, sum_reward: 3359.063705493657
+2021-09-10 10:37:18,740 - env_pool: 84000, model_pool: 400000
+2021-09-10 10:37:28,556 - model_epoch: 0, losses_avg: 0.000888, losses_std: 0.000105
+2021-09-10 10:39:28,847 - model_epoch: 14, losses_avg: 0.000916, losses_std: 0.000107
+2021-09-10 10:43:18,597 - env_pool: 84250, model_pool: 400000
+2021-09-10 10:43:28,420 - model_epoch: 0, losses_avg: 0.000803, losses_std: 0.000185
+2021-09-10 10:44:53,930 - model_epoch: 10, losses_avg: 0.000736, losses_std: 0.000054
+2021-09-10 10:48:43,346 - env_pool: 84500, model_pool: 400000
+2021-09-10 10:48:53,296 - model_epoch: 0, losses_avg: 0.000839, losses_std: 0.000054
+2021-09-10 10:50:54,312 - model_epoch: 14, losses_avg: 0.000873, losses_std: 0.000070
+2021-09-10 10:54:39,395 - env_pool: 84750, model_pool: 400000
+2021-09-10 10:54:49,217 - model_epoch: 0, losses_avg: 0.000702, losses_std: 0.000053
+2021-09-10 10:57:14,528 - model_epoch: 17, losses_avg: 0.000725, losses_std: 0.000043
+2021-09-10 11:01:08,488 - total_step: 80000, sum_reward: 3361.238419718633
+2021-09-10 11:01:08,500 - env_pool: 85000, model_pool: 400000
+2021-09-10 11:01:18,321 - model_epoch: 0, losses_avg: 0.000685, losses_std: 0.000054
+2021-09-10 11:02:46,054 - model_epoch: 10, losses_avg: 0.000706, losses_std: 0.000044
+2021-09-10 11:06:13,935 - env_pool: 85250, model_pool: 400000
+2021-09-10 11:06:23,956 - model_epoch: 0, losses_avg: 0.000719, losses_std: 0.000054
+2021-09-10 11:09:00,318 - model_epoch: 18, losses_avg: 0.000762, losses_std: 0.000074
+2021-09-10 11:12:47,643 - env_pool: 85500, model_pool: 400000
+2021-09-10 11:12:57,609 - model_epoch: 0, losses_avg: 0.000907, losses_std: 0.000070
+2021-09-10 11:14:16,054 - model_epoch: 9, losses_avg: 0.000941, losses_std: 0.000068
+2021-09-10 11:18:03,353 - env_pool: 85750, model_pool: 400000
+2021-09-10 11:18:13,337 - model_epoch: 0, losses_avg: 0.000869, losses_std: 0.000103
+2021-09-10 11:20:58,995 - model_epoch: 19, losses_avg: 0.000920, losses_std: 0.000101
+2021-09-10 11:24:51,016 - total_step: 81000, sum_reward: 3439.4865615542208
+2021-09-10 11:24:51,028 - env_pool: 86000, model_pool: 400000
+2021-09-10 11:25:01,139 - model_epoch: 0, losses_avg: 0.000702, losses_std: 0.000079
+2021-09-10 11:26:56,526 - model_epoch: 13, losses_avg: 0.000705, losses_std: 0.000054
+2021-09-10 11:30:46,246 - env_pool: 86250, model_pool: 400000
+2021-09-10 11:30:56,182 - model_epoch: 0, losses_avg: 0.000786, losses_std: 0.000056
+2021-09-10 11:33:17,067 - model_epoch: 16, losses_avg: 0.000812, losses_std: 0.000059
+2021-09-10 11:37:02,161 - env_pool: 86500, model_pool: 400000
+2021-09-10 11:37:12,456 - model_epoch: 0, losses_avg: 0.000747, losses_std: 0.000080
+2021-09-10 11:40:02,219 - model_epoch: 19, losses_avg: 0.000769, losses_std: 0.000062
+2021-09-10 11:43:48,444 - env_pool: 86750, model_pool: 400000
+2021-09-10 11:43:58,779 - model_epoch: 0, losses_avg: 0.000773, losses_std: 0.000064
+2021-09-10 11:45:37,463 - model_epoch: 11, losses_avg: 0.000850, losses_std: 0.000143
+2021-09-10 11:49:28,586 - total_step: 82000, sum_reward: 3410.6930782176455
+2021-09-10 11:49:28,599 - env_pool: 87000, model_pool: 400000
+2021-09-10 11:49:38,792 - model_epoch: 0, losses_avg: 0.000667, losses_std: 0.000048
+2021-09-10 11:51:04,053 - model_epoch: 11, losses_avg: 0.000677, losses_std: 0.000058
+2021-09-10 11:55:13,790 - env_pool: 87250, model_pool: 400000
+2021-09-10 11:55:25,062 - model_epoch: 0, losses_avg: 0.000840, losses_std: 0.000070
+2021-09-10 11:56:57,584 - model_epoch: 9, losses_avg: 0.000856, losses_std: 0.000077
+2021-09-10 12:01:10,416 - env_pool: 87500, model_pool: 400000
+2021-09-10 12:01:21,650 - model_epoch: 0, losses_avg: 0.000775, losses_std: 0.000082
+2021-09-10 12:02:39,710 - model_epoch: 8, losses_avg: 0.000799, losses_std: 0.000058
+2021-09-10 12:06:42,868 - env_pool: 87750, model_pool: 400000
+2021-09-10 12:06:54,042 - model_epoch: 0, losses_avg: 0.000742, losses_std: 0.000058
+2021-09-10 12:09:21,659 - model_epoch: 15, losses_avg: 0.000748, losses_std: 0.000037
+2021-09-10 12:13:35,580 - total_step: 83000, sum_reward: 3428.45312365972
+2021-09-10 12:13:35,646 - env_pool: 88000, model_pool: 400000
+2021-09-10 12:13:46,843 - model_epoch: 0, losses_avg: 0.000718, losses_std: 0.000055
+2021-09-10 12:15:44,693 - model_epoch: 12, losses_avg: 0.000743, losses_std: 0.000064
+2021-09-10 12:19:49,547 - env_pool: 88250, model_pool: 400000
+2021-09-10 12:20:00,766 - model_epoch: 0, losses_avg: 0.000788, losses_std: 0.000055
+2021-09-10 12:22:57,926 - model_epoch: 18, losses_avg: 0.000830, losses_std: 0.000059
+2021-09-10 12:26:59,522 - env_pool: 88500, model_pool: 400000
+2021-09-10 12:27:10,755 - model_epoch: 0, losses_avg: 0.000806, losses_std: 0.000072
+2021-09-10 12:28:49,269 - model_epoch: 10, losses_avg: 0.000919, losses_std: 0.000138
+2021-09-10 12:32:38,173 - env_pool: 88750, model_pool: 400000
+2021-09-10 12:32:49,482 - model_epoch: 0, losses_avg: 0.000830, losses_std: 0.000077
+2021-09-10 12:34:39,524 - model_epoch: 11, losses_avg: 0.000864, losses_std: 0.000061
+2021-09-10 12:38:50,785 - total_step: 84000, sum_reward: 3422.0506726833614
+2021-09-10 12:38:50,798 - env_pool: 89000, model_pool: 400000
+2021-09-10 12:39:02,640 - model_epoch: 0, losses_avg: 0.000752, losses_std: 0.000041
+2021-09-10 12:41:04,139 - model_epoch: 12, losses_avg: 0.000820, losses_std: 0.000076
+2021-09-10 12:42:11,988 - env_pool: 89250, model_pool: 400000
+2021-09-10 12:42:24,086 - model_epoch: 0, losses_avg: 0.000792, losses_std: 0.000047
+2021-09-10 12:44:07,526 - model_epoch: 10, losses_avg: 0.000786, losses_std: 0.000049
+2021-09-10 12:45:11,913 - env_pool: 89500, model_pool: 400000
+2021-09-10 12:45:23,655 - model_epoch: 0, losses_avg: 0.000745, losses_std: 0.000061
+2021-09-10 12:47:07,494 - model_epoch: 10, losses_avg: 0.000765, losses_std: 0.000049
+2021-09-10 12:48:12,048 - env_pool: 89750, model_pool: 400000
+2021-09-10 12:48:24,218 - model_epoch: 0, losses_avg: 0.000858, losses_std: 0.000213
+2021-09-10 12:50:24,564 - model_epoch: 12, losses_avg: 0.000826, losses_std: 0.000080
+2021-09-10 12:51:33,229 - total_step: 85000, sum_reward: 3439.1721036040085
+2021-09-10 12:51:33,247 - env_pool: 90000, model_pool: 400000
+2021-09-10 12:51:45,676 - model_epoch: 0, losses_avg: 0.000858, losses_std: 0.000124
+2021-09-10 12:54:03,062 - model_epoch: 14, losses_avg: 0.001031, losses_std: 0.000596
+2021-09-10 12:55:06,895 - env_pool: 90250, model_pool: 400000
+2021-09-10 12:55:18,471 - model_epoch: 0, losses_avg: 0.000652, losses_std: 0.000085
+2021-09-10 12:56:39,072 - model_epoch: 8, losses_avg: 0.000637, losses_std: 0.000045
+2021-09-10 12:57:42,287 - env_pool: 90500, model_pool: 400000
+2021-09-10 12:57:54,919 - model_epoch: 0, losses_avg: 0.000916, losses_std: 0.000501
+2021-09-10 12:59:18,039 - model_epoch: 8, losses_avg: 0.000874, losses_std: 0.000239
+2021-09-10 13:00:22,527 - env_pool: 90750, model_pool: 400000
+2021-09-10 13:00:34,012 - model_epoch: 0, losses_avg: 0.000755, losses_std: 0.000122
+2021-09-10 13:02:36,956 - model_epoch: 12, losses_avg: 0.000743, losses_std: 0.000054
+2021-09-10 13:03:46,784 - total_step: 86000, sum_reward: 3434.8165058206678
+2021-09-10 13:03:46,796 - env_pool: 91000, model_pool: 400000
+2021-09-10 13:03:58,354 - model_epoch: 0, losses_avg: 0.000857, losses_std: 0.000290
+2021-09-10 13:06:42,970 - model_epoch: 16, losses_avg: 0.000898, losses_std: 0.000301
+2021-09-10 13:07:47,745 - env_pool: 91250, model_pool: 400000
+2021-09-10 13:07:59,424 - model_epoch: 0, losses_avg: 0.001274, losses_std: 0.000782
+2021-09-10 13:11:48,301 - model_epoch: 22, losses_avg: 0.000870, losses_std: 0.000056
+2021-09-10 13:12:52,008 - env_pool: 91500, model_pool: 400000
+2021-09-10 13:13:03,336 - model_epoch: 0, losses_avg: 0.000793, losses_std: 0.000057
+2021-09-10 13:15:58,735 - model_epoch: 17, losses_avg: 0.000798, losses_std: 0.000055
+2021-09-10 13:17:02,986 - env_pool: 91750, model_pool: 400000
+2021-09-10 13:17:14,648 - model_epoch: 0, losses_avg: 0.001371, losses_std: 0.001662
+2021-09-10 13:19:29,376 - model_epoch: 13, losses_avg: 0.000730, losses_std: 0.000055
+2021-09-10 13:20:39,602 - total_step: 87000, sum_reward: 3477.9359183105776
+2021-09-10 13:20:39,614 - env_pool: 92000, model_pool: 400000
+2021-09-10 13:20:51,312 - model_epoch: 0, losses_avg: 0.000737, losses_std: 0.000033
+2021-09-10 13:23:28,054 - model_epoch: 15, losses_avg: 0.000801, losses_std: 0.000154
+2021-09-10 13:24:32,219 - env_pool: 92250, model_pool: 400000
+2021-09-10 13:24:43,826 - model_epoch: 0, losses_avg: 0.000830, losses_std: 0.000142
+2021-09-10 13:26:45,556 - model_epoch: 13, losses_avg: 0.000805, losses_std: 0.000055
+2021-09-10 13:27:51,058 - env_pool: 92500, model_pool: 400000
+2021-09-10 13:28:02,659 - model_epoch: 0, losses_avg: 0.000716, losses_std: 0.000072
+2021-09-10 13:30:18,883 - model_epoch: 13, losses_avg: 0.000762, losses_std: 0.000098
+2021-09-10 13:31:25,465 - env_pool: 92750, model_pool: 400000
+2021-09-10 13:31:36,966 - model_epoch: 0, losses_avg: 0.000753, losses_std: 0.000047
+2021-09-10 13:33:42,995 - model_epoch: 12, losses_avg: 0.000929, losses_std: 0.000248
+2021-09-10 13:34:55,124 - total_step: 88000, sum_reward: 3461.8834561867
+2021-09-10 13:34:55,136 - env_pool: 93000, model_pool: 400000
+2021-09-10 13:35:07,426 - model_epoch: 0, losses_avg: 0.000841, losses_std: 0.000111
+2021-09-10 13:36:20,833 - model_epoch: 7, losses_avg: 0.000851, losses_std: 0.000060
+2021-09-10 13:37:28,696 - env_pool: 93250, model_pool: 400000
+2021-09-10 13:37:40,821 - model_epoch: 0, losses_avg: 0.000874, losses_std: 0.000061
+2021-09-10 13:40:44,819 - model_epoch: 17, losses_avg: 0.000898, losses_std: 0.000095
+2021-09-10 13:41:51,735 - env_pool: 93500, model_pool: 400000
+2021-09-10 13:42:03,761 - model_epoch: 0, losses_avg: 0.001043, losses_std: 0.000913
+2021-09-10 13:44:24,070 - model_epoch: 13, losses_avg: 0.000657, losses_std: 0.000037
+2021-09-10 13:45:28,444 - env_pool: 93750, model_pool: 400000
+2021-09-10 13:45:41,064 - model_epoch: 0, losses_avg: 0.000771, losses_std: 0.000059
+2021-09-10 13:48:10,423 - model_epoch: 14, losses_avg: 0.000783, losses_std: 0.000049
+2021-09-10 13:49:22,697 - total_step: 89000, sum_reward: 3497.443502676905
+2021-09-10 13:49:22,709 - env_pool: 94000, model_pool: 400000
+2021-09-10 13:49:34,968 - model_epoch: 0, losses_avg: 0.000771, losses_std: 0.000080
+2021-09-10 13:52:39,118 - model_epoch: 17, losses_avg: 0.000834, losses_std: 0.000098
+2021-09-10 13:53:45,947 - env_pool: 94250, model_pool: 400000
+2021-09-10 13:53:58,030 - model_epoch: 0, losses_avg: 0.000766, losses_std: 0.000153
+2021-09-10 13:56:40,483 - model_epoch: 15, losses_avg: 0.000724, losses_std: 0.000059
+2021-09-10 13:57:49,019 - env_pool: 94500, model_pool: 400000
+2021-09-10 13:58:01,206 - model_epoch: 0, losses_avg: 0.000710, losses_std: 0.000061
+2021-09-10 13:59:45,421 - model_epoch: 10, losses_avg: 0.000736, losses_std: 0.000061
+2021-09-10 14:00:51,959 - env_pool: 94750, model_pool: 400000
+2021-09-10 14:01:04,066 - model_epoch: 0, losses_avg: 0.000915, losses_std: 0.000431
+2021-09-10 14:03:47,553 - model_epoch: 15, losses_avg: 0.000767, losses_std: 0.000038
+2021-09-10 14:04:57,417 - total_step: 90000, sum_reward: 3471.0276336883057
+2021-09-10 14:04:57,429 - env_pool: 95000, model_pool: 400000
+2021-09-10 14:05:09,340 - model_epoch: 0, losses_avg: 0.000732, losses_std: 0.000172
+2021-09-10 14:06:24,262 - model_epoch: 7, losses_avg: 0.000701, losses_std: 0.000050
+2021-09-10 14:07:29,797 - env_pool: 95250, model_pool: 400000
+2021-09-10 14:07:42,799 - model_epoch: 0, losses_avg: 0.000693, losses_std: 0.000066
+2021-09-10 14:10:26,349 - model_epoch: 15, losses_avg: 0.000762, losses_std: 0.000059
+2021-09-10 14:11:32,786 - env_pool: 95500, model_pool: 400000
+2021-09-10 14:11:45,309 - model_epoch: 0, losses_avg: 0.000682, losses_std: 0.000038
+2021-09-10 14:13:45,024 - model_epoch: 11, losses_avg: 0.000687, losses_std: 0.000035
+2021-09-10 14:14:48,583 - env_pool: 95750, model_pool: 400000
+2021-09-10 14:15:00,951 - model_epoch: 0, losses_avg: 0.000779, losses_std: 0.000068
+2021-09-10 14:17:53,356 - model_epoch: 16, losses_avg: 0.000812, losses_std: 0.000076
+2021-09-10 14:19:02,941 - total_step: 91000, sum_reward: 3492.9639837724662
+2021-09-10 14:19:02,954 - env_pool: 96000, model_pool: 400000
+2021-09-10 14:19:15,303 - model_epoch: 0, losses_avg: 0.000911, losses_std: 0.000473
+2021-09-10 14:21:27,504 - model_epoch: 12, losses_avg: 0.000759, losses_std: 0.000043
+2021-09-10 14:22:31,758 - env_pool: 96250, model_pool: 400000
+2021-09-10 14:22:43,898 - model_epoch: 0, losses_avg: 0.000746, losses_std: 0.000051
+2021-09-10 14:25:03,732 - model_epoch: 13, losses_avg: 0.000789, losses_std: 0.000082
+2021-09-10 14:26:10,758 - env_pool: 96500, model_pool: 400000
+2021-09-10 14:26:22,944 - model_epoch: 0, losses_avg: 0.000879, losses_std: 0.000421
+2021-09-10 14:28:37,801 - model_epoch: 13, losses_avg: 0.000956, losses_std: 0.000607
+2021-09-10 14:29:42,322 - env_pool: 96750, model_pool: 400000
+2021-09-10 14:29:55,001 - model_epoch: 0, losses_avg: 0.000751, losses_std: 0.000040
+2021-09-10 14:32:39,735 - model_epoch: 15, losses_avg: 0.000763, losses_std: 0.000063
+2021-09-10 14:33:49,767 - total_step: 92000, sum_reward: 3363.092345994705
+2021-09-10 14:33:49,779 - env_pool: 97000, model_pool: 400000
+2021-09-10 14:34:02,379 - model_epoch: 0, losses_avg: 0.000754, losses_std: 0.000055
+2021-09-10 14:37:42,886 - model_epoch: 20, losses_avg: 0.000903, losses_std: 0.000157
+2021-09-10 14:38:46,313 - env_pool: 97250, model_pool: 400000
+2021-09-10 14:38:59,225 - model_epoch: 0, losses_avg: 0.000841, losses_std: 0.000195
+2021-09-10 14:43:09,561 - model_epoch: 23, losses_avg: 0.000764, losses_std: 0.000042
+2021-09-10 14:44:19,794 - env_pool: 97500, model_pool: 400000
+2021-09-10 14:44:32,556 - model_epoch: 0, losses_avg: 0.000670, losses_std: 0.000041
+2021-09-10 14:46:51,372 - model_epoch: 13, losses_avg: 0.000853, losses_std: 0.000439
+2021-09-10 14:48:03,386 - env_pool: 97750, model_pool: 400000
+2021-09-10 14:48:16,413 - model_epoch: 0, losses_avg: 0.000802, losses_std: 0.000209
+2021-09-10 14:50:51,230 - model_epoch: 14, losses_avg: 0.000739, losses_std: 0.000064
+2021-09-10 14:52:03,146 - total_step: 93000, sum_reward: 3435.102313733295
+2021-09-10 14:52:03,159 - env_pool: 98000, model_pool: 400000
+2021-09-10 14:52:16,397 - model_epoch: 0, losses_avg: 0.002679, losses_std: 0.004589
+2021-09-10 14:55:59,650 - model_epoch: 20, losses_avg: 0.000828, losses_std: 0.000111
+2021-09-10 14:57:03,399 - env_pool: 98250, model_pool: 400000
+2021-09-10 14:57:15,824 - model_epoch: 0, losses_avg: 0.000809, losses_std: 0.000092
+2021-09-10 14:59:49,408 - model_epoch: 14, losses_avg: 0.000760, losses_std: 0.000058
+2021-09-10 15:00:53,822 - env_pool: 98500, model_pool: 400000
+2021-09-10 15:01:07,125 - model_epoch: 0, losses_avg: 0.000643, losses_std: 0.000042
+2021-09-10 15:02:46,628 - model_epoch: 9, losses_avg: 0.000751, losses_std: 0.000216
+2021-09-10 15:03:57,145 - env_pool: 98750, model_pool: 400000
+2021-09-10 15:04:10,005 - model_epoch: 0, losses_avg: 0.000600, losses_std: 0.000043
+2021-09-10 15:05:39,080 - model_epoch: 8, losses_avg: 0.000616, losses_std: 0.000043
+2021-09-10 15:06:49,417 - total_step: 94000, sum_reward: 3444.7549323705157
+2021-09-10 15:06:49,430 - env_pool: 99000, model_pool: 400000
+2021-09-10 15:07:02,166 - model_epoch: 0, losses_avg: 0.000786, losses_std: 0.000230
+2021-09-10 15:10:02,666 - model_epoch: 16, losses_avg: 0.000688, losses_std: 0.000045
+2021-09-10 15:11:07,279 - env_pool: 99250, model_pool: 400000
+2021-09-10 15:11:19,866 - model_epoch: 0, losses_avg: 0.000755, losses_std: 0.000082
+2021-09-10 15:13:44,861 - model_epoch: 13, losses_avg: 0.000807, losses_std: 0.000095
+2021-09-10 15:14:49,201 - env_pool: 99500, model_pool: 400000
+2021-09-10 15:15:02,176 - model_epoch: 0, losses_avg: 0.000782, losses_std: 0.000130
+2021-09-10 15:18:03,462 - model_epoch: 16, losses_avg: 0.000714, losses_std: 0.000049
+2021-09-10 15:19:08,360 - env_pool: 99750, model_pool: 400000
+2021-09-10 15:19:20,962 - model_epoch: 0, losses_avg: 0.000755, losses_std: 0.000212
+2021-09-10 15:23:20,213 - model_epoch: 21, losses_avg: 0.000727, losses_std: 0.000053
+2021-09-10 15:24:30,404 - total_step: 95000, sum_reward: 3451.224246702307
+2021-09-10 15:24:30,416 - env_pool: 100000, model_pool: 400000
+2021-09-10 15:24:43,921 - model_epoch: 0, losses_avg: 0.000697, losses_std: 0.000056
+2021-09-10 15:28:04,514 - model_epoch: 17, losses_avg: 0.000734, losses_std: 0.000086
+2021-09-10 15:29:11,733 - env_pool: 100250, model_pool: 400000
+2021-09-10 15:29:25,348 - model_epoch: 0, losses_avg: 0.000744, losses_std: 0.000044
+2021-09-10 15:31:20,379 - model_epoch: 10, losses_avg: 0.000752, losses_std: 0.000058
+2021-09-10 15:32:31,459 - env_pool: 100500, model_pool: 400000
+2021-09-10 15:32:45,583 - model_epoch: 0, losses_avg: 0.000688, losses_std: 0.000111
+2021-09-10 15:35:03,790 - model_epoch: 12, losses_avg: 0.000719, losses_std: 0.000091
+2021-09-10 15:36:08,127 - env_pool: 100750, model_pool: 400000
+2021-09-10 15:36:21,740 - model_epoch: 0, losses_avg: 0.000880, losses_std: 0.000482
+2021-09-10 15:39:30,291 - model_epoch: 16, losses_avg: 0.000692, losses_std: 0.000047
+2021-09-10 15:40:43,622 - total_step: 96000, sum_reward: 3409.4617231386806
+2021-09-10 15:40:43,634 - env_pool: 101000, model_pool: 400000
+2021-09-10 15:40:56,355 - model_epoch: 0, losses_avg: 0.000762, losses_std: 0.000044
+2021-09-10 15:43:04,461 - model_epoch: 11, losses_avg: 0.000790, losses_std: 0.000072
+2021-09-10 15:44:14,307 - env_pool: 101250, model_pool: 400000
+2021-09-10 15:44:27,262 - model_epoch: 0, losses_avg: 0.000747, losses_std: 0.000071
+2021-09-10 15:46:48,391 - model_epoch: 12, losses_avg: 0.000735, losses_std: 0.000051
+2021-09-10 15:47:58,956 - env_pool: 101500, model_pool: 400000
+2021-09-10 15:48:12,480 - model_epoch: 0, losses_avg: 0.000757, losses_std: 0.000088
+2021-09-10 15:51:19,000 - model_epoch: 16, losses_avg: 0.000756, losses_std: 0.000066
+2021-09-10 15:52:28,026 - env_pool: 101750, model_pool: 400000
+2021-09-10 15:52:41,689 - model_epoch: 0, losses_avg: 0.000757, losses_std: 0.000068
+2021-09-10 15:54:50,729 - model_epoch: 11, losses_avg: 0.000776, losses_std: 0.000052
+2021-09-10 15:56:05,301 - total_step: 97000, sum_reward: 3443.018121647493
+2021-09-10 15:56:05,312 - env_pool: 102000, model_pool: 400000
+2021-09-10 15:56:18,362 - model_epoch: 0, losses_avg: 0.000700, losses_std: 0.000061
+2021-09-10 15:58:15,511 - model_epoch: 10, losses_avg: 0.000727, losses_std: 0.000064
+2021-09-10 15:59:41,114 - env_pool: 102250, model_pool: 400000
+2021-09-10 15:59:54,619 - model_epoch: 0, losses_avg: 0.000621, losses_std: 0.000036
+2021-09-10 16:02:38,967 - model_epoch: 14, losses_avg: 0.000714, losses_std: 0.000075
+2021-09-10 16:03:49,352 - env_pool: 102500, model_pool: 400000
+2021-09-10 16:04:03,059 - model_epoch: 0, losses_avg: 0.000723, losses_std: 0.000068
+2021-09-10 16:06:00,283 - model_epoch: 10, losses_avg: 0.000747, losses_std: 0.000050
+2021-09-10 16:07:08,144 - env_pool: 102750, model_pool: 400000
+2021-09-10 16:07:21,830 - model_epoch: 0, losses_avg: 0.000665, losses_std: 0.000031
+2021-09-10 16:09:53,786 - model_epoch: 13, losses_avg: 0.000694, losses_std: 0.000037
+2021-09-10 16:11:09,562 - total_step: 98000, sum_reward: 3483.2383559855693
+2021-09-10 16:11:09,573 - env_pool: 103000, model_pool: 400000
+2021-09-10 16:11:22,874 - model_epoch: 0, losses_avg: 0.000711, losses_std: 0.000055
+2021-09-10 16:14:21,697 - model_epoch: 15, losses_avg: 0.000722, losses_std: 0.000047
+2021-09-10 16:15:29,392 - env_pool: 103250, model_pool: 400000
+2021-09-10 16:15:42,613 - model_epoch: 0, losses_avg: 0.001013, losses_std: 0.000713
+2021-09-10 16:17:30,077 - model_epoch: 9, losses_avg: 0.000717, losses_std: 0.000072
+2021-09-10 16:18:41,708 - env_pool: 103500, model_pool: 400000
+2021-09-10 16:18:55,155 - model_epoch: 0, losses_avg: 0.000750, losses_std: 0.000061
+2021-09-10 16:20:31,737 - model_epoch: 8, losses_avg: 0.000781, losses_std: 0.000065
+2021-09-10 16:21:39,402 - env_pool: 103750, model_pool: 400000
+2021-09-10 16:21:52,138 - model_epoch: 0, losses_avg: 0.000732, losses_std: 0.000073
+2021-09-10 16:23:39,295 - model_epoch: 9, losses_avg: 0.000790, losses_std: 0.000071
+2021-09-10 16:24:54,285 - total_step: 99000, sum_reward: 3476.5379233735553
+2021-09-10 16:24:54,297 - env_pool: 104000, model_pool: 400000
+2021-09-10 16:25:08,378 - model_epoch: 0, losses_avg: 0.000656, losses_std: 0.000057
+2021-09-10 16:27:21,234 - model_epoch: 11, losses_avg: 0.000892, losses_std: 0.000393
+2021-09-10 16:28:28,038 - env_pool: 104250, model_pool: 400000
+2021-09-10 16:28:41,387 - model_epoch: 0, losses_avg: 0.001210, losses_std: 0.001076
+2021-09-10 16:30:44,076 - model_epoch: 10, losses_avg: 0.000667, losses_std: 0.000069
+2021-09-10 16:31:52,967 - env_pool: 104500, model_pool: 400000
+2021-09-10 16:32:07,012 - model_epoch: 0, losses_avg: 0.000684, losses_std: 0.000160
+2021-09-10 16:35:32,744 - model_epoch: 17, losses_avg: 0.000732, losses_std: 0.000174
+2021-09-10 16:36:42,892 - env_pool: 104750, model_pool: 400000
+2021-09-10 16:36:56,223 - model_epoch: 0, losses_avg: 0.000762, losses_std: 0.000113
+2021-09-10 16:41:28,693 - model_epoch: 22, losses_avg: 0.000696, losses_std: 0.000033
+2021-09-10 16:42:44,926 - total_step: 100000, sum_reward: 3417.4040513292575
+2021-09-10 16:42:44,938 - env_pool: 105000, model_pool: 400000
+2021-09-10 16:42:58,125 - model_epoch: 0, losses_avg: 0.000624, losses_std: 0.000081
+2021-09-10 16:46:01,399 - model_epoch: 15, losses_avg: 0.000625, losses_std: 0.000022
+2021-09-10 16:47:12,426 - env_pool: 105250, model_pool: 400000
+2021-09-10 16:47:27,269 - model_epoch: 0, losses_avg: 0.000734, losses_std: 0.000092
+2021-09-10 16:51:09,846 - model_epoch: 18, losses_avg: 0.000749, losses_std: 0.000065
+2021-09-10 16:52:16,919 - env_pool: 105500, model_pool: 400000
+2021-09-10 16:52:30,659 - model_epoch: 0, losses_avg: 0.000596, losses_std: 0.000036
+2021-09-10 16:55:07,566 - model_epoch: 13, losses_avg: 0.000704, losses_std: 0.000244
+2021-09-10 16:56:20,588 - env_pool: 105750, model_pool: 400000
+2021-09-10 16:56:34,694 - model_epoch: 0, losses_avg: 0.000655, losses_std: 0.000069
+2021-09-10 16:58:47,872 - model_epoch: 11, losses_avg: 0.000668, losses_std: 0.000076
+2021-09-10 17:00:06,099 - total_step: 101000, sum_reward: 3429.2501015224734
+2021-09-10 17:00:06,111 - env_pool: 106000, model_pool: 400000
+2021-09-10 17:00:20,466 - model_epoch: 0, losses_avg: 0.000690, losses_std: 0.000077
+2021-09-10 17:05:01,770 - model_epoch: 23, losses_avg: 0.000738, losses_std: 0.000070
+2021-09-10 17:06:12,984 - env_pool: 106250, model_pool: 400000
+2021-09-10 17:06:26,735 - model_epoch: 0, losses_avg: 0.000764, losses_std: 0.000093
+2021-09-10 17:08:05,737 - model_epoch: 8, losses_avg: 0.000767, losses_std: 0.000078
+2021-09-10 17:09:13,464 - env_pool: 106500, model_pool: 400000
+2021-09-10 17:09:28,126 - model_epoch: 0, losses_avg: 0.000663, losses_std: 0.000062
+2021-09-10 17:13:03,869 - model_epoch: 17, losses_avg: 0.000704, losses_std: 0.000062
+2021-09-10 17:14:10,949 - env_pool: 106750, model_pool: 400000
+2021-09-10 17:14:25,217 - model_epoch: 0, losses_avg: 0.001225, losses_std: 0.001517
+2021-09-10 17:16:27,550 - model_epoch: 10, losses_avg: 0.000700, losses_std: 0.000195
+2021-09-10 17:17:45,952 - total_step: 102000, sum_reward: 3474.168029915552
+2021-09-10 17:17:45,964 - env_pool: 107000, model_pool: 400000
+2021-09-10 17:18:00,971 - model_epoch: 0, losses_avg: 0.000710, losses_std: 0.000041
+2021-09-10 17:22:34,063 - model_epoch: 22, losses_avg: 0.000735, losses_std: 0.000042
+2021-09-10 17:23:40,439 - env_pool: 107250, model_pool: 400000
+2021-09-10 17:23:54,608 - model_epoch: 0, losses_avg: 0.000661, losses_std: 0.000039
+2021-09-10 17:26:53,922 - model_epoch: 14, losses_avg: 0.000876, losses_std: 0.000395
+2021-09-10 17:27:58,768 - env_pool: 107500, model_pool: 400000
+2021-09-10 17:28:11,525 - model_epoch: 0, losses_avg: 0.000619, losses_std: 0.000041
+2021-09-10 17:32:24,361 - model_epoch: 22, losses_avg: 0.000645, losses_std: 0.000035
+2021-09-10 17:33:29,614 - env_pool: 107750, model_pool: 400000
+2021-09-10 17:33:43,075 - model_epoch: 0, losses_avg: 0.000726, losses_std: 0.000110
+2021-09-10 17:36:47,837 - model_epoch: 16, losses_avg: 0.000774, losses_std: 0.000159
+2021-09-10 17:37:53,713 - total_step: 103000, sum_reward: 3503.592238766491
+2021-09-10 17:37:53,725 - env_pool: 108000, model_pool: 400000
+2021-09-10 17:38:06,727 - model_epoch: 0, losses_avg: 0.000737, losses_std: 0.000112
+2021-09-10 17:40:15,242 - model_epoch: 11, losses_avg: 0.000783, losses_std: 0.000157
+2021-09-10 17:41:20,443 - env_pool: 108250, model_pool: 400000
+2021-09-10 17:41:34,987 - model_epoch: 0, losses_avg: 0.000728, losses_std: 0.000082
+2021-09-10 17:44:23,829 - model_epoch: 14, losses_avg: 0.000716, losses_std: 0.000060
+2021-09-10 17:45:28,241 - env_pool: 108500, model_pool: 400000
+2021-09-10 17:45:42,351 - model_epoch: 0, losses_avg: 0.001485, losses_std: 0.001940
+2021-09-10 17:48:37,487 - model_epoch: 15, losses_avg: 0.000684, losses_std: 0.000055
+2021-09-10 17:49:42,318 - env_pool: 108750, model_pool: 400000
+2021-09-10 17:49:54,979 - model_epoch: 0, losses_avg: 0.000667, losses_std: 0.000074
+2021-09-10 17:54:40,639 - model_epoch: 24, losses_avg: 0.000689, losses_std: 0.000038
+2021-09-10 17:55:48,786 - total_step: 104000, sum_reward: 3488.112444436433
+2021-09-10 17:55:48,799 - env_pool: 109000, model_pool: 400000
+2021-09-10 17:56:02,433 - model_epoch: 0, losses_avg: 0.000666, losses_std: 0.000089
+2021-09-10 17:58:27,179 - model_epoch: 12, losses_avg: 0.000666, losses_std: 0.000051
+2021-09-10 17:59:28,796 - env_pool: 109250, model_pool: 400000
+2021-09-10 17:59:41,540 - model_epoch: 0, losses_avg: 0.000818, losses_std: 0.000148
+2021-09-10 18:01:54,240 - model_epoch: 12, losses_avg: 0.000731, losses_std: 0.000055
+2021-09-10 18:02:57,320 - env_pool: 109500, model_pool: 400000
+2021-09-10 18:03:09,784 - model_epoch: 0, losses_avg: 0.000756, losses_std: 0.000067
+2021-09-10 18:05:04,955 - model_epoch: 10, losses_avg: 0.000824, losses_std: 0.000101
+2021-09-10 18:06:05,964 - env_pool: 109750, model_pool: 400000
+2021-09-10 18:06:19,095 - model_epoch: 0, losses_avg: 0.000666, losses_std: 0.000110
+2021-09-10 18:09:56,668 - model_epoch: 19, losses_avg: 0.000699, losses_std: 0.000079
+2021-09-10 18:11:06,137 - total_step: 105000, sum_reward: 3505.158111777569
+2021-09-10 18:11:06,150 - env_pool: 110000, model_pool: 400000
+2021-09-10 18:11:19,623 - model_epoch: 0, losses_avg: 0.000658, losses_std: 0.000045
+2021-09-10 18:13:25,686 - model_epoch: 11, losses_avg: 0.000931, losses_std: 0.000535
+2021-09-10 18:14:26,142 - env_pool: 110250, model_pool: 400000
+2021-09-10 18:14:39,450 - model_epoch: 0, losses_avg: 0.000600, losses_std: 0.000052
+2021-09-10 18:16:58,816 - model_epoch: 12, losses_avg: 0.000613, losses_std: 0.000054
+2021-09-10 18:17:58,733 - env_pool: 110500, model_pool: 400000
+2021-09-10 18:18:11,847 - model_epoch: 0, losses_avg: 0.000793, losses_std: 0.000093
+2021-09-10 18:20:43,403 - model_epoch: 13, losses_avg: 0.000781, losses_std: 0.000089
+2021-09-10 18:21:43,192 - env_pool: 110750, model_pool: 400000
+2021-09-10 18:21:56,358 - model_epoch: 0, losses_avg: 0.000770, losses_std: 0.000057
+2021-09-10 18:24:02,600 - model_epoch: 11, losses_avg: 0.000822, losses_std: 0.000085
+2021-09-10 18:25:12,615 - total_step: 106000, sum_reward: 3454.4405244881273
+2021-09-10 18:25:12,626 - env_pool: 111000, model_pool: 400000
+2021-09-10 18:25:25,761 - model_epoch: 0, losses_avg: 0.000781, losses_std: 0.000110
+2021-09-10 18:28:03,816 - model_epoch: 14, losses_avg: 0.000794, losses_std: 0.000049
+2021-09-10 18:29:08,439 - env_pool: 111250, model_pool: 400000
+2021-09-10 18:29:22,641 - model_epoch: 0, losses_avg: 0.000695, losses_std: 0.000053
+2021-09-10 18:32:59,374 - model_epoch: 19, losses_avg: 0.000723, losses_std: 0.000045
+2021-09-10 18:34:02,143 - env_pool: 111500, model_pool: 400000
+2021-09-10 18:34:14,637 - model_epoch: 0, losses_avg: 0.000721, losses_std: 0.000046
+2021-09-10 18:37:56,638 - model_epoch: 19, losses_avg: 0.000734, losses_std: 0.000063
+2021-09-10 18:39:02,286 - env_pool: 111750, model_pool: 400000
+2021-09-10 18:39:16,019 - model_epoch: 0, losses_avg: 0.000735, losses_std: 0.000065
+2021-09-10 18:42:21,475 - model_epoch: 16, losses_avg: 0.001129, losses_std: 0.001060
+2021-09-10 18:43:26,446 - total_step: 107000, sum_reward: 237.59505112819826
+2021-09-10 18:43:26,461 - env_pool: 112000, model_pool: 400000
+2021-09-10 18:43:38,918 - model_epoch: 0, losses_avg: 0.000947, losses_std: 0.000786
+2021-09-10 18:46:13,212 - model_epoch: 13, losses_avg: 0.000684, losses_std: 0.000053
+2021-09-10 18:47:18,265 - env_pool: 112250, model_pool: 400000
+2021-09-10 18:47:31,576 - model_epoch: 0, losses_avg: 0.000772, losses_std: 0.000133
+2021-09-10 18:49:42,732 - model_epoch: 11, losses_avg: 0.000708, losses_std: 0.000074
+2021-09-10 18:50:45,910 - env_pool: 112500, model_pool: 400000
+2021-09-10 18:50:59,333 - model_epoch: 0, losses_avg: 0.000689, losses_std: 0.000073
+2021-09-10 18:52:46,533 - model_epoch: 9, losses_avg: 0.000717, losses_std: 0.000046
+2021-09-10 18:53:51,132 - env_pool: 112750, model_pool: 400000
+2021-09-10 18:54:05,342 - model_epoch: 0, losses_avg: 0.000775, losses_std: 0.000191
+2021-09-10 18:57:22,903 - model_epoch: 17, losses_avg: 0.000729, losses_std: 0.000132
+2021-09-10 18:58:31,239 - total_step: 108000, sum_reward: 456.67992453093825
+2021-09-10 18:58:31,250 - env_pool: 113000, model_pool: 400000
+2021-09-10 18:58:44,703 - model_epoch: 0, losses_avg: 0.000799, losses_std: 0.000048
+2021-09-10 19:02:54,713 - model_epoch: 21, losses_avg: 0.000781, losses_std: 0.000049
+2021-09-10 19:03:59,181 - env_pool: 113250, model_pool: 400000
+2021-09-10 19:04:12,800 - model_epoch: 0, losses_avg: 0.000636, losses_std: 0.000047
+2021-09-10 19:06:01,235 - model_epoch: 9, losses_avg: 0.000653, losses_std: 0.000034
+2021-09-10 19:07:01,083 - env_pool: 113500, model_pool: 400000
+2021-09-10 19:07:15,270 - model_epoch: 0, losses_avg: 0.000668, losses_std: 0.000053
+2021-09-10 19:10:38,004 - model_epoch: 17, losses_avg: 0.000650, losses_std: 0.000060
+2021-09-10 19:11:44,113 - env_pool: 113750, model_pool: 400000
+2021-09-10 19:11:57,810 - model_epoch: 0, losses_avg: 0.001087, losses_std: 0.001123
+2021-09-10 19:15:53,037 - model_epoch: 20, losses_avg: 0.000678, losses_std: 0.000150
+2021-09-10 19:17:04,211 - total_step: 109000, sum_reward: 3359.902604045456
+2021-09-10 19:17:04,223 - env_pool: 114000, model_pool: 400000
+2021-09-10 19:17:17,799 - model_epoch: 0, losses_avg: 0.000929, losses_std: 0.000446
+2021-09-10 19:20:43,963 - model_epoch: 17, losses_avg: 0.000733, losses_std: 0.000107
+2021-09-10 19:21:45,671 - env_pool: 114250, model_pool: 400000
+2021-09-10 19:21:59,080 - model_epoch: 0, losses_avg: 0.002157, losses_std: 0.003208
+2021-09-10 19:27:00,533 - model_epoch: 25, losses_avg: 0.000715, losses_std: 0.000076
+2021-09-10 19:28:04,063 - env_pool: 114500, model_pool: 400000
+2021-09-10 19:28:17,530 - model_epoch: 0, losses_avg: 0.000903, losses_std: 0.000619
+2021-09-10 19:30:31,433 - model_epoch: 11, losses_avg: 0.000591, losses_std: 0.000038
+2021-09-10 19:31:38,244 - env_pool: 114750, model_pool: 400000
+2021-09-10 19:31:52,325 - model_epoch: 0, losses_avg: 0.000550, losses_std: 0.000033
+2021-09-10 19:34:29,540 - model_epoch: 13, losses_avg: 0.000856, losses_std: 0.000456
+2021-09-10 19:35:33,348 - total_step: 110000, sum_reward: 1377.5622601189332
+2021-09-10 19:35:33,360 - env_pool: 115000, model_pool: 400000
+2021-09-10 19:35:48,006 - model_epoch: 0, losses_avg: 0.000687, losses_std: 0.000066
+2021-09-10 19:39:25,239 - model_epoch: 17, losses_avg: 0.000684, losses_std: 0.000061
+2021-09-10 19:40:34,053 - env_pool: 115250, model_pool: 400000
+2021-09-10 19:40:49,420 - model_epoch: 0, losses_avg: 0.000706, losses_std: 0.000046
+2021-09-10 19:44:19,690 - model_epoch: 16, losses_avg: 0.000793, losses_std: 0.000155
+2021-09-10 19:45:20,995 - env_pool: 115500, model_pool: 400000
+2021-09-10 19:45:35,574 - model_epoch: 0, losses_avg: 0.000937, losses_std: 0.000674
+2021-09-10 19:49:16,881 - model_epoch: 18, losses_avg: 0.000660, losses_std: 0.000054
+2021-09-10 19:50:17,600 - env_pool: 115750, model_pool: 400000
+2021-09-10 19:50:31,483 - model_epoch: 0, losses_avg: 0.000650, losses_std: 0.000041
+2021-09-10 19:54:41,754 - model_epoch: 21, losses_avg: 0.000679, losses_std: 0.000059
+2021-09-10 19:55:47,918 - total_step: 111000, sum_reward: 3459.812004247997
+2021-09-10 19:55:47,931 - env_pool: 116000, model_pool: 400000
+2021-09-10 19:56:01,884 - model_epoch: 0, losses_avg: 0.000689, losses_std: 0.000078
+2021-09-10 19:58:14,125 - model_epoch: 11, losses_avg: 0.000670, losses_std: 0.000044
+2021-09-10 19:59:14,250 - env_pool: 116250, model_pool: 400000
+2021-09-10 19:59:28,172 - model_epoch: 0, losses_avg: 0.000944, losses_std: 0.000473
+2021-09-10 20:02:16,712 - model_epoch: 14, losses_avg: 0.000787, losses_std: 0.000114
+2021-09-10 20:03:17,482 - env_pool: 116500, model_pool: 400000
+2021-09-10 20:03:31,528 - model_epoch: 0, losses_avg: 0.000645, losses_std: 0.000066
+2021-09-10 20:05:19,222 - model_epoch: 9, losses_avg: 0.000644, losses_std: 0.000049
+2021-09-10 20:06:19,117 - env_pool: 116750, model_pool: 400000
+2021-09-10 20:06:32,976 - model_epoch: 0, losses_avg: 0.000637, losses_std: 0.000035
+2021-09-10 20:11:11,437 - model_epoch: 23, losses_avg: 0.000656, losses_std: 0.000039
+2021-09-10 20:12:16,067 - total_step: 112000, sum_reward: 3512.0674217518813
+2021-09-10 20:12:16,079 - env_pool: 117000, model_pool: 400000
+2021-09-10 20:12:29,429 - model_epoch: 0, losses_avg: 0.000738, losses_std: 0.000081
+2021-09-10 20:15:19,315 - model_epoch: 14, losses_avg: 0.000666, losses_std: 0.000051
+2021-09-10 20:16:21,251 - env_pool: 117250, model_pool: 400000
+2021-09-10 20:16:34,924 - model_epoch: 0, losses_avg: 0.000645, losses_std: 0.000097
+2021-09-10 20:19:25,183 - model_epoch: 14, losses_avg: 0.000603, losses_std: 0.000040
+2021-09-10 20:20:20,425 - env_pool: 117500, model_pool: 400000
+2021-09-10 20:20:34,316 - model_epoch: 0, losses_avg: 0.000739, losses_std: 0.000259
+2021-09-10 20:22:09,936 - model_epoch: 8, losses_avg: 0.000663, losses_std: 0.000076
+2021-09-10 20:23:11,328 - env_pool: 117750, model_pool: 400000
+2021-09-10 20:23:25,632 - model_epoch: 0, losses_avg: 0.000674, losses_std: 0.000057
+2021-09-10 20:26:04,945 - model_epoch: 13, losses_avg: 0.000685, losses_std: 0.000051
+2021-09-10 20:27:10,895 - total_step: 113000, sum_reward: 3485.215548318929
+2021-09-10 20:27:10,907 - env_pool: 118000, model_pool: 400000
+2021-09-10 20:27:24,980 - model_epoch: 0, losses_avg: 0.000591, losses_std: 0.000128
+2021-09-10 20:30:03,538 - model_epoch: 13, losses_avg: 0.000705, losses_std: 0.000325
+2021-09-10 20:31:04,557 - env_pool: 118250, model_pool: 400000
+2021-09-10 20:31:18,578 - model_epoch: 0, losses_avg: 0.000641, losses_std: 0.000102
+2021-09-10 20:33:58,878 - model_epoch: 13, losses_avg: 0.000570, losses_std: 0.000043
+2021-09-10 20:34:57,609 - env_pool: 118500, model_pool: 400000
+2021-09-10 20:35:11,297 - model_epoch: 0, losses_avg: 0.000589, losses_std: 0.000083
+2021-09-10 20:38:02,900 - model_epoch: 14, losses_avg: 0.000612, losses_std: 0.000067
+2021-09-10 20:39:03,582 - env_pool: 118750, model_pool: 400000
+2021-09-10 20:39:17,641 - model_epoch: 0, losses_avg: 0.000581, losses_std: 0.000045
+2021-09-10 20:42:20,415 - model_epoch: 15, losses_avg: 0.000615, losses_std: 0.000038
+2021-09-10 20:43:25,288 - total_step: 114000, sum_reward: 3489.2694396046913
+2021-09-10 20:43:25,299 - env_pool: 119000, model_pool: 400000
+2021-09-10 20:43:39,279 - model_epoch: 0, losses_avg: 0.000753, losses_std: 0.000055
+2021-09-10 20:46:42,300 - model_epoch: 15, losses_avg: 0.000798, losses_std: 0.000071
+2021-09-10 20:47:42,544 - env_pool: 119250, model_pool: 400000
+2021-09-10 20:47:56,741 - model_epoch: 0, losses_avg: 0.000774, losses_std: 0.000265
+2021-09-10 20:49:58,757 - model_epoch: 10, losses_avg: 0.000608, losses_std: 0.000043
+2021-09-10 20:50:58,058 - env_pool: 119500, model_pool: 400000
+2021-09-10 20:51:12,228 - model_epoch: 0, losses_avg: 0.000798, losses_std: 0.000462
+2021-09-10 20:53:14,569 - model_epoch: 10, losses_avg: 0.000650, losses_std: 0.000054
+2021-09-10 20:54:15,969 - env_pool: 119750, model_pool: 400000
+2021-09-10 20:54:30,099 - model_epoch: 0, losses_avg: 0.000642, losses_std: 0.000048
+2021-09-10 20:57:22,073 - model_epoch: 14, losses_avg: 0.000685, losses_std: 0.000073
+2021-09-10 20:58:27,438 - total_step: 115000, sum_reward: 3406.131028146786
+2021-09-10 20:58:27,450 - env_pool: 120000, model_pool: 400000
+2021-09-10 20:58:41,118 - model_epoch: 0, losses_avg: 0.000600, losses_std: 0.000056
+2021-09-10 21:01:37,108 - model_epoch: 14, losses_avg: 0.000627, losses_std: 0.000035
+2021-09-10 21:02:36,244 - env_pool: 120250, model_pool: 400000
+2021-09-10 21:02:50,307 - model_epoch: 0, losses_avg: 0.000668, losses_std: 0.000051
+2021-09-10 21:04:43,036 - model_epoch: 9, losses_avg: 0.000741, losses_std: 0.000152
+2021-09-10 21:05:41,337 - env_pool: 120500, model_pool: 400000
+2021-09-10 21:05:55,322 - model_epoch: 0, losses_avg: 0.000602, losses_std: 0.000044
+2021-09-10 21:07:47,323 - model_epoch: 9, losses_avg: 0.000617, losses_std: 0.000059
+2021-09-10 21:08:48,175 - env_pool: 120750, model_pool: 400000
+2021-09-10 21:09:02,136 - model_epoch: 0, losses_avg: 0.000683, losses_std: 0.000062
+2021-09-10 21:11:18,472 - model_epoch: 11, losses_avg: 0.000969, losses_std: 0.000686
+2021-09-10 21:12:23,961 - total_step: 116000, sum_reward: 3495.063555759199
+2021-09-10 21:12:23,973 - env_pool: 121000, model_pool: 400000
+2021-09-10 21:12:37,860 - model_epoch: 0, losses_avg: 0.000620, losses_std: 0.000050
+2021-09-10 21:14:30,946 - model_epoch: 9, losses_avg: 0.000635, losses_std: 0.000046
+2021-09-10 21:15:31,629 - env_pool: 121250, model_pool: 400000
+2021-09-10 21:15:46,308 - model_epoch: 0, losses_avg: 0.000774, losses_std: 0.000176
+2021-09-10 21:17:37,900 - model_epoch: 9, losses_avg: 0.000737, losses_std: 0.000028
+2021-09-10 21:18:36,644 - env_pool: 121500, model_pool: 400000
+2021-09-10 21:18:50,992 - model_epoch: 0, losses_avg: 0.000663, losses_std: 0.000060
+2021-09-10 21:21:14,667 - model_epoch: 12, losses_avg: 0.000673, losses_std: 0.000046
+2021-09-10 21:22:12,024 - env_pool: 121750, model_pool: 400000
+2021-09-10 21:22:26,321 - model_epoch: 0, losses_avg: 0.000720, losses_std: 0.000151
+2021-09-10 21:24:20,502 - model_epoch: 9, losses_avg: 0.000685, losses_std: 0.000053
+2021-09-10 21:25:25,708 - total_step: 117000, sum_reward: 3492.607886583464
+2021-09-10 21:25:25,720 - env_pool: 122000, model_pool: 400000
+2021-09-10 21:25:39,836 - model_epoch: 0, losses_avg: 0.000623, losses_std: 0.000032
+2021-09-10 21:27:33,603 - model_epoch: 9, losses_avg: 0.000637, losses_std: 0.000022
+2021-09-10 21:28:34,392 - env_pool: 122250, model_pool: 400000
+2021-09-10 21:28:48,997 - model_epoch: 0, losses_avg: 0.000610, losses_std: 0.000069
+2021-09-10 21:32:13,189 - model_epoch: 16, losses_avg: 0.000721, losses_std: 0.000186
+2021-09-10 21:33:12,135 - env_pool: 122500, model_pool: 400000
+2021-09-10 21:33:26,414 - model_epoch: 0, losses_avg: 0.000681, losses_std: 0.000031
+2021-09-10 21:36:36,363 - model_epoch: 15, losses_avg: 0.000695, losses_std: 0.000061
+2021-09-10 21:37:36,447 - env_pool: 122750, model_pool: 400000
+2021-09-10 21:37:50,910 - model_epoch: 0, losses_avg: 0.000711, losses_std: 0.000315
+2021-09-10 21:40:11,221 - model_epoch: 11, losses_avg: 0.000793, losses_std: 0.000468
+2021-09-10 21:41:16,406 - total_step: 118000, sum_reward: 3492.4807833777036
+2021-09-10 21:41:16,418 - env_pool: 123000, model_pool: 400000
+2021-09-10 21:41:30,579 - model_epoch: 0, losses_avg: 0.000627, losses_std: 0.000081
+2021-09-10 21:44:16,340 - model_epoch: 13, losses_avg: 0.000627, losses_std: 0.000052
+2021-09-10 21:45:17,212 - env_pool: 123250, model_pool: 400000
+2021-09-10 21:45:31,942 - model_epoch: 0, losses_avg: 0.000590, losses_std: 0.000027
+2021-09-10 21:47:39,645 - model_epoch: 10, losses_avg: 0.000638, losses_std: 0.000048
+2021-09-10 21:48:38,960 - env_pool: 123500, model_pool: 400000
+2021-09-10 21:48:51,569 - model_epoch: 0, losses_avg: 0.000842, losses_std: 0.000480
+2021-09-10 21:53:01,211 - model_epoch: 21, losses_avg: 0.000615, losses_std: 0.000038
+2021-09-10 21:54:02,121 - env_pool: 123750, model_pool: 400000
+2021-09-10 21:54:16,665 - model_epoch: 0, losses_avg: 0.000584, losses_std: 0.000085
+2021-09-10 21:57:29,909 - model_epoch: 16, losses_avg: 0.000569, losses_std: 0.000047
+2021-09-10 21:58:35,365 - total_step: 119000, sum_reward: 3436.5617441656505
+2021-09-10 21:58:35,377 - env_pool: 124000, model_pool: 400000
+2021-09-10 21:58:49,555 - model_epoch: 0, losses_avg: 0.000605, losses_std: 0.000042
+2021-09-10 22:02:03,235 - model_epoch: 15, losses_avg: 0.000624, losses_std: 0.000043
+2021-09-10 22:03:04,419 - env_pool: 124250, model_pool: 400000
+2021-09-10 22:03:19,236 - model_epoch: 0, losses_avg: 0.000579, losses_std: 0.000042
+2021-09-10 22:06:59,878 - model_epoch: 18, losses_avg: 0.000632, losses_std: 0.000083
+2021-09-10 22:07:59,236 - env_pool: 124500, model_pool: 400000
+2021-09-10 22:08:13,920 - model_epoch: 0, losses_avg: 0.000669, losses_std: 0.000034
+2021-09-10 22:12:55,673 - model_epoch: 22, losses_avg: 0.000713, losses_std: 0.000044
+2021-09-10 22:13:55,935 - env_pool: 124750, model_pool: 400000
+2021-09-10 22:14:10,699 - model_epoch: 0, losses_avg: 0.000659, losses_std: 0.000104
+2021-09-10 22:16:44,233 - model_epoch: 12, losses_avg: 0.000631, losses_std: 0.000044
+2021-09-10 22:17:50,377 - total_step: 120000, sum_reward: 3517.8188132205464
+2021-09-10 22:17:50,388 - env_pool: 125000, model_pool: 400000
+2021-09-10 22:18:05,192 - model_epoch: 0, losses_avg: 0.000584, losses_std: 0.000039
+2021-09-10 22:20:51,576 - model_epoch: 13, losses_avg: 0.000602, losses_std: 0.000036
+2021-09-10 22:21:52,391 - env_pool: 125250, model_pool: 400000
+2021-09-10 22:22:06,892 - model_epoch: 0, losses_avg: 0.000633, losses_std: 0.000103
+2021-09-10 22:24:01,901 - model_epoch: 9, losses_avg: 0.000603, losses_std: 0.000055
+2021-09-10 22:25:01,924 - env_pool: 125500, model_pool: 400000
+2021-09-10 22:25:16,614 - model_epoch: 0, losses_avg: 0.000573, losses_std: 0.000033
+2021-09-10 22:27:24,414 - model_epoch: 10, losses_avg: 0.000623, losses_std: 0.000071
+2021-09-10 22:28:25,688 - env_pool: 125750, model_pool: 400000
+2021-09-10 22:28:40,567 - model_epoch: 0, losses_avg: 0.000622, losses_std: 0.000047
+2021-09-10 22:30:24,111 - model_epoch: 8, losses_avg: 0.000632, losses_std: 0.000050
+2021-09-10 22:31:23,582 - total_step: 121000, sum_reward: 1263.7135005176365
+2021-09-10 22:31:23,593 - env_pool: 126000, model_pool: 400000
+2021-09-10 22:31:38,477 - model_epoch: 0, losses_avg: 0.000632, losses_std: 0.000034
+2021-09-10 22:34:27,523 - model_epoch: 13, losses_avg: 0.000669, losses_std: 0.000034
+2021-09-10 22:35:27,212 - env_pool: 126250, model_pool: 400000
+2021-09-10 22:35:42,483 - model_epoch: 0, losses_avg: 0.000651, losses_std: 0.000047
+2021-09-10 22:38:19,424 - model_epoch: 12, losses_avg: 0.000695, losses_std: 0.000058
+2021-09-10 22:39:18,442 - env_pool: 126500, model_pool: 400000
+2021-09-10 22:39:33,294 - model_epoch: 0, losses_avg: 0.000641, losses_std: 0.000087
+2021-09-10 22:42:47,899 - model_epoch: 15, losses_avg: 0.000641, losses_std: 0.000063
+2021-09-10 22:43:47,643 - env_pool: 126750, model_pool: 400000
+2021-09-10 22:44:02,841 - model_epoch: 0, losses_avg: 0.000714, losses_std: 0.000307
+2021-09-10 22:46:51,845 - model_epoch: 13, losses_avg: 0.000599, losses_std: 0.000044
+2021-09-10 22:47:53,931 - total_step: 122000, sum_reward: 907.5513223212284
+2021-09-10 22:47:53,943 - env_pool: 127000, model_pool: 400000
+2021-09-10 22:48:07,009 - model_epoch: 0, losses_avg: 0.000864, losses_std: 0.000719
+2021-09-10 22:51:16,914 - model_epoch: 15, losses_avg: 0.000860, losses_std: 0.000549
+2021-09-10 22:52:17,295 - env_pool: 127250, model_pool: 400000
+2021-09-10 22:52:32,574 - model_epoch: 0, losses_avg: 0.000680, losses_std: 0.000115
+2021-09-10 22:54:42,074 - model_epoch: 10, losses_avg: 0.000634, losses_std: 0.000033
+2021-09-10 22:55:41,914 - env_pool: 127500, model_pool: 400000
+2021-09-10 22:55:56,804 - model_epoch: 0, losses_avg: 0.001191, losses_std: 0.001410
+2021-09-10 22:59:54,199 - model_epoch: 18, losses_avg: 0.000655, losses_std: 0.000063
+2021-09-10 23:00:55,427 - env_pool: 127750, model_pool: 400000
+2021-09-10 23:01:10,791 - model_epoch: 0, losses_avg: 0.000677, losses_std: 0.000125
+2021-09-10 23:05:29,744 - model_epoch: 20, losses_avg: 0.000648, losses_std: 0.000032
+2021-09-10 23:06:35,588 - total_step: 123000, sum_reward: 3431.2649808449846
+2021-09-10 23:06:35,599 - env_pool: 128000, model_pool: 400000
+2021-09-10 23:06:50,795 - model_epoch: 0, losses_avg: 0.000586, losses_std: 0.000060
+2021-09-10 23:09:22,822 - model_epoch: 12, losses_avg: 0.000627, losses_std: 0.000055
+2021-09-10 23:10:23,956 - env_pool: 128250, model_pool: 400000
+2021-09-10 23:10:39,091 - model_epoch: 0, losses_avg: 0.000666, losses_std: 0.000076
+2021-09-10 23:12:50,810 - model_epoch: 10, losses_avg: 0.001105, losses_std: 0.000972
+2021-09-10 23:13:49,975 - env_pool: 128500, model_pool: 400000
+2021-09-10 23:14:05,376 - model_epoch: 0, losses_avg: 0.000648, losses_std: 0.000157
+2021-09-10 23:18:03,571 - model_epoch: 18, losses_avg: 0.000637, losses_std: 0.000054
+2021-09-10 23:19:03,793 - env_pool: 128750, model_pool: 400000
+2021-09-10 23:19:18,931 - model_epoch: 0, losses_avg: 0.001193, losses_std: 0.001324
+2021-09-10 23:23:58,002 - model_epoch: 21, losses_avg: 0.000672, losses_std: 0.000033
+2021-09-10 23:25:04,107 - total_step: 124000, sum_reward: 3453.819255496523
+2021-09-10 23:25:04,119 - env_pool: 129000, model_pool: 400000
+2021-09-10 23:25:19,183 - model_epoch: 0, losses_avg: 0.000614, losses_std: 0.000058
+2021-09-10 23:29:04,095 - model_epoch: 17, losses_avg: 0.000622, losses_std: 0.000037
+2021-09-10 23:30:04,949 - env_pool: 129250, model_pool: 400000
+2021-09-10 23:30:20,253 - model_epoch: 0, losses_avg: 0.000595, losses_std: 0.000159
+2021-09-10 23:33:11,798 - model_epoch: 13, losses_avg: 0.000545, losses_std: 0.000043
+2021-09-10 23:34:11,224 - env_pool: 129500, model_pool: 400000
+2021-09-10 23:34:26,582 - model_epoch: 0, losses_avg: 0.000582, losses_std: 0.000052
+2021-09-10 23:36:51,898 - model_epoch: 11, losses_avg: 0.000587, losses_std: 0.000043
+2021-09-10 23:37:52,280 - env_pool: 129750, model_pool: 400000
+2021-09-10 23:38:07,537 - model_epoch: 0, losses_avg: 0.000620, losses_std: 0.000047
+2021-09-10 23:40:44,248 - model_epoch: 12, losses_avg: 0.000633, losses_std: 0.000053
+2021-09-10 23:41:50,133 - total_step: 125000, sum_reward: 3521.7027250509827
+2021-09-10 23:41:50,145 - env_pool: 130000, model_pool: 400000
+2021-09-10 23:42:05,557 - model_epoch: 0, losses_avg: 0.000538, losses_std: 0.000028
+2021-09-10 23:43:51,217 - model_epoch: 8, losses_avg: 0.000551, losses_std: 0.000043
+2021-09-10 23:44:52,472 - env_pool: 130250, model_pool: 400000
+2021-09-10 23:45:07,806 - model_epoch: 0, losses_avg: 0.000652, losses_std: 0.000051
+2021-09-10 23:47:47,383 - model_epoch: 12, losses_avg: 0.000692, losses_std: 0.000051
+2021-09-10 23:48:46,021 - env_pool: 130500, model_pool: 400000
+2021-09-10 23:49:01,521 - model_epoch: 0, losses_avg: 0.000573, losses_std: 0.000058
+2021-09-10 23:51:41,429 - model_epoch: 12, losses_avg: 0.000579, losses_std: 0.000042
+2021-09-10 23:52:42,140 - env_pool: 130750, model_pool: 400000
+2021-09-10 23:52:57,741 - model_epoch: 0, losses_avg: 0.000551, losses_std: 0.000028
+2021-09-10 23:56:03,786 - model_epoch: 14, losses_avg: 0.000568, losses_std: 0.000026
+2021-09-10 23:57:10,636 - total_step: 126000, sum_reward: 3508.758585860094
+2021-09-10 23:57:10,648 - env_pool: 131000, model_pool: 400000
+2021-09-10 23:57:25,967 - model_epoch: 0, losses_avg: 0.000571, losses_std: 0.000052
+2021-09-11 00:01:41,508 - model_epoch: 19, losses_avg: 0.000596, losses_std: 0.000041
+2021-09-11 00:02:42,240 - env_pool: 131250, model_pool: 400000
+2021-09-11 00:02:55,614 - model_epoch: 0, losses_avg: 0.000837, losses_std: 0.000280
+2021-09-11 00:06:50,407 - model_epoch: 18, losses_avg: 0.000641, losses_std: 0.000054
+2021-09-11 00:07:48,870 - env_pool: 131500, model_pool: 400000
+2021-09-11 00:08:04,300 - model_epoch: 0, losses_avg: 0.000720, losses_std: 0.000082
+2021-09-11 00:10:33,213 - model_epoch: 11, losses_avg: 0.000657, losses_std: 0.000050
+2021-09-11 00:11:33,471 - env_pool: 131750, model_pool: 400000
+2021-09-11 00:11:48,771 - model_epoch: 0, losses_avg: 0.000585, losses_std: 0.000056
+2021-09-11 00:14:58,469 - model_epoch: 14, losses_avg: 0.000604, losses_std: 0.000043
+2021-09-11 00:16:03,990 - total_step: 127000, sum_reward: 3495.335813362626
+2021-09-11 00:19:46,433 - env_pool: 132250, model_pool: 400000
+2021-09-11 00:20:01,660 - model_epoch: 0, losses_avg: 0.000665, losses_std: 0.000062
+2021-09-11 00:23:22,128 - model_epoch: 15, losses_avg: 0.000625, losses_std: 0.000045
+2021-09-11 00:27:08,284 - env_pool: 132500, model_pool: 400000
+2021-09-11 00:27:23,931 - model_epoch: 0, losses_avg: 0.000825, losses_std: 0.000368
+2021-09-11 00:30:59,337 - model_epoch: 16, losses_avg: 0.000816, losses_std: 0.000282
+2021-09-11 00:34:43,801 - env_pool: 132750, model_pool: 400000
+2021-09-11 00:34:59,324 - model_epoch: 0, losses_avg: 0.000689, losses_std: 0.000152
+2021-09-11 00:38:21,588 - model_epoch: 15, losses_avg: 0.000659, losses_std: 0.000042
+2021-09-11 00:42:10,768 - total_step: 128000, sum_reward: 3454.661025611341
+2021-09-11 00:42:10,780 - env_pool: 133000, model_pool: 400000
+2021-09-11 00:42:26,284 - model_epoch: 0, losses_avg: 0.000620, losses_std: 0.000027

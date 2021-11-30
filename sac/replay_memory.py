@@ -43,47 +43,45 @@ class ReplayMemory:
             self.position = len(batch) - len(self.buffer) + self.position
 
     # weights of new sample was set to None, this function will find all None and update it to a certain ratio
-    def update_decay_weights(self, decay_rate=0.97):
-        weight_arr = np.array(self.decay_weight, dtype=np.double)
+    def update_decay_weights(self, decay_rate=0.9):
+        weight_arr = np.array(self.decay_weights, dtype=np.double)
 
         new_buffer_index = np.where(np.isnan(weight_arr))[0]
-        if len(new_buffer_index) == len(weight_arr): # all new buffer
+        if len(new_buffer_index) == len(weight_arr):  # all new buffer
             value = 1
         else:
             weight_arr[new_buffer_index] = 0
             value = sum(weight_arr) * (1 / decay_rate - 1) / len(new_buffer_index)
-            if value < self.decay_weight[0]:
-                value = self.decay_weight[0]
+            if value < self.decay_weights[0]:  # ensure newly added sample have larger weights
+                value = self.decay_weights[0]
         weight_arr[new_buffer_index] = value
         weight_arr = weight_arr * decay_rate
 
-        self.decay_weight = weight_arr.tolist()
+        self.decay_weights = weight_arr.tolist()
 
-    def update_delta_score(self, agent):
-        #update in small amount for each loop?
-        minibatch_sz = 256
-        minibatch = []
-        num_round = int(np.ceil(len(self.buffer)/minibatch_sz))
-        self.delta_score = []
-        self.delta_weight = []
-        curr_ind = 0
-        for i in range (num_round):
-            state, action, reward, next_state, done = map(np.stack, zip(*self.buffer[curr_ind:curr_ind+min(minibatch_sz,len(self.buffer)-1)]))
-            state_batch = torch.FloatTensor(state).to(self.device)
-            next_state_batch = torch.FloatTensor(next_state).to(self.device)
-            # action_batch = torch.FloatTensor(action).to(self.device)
-            reward_batch = torch.FloatTensor(reward).to(self.device).unsqueeze(1)
-            mask_batch = torch.FloatTensor(done).to(self.device).unsqueeze(1)
+    def update_delta_score(self, agent, args):
+        state, action, reward, next_state, done = map(np.stack, zip(*self.buffer))
+        batch_size = 5000  # chop buffer to batches, to handle CUDA memory problem
+        delta = np.empty(shape=0)
+        for start_pos in range(0, len(self.buffer), batch_size):
+            state_batch = torch.FloatTensor(state[start_pos: start_pos + batch_size]).to(self.device)
+            next_state_batch = torch.FloatTensor(next_state[start_pos: start_pos + batch_size]).to(self.device)
+            reward_batch = torch.FloatTensor(reward[start_pos: start_pos + batch_size]).to(self.device)
 
             q_state = self.get_Q_value(agent, state_batch)
             q_next_state = self.get_Q_value(agent, next_state_batch)
-            score = reward_batch + q_next_state - q_state
-            weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
-            weight = torch.reshape(weight, (-1,))
-            self.delta_score += score.detach().cpu().numpy().tolist()
-            self.delta_weight += weight.detach().cpu().numpy().tolist()
-            curr_ind += minibatch_sz
-        # print(self.delta_weight)
+            score = reward_batch.squeeze() + q_next_state.squeeze() - q_state.squeeze()
+            delta_batch = score.squeeze().detach().cpu().numpy()
+            delta = np.append(delta, delta_batch)
+        self.delta_score = delta.tolist()
+
+        total_len = len(delta)
+        delta_weights = np.zeros(total_len)
+        top_number = int(total_len*args.delta_percent) # 10000
+        delta_weights[np.argsort(delta)[-top_number:]] = 1
+
+        self.delta_weights = delta_weights.tolist()
+
 
     def get_Q_value(self, agent, state):
         _, _, action = agent.policy.sample(state)
@@ -98,12 +96,20 @@ class ReplayMemory:
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
 
-    def weightedsample(self, batch_size):
+    def decayweightedsample(self, batch_size):
         if batch_size > len(self.buffer):
             batch_size = len(self.buffer)
         # batch = random.sample(self.buffer, int(batch_size))
-        idx = np.array(list(WeightedRandomSampler(self.weight, batch_size, replacement=False)))
-        batch = self.buffer[idx]
+        idx = np.array(list(WeightedRandomSampler(self.decay_weights, batch_size, replacement=True)))
+        batch = list(itemgetter(*idx)(self.buffer))
+        state, action, reward, next_state, done = map(np.stack, zip(*batch))
+        return state, action, reward, next_state, done
+
+    def deltaweightedsample(self, batch_size):
+        if batch_size > len(self.buffer):
+            batch_size = len(self.buffer)
+        idx = np.array(list(WeightedRandomSampler(self.delta_weights, batch_size, replacement=True)))
+        batch = list(itemgetter(*idx)(self.buffer))
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
 
@@ -113,12 +119,16 @@ class ReplayMemory:
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
 
-    def weightedsample_all_batch(self, batch_size):
+    def decayweightedsample_all_batch(self, batch_size):
         # idxes = np.random.randint(0, len(self.buffer), batch_size)
-        # weight = (score - torch.min(score) + 0.001) / (torch.max(score) - torch.min(score))
-        # idxes = np.array(list(WeightedRandomSampler(self.delta_weight, batch_size, replacement=True)))
-        # batch = list(itemgetter(*idxes)(self.buffer))
-        batch = random.choices(self.buffer, weights=self.delta_weight ,k=batch_size)
+        idxes = np.array(list(WeightedRandomSampler(self.decay_weights, batch_size, replacement=True)))
+        batch = list(itemgetter(*idxes)(self.buffer))
+        state, action, reward, next_state, done = map(np.stack, zip(*batch))
+        return state, action, reward, next_state, done
+
+    def deltaweightedsample_all_batch(self, batch_size):
+        idxes = np.array(list(WeightedRandomSampler(self.delta_weights, batch_size, replacement=True)))
+        batch = list(itemgetter(*idxes)(self.buffer))
         state, action, reward, next_state, done = map(np.stack, zip(*batch))
         return state, action, reward, next_state, done
     

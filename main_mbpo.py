@@ -156,8 +156,8 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
 
                 # update decay_weights and delta_score
                 # env_pool.update_decay_weights()
-                # env_pool.update_delta_score(agent)
-                # decay_weight_list.append(env_pool.decay_weight[::250])
+                # env_pool.update_delta_score(agent, args)
+                # decay_weights_list.append(env_pool.decay_weights)
                 # delta_score_list.append(env_pool.delta_score)
 
                 train_predict_model(args, env_pool, predict_env, logger)
@@ -168,7 +168,7 @@ def train(args, env_sampler, env_sampler_test, predict_env, agent, env_pool, mod
                 rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length)
                 # logger.info("finish rollout - env_pool: {}, model_pool: {}".format(len(env_pool), len(model_pool)))
                 # update delta_score and/or delta_weights for every transition in model_pool
-                # model_pool.update_delta_score(agent)
+                # model_pool.update_delta_score(agent,args)
                 #model_pool update delta_score
 
             cur_state, action, next_state, reward, done, info = env_sampler.sample(agent)
@@ -259,8 +259,10 @@ def resize_model_pool(args, rollout_length, model_pool):
 
 def rollout_model(args, predict_env, agent, model_pool, env_pool, rollout_length):
     # model_pool.KL = []
-    if 'delta' in args.reweight_rollout:
-        state, action, reward, next_state, done = env_pool.weightedsample_all_batch(args.rollout_batch_size)
+    if 'decay' in args.reweight_rollout:
+        state, action, reward, next_state, done = env_pool.decayweightedsample_all_batch(args.rollout_batch_size)
+    elif 'delta' in args.reweight_rollout:
+        state, action, reward, next_state, done = env_pool.deltaweightedsample_all_batch(args.rollout_batch_size)
     else:
         state, action, reward, next_state, done = env_pool.sample_all_batch(args.rollout_batch_size)
     for i in range(rollout_length):
@@ -295,7 +297,7 @@ def train_policy_repeats(args, total_step, train_step, cur_step, env_pool, model
 
         if model_batch_size > 0 and len(model_pool) > 0:
             if 'delta' in args.reweight_policy:
-                model_state, model_action, model_reward, model_next_state, model_done = model_pool.weightedsample_all_batch(int(model_batch_size))
+                model_state, model_action, model_reward, model_next_state, model_done = model_pool.deltaweightedsample_all_batch(int(model_batch_size))
             elif 'acc' in args.reweight_policy:
                 model_state, model_action, model_reward, model_next_state, model_done = model_pool.sample_all_batch_KL(int(model_batch_size), int(model_batch_size)*args.multiplier_batch, done_training)
             else:
